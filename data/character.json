@@ -1,0 +1,2945 @@
+{
+  "schema_version": 1,
+  "fetched_at": "2026-11-14T15:58:35.994600+00:00",
+  "region": "eu",
+  "character_slug": "локт-арогар",
+  "namespace": "profile-forever-eu",
+  "status": "ok",
+  "source": "Blizzard Battle.net API",
+  "data": {
+    "profile": {
+      "_links": {
+        "self": {
+          "href": "https://eu.api.blizzard.com/profile/wow/character/%D0%BB%D0%BE%D0%BA%D1%82-%D0%B0%D1%80%D0%BE%D0%B3%D0%B0%D1%80?namespace=profile-forever-eu"
+        }
+      },
+      "id": 8865886,
+      "name": "Локт",
+      "gender": {
+        "type": "MALE",
+        "name": "Муж."
+      },
+      "faction": {
+        "type": "HORDE",
+        "name": "Орда"
+      },
+      "race": {
+        "key": {
+          "href": "https://eu.api.blizzard.com/data/wow/playable-race/2?namespace=static-1.60.1_70399-forever-eu"
+        },
+        "name": "Орк",
+        "id": 2
+      },
+      "character_class": {
+        "key": {
+          "href": "https://eu.api.blizzard.com/data/wow/playable-class/9?namespace=static-1.60.1_70399-forever-eu"
+        },
+        "name": "Чернокнижник",
+        "id": 9
+      },
+      "guild": {
+        "key": {
+          "href": "https://eu.api.blizzard.com/data/wow/guild/%D0%BF%D0%B2%D0%B5-%D0%BC%D0%BE%D0%BB%D1%8C?namespace=profile-forever-eu"
+        },
+        "name": "ПВЕ МОЛЬ",
+        "id": 120173,
+        "faction": {
+          "type": "HORDE",
+          "name": "Орда"
+        },
+        "slug": "пве-моль"
+      },
+      "level": 31,
+      "experience": 14579,
+      "achievement_points": 0,
+      "achievements": {
+        "href": "https://eu.api.blizzard.com/profile/wow/character/%D0%BB%D0%BE%D0%BA%D1%82-%D0%B0%D1%80%D0%BE%D0%B3%D0%B0%D1%80/achievements?namespace=profile-forever-eu"
+      },
+      "titles": {
+        "href": "https://eu.api.blizzard.com/profile/wow/character/%D0%BB%D0%BE%D0%BA%D1%82-%D0%B0%D1%80%D0%BE%D0%B3%D0%B0%D1%80/titles?namespace=profile-forever-eu"
+      },
+      "pvp_summary": {
+        "href": "https://eu.api.blizzard.com/profile/wow/character/%D0%BB%D0%BE%D0%BA%D1%82-%D0%B0%D1%80%D0%BE%D0%B3%D0%B0%D1%80/pvp-summary?namespace=profile-forever-eu"
+      },
+      "encounters": {
+        "href": "https://eu.api.blizzard.com/profile/wow/character/%D0%BB%D0%BE%D0%BA%D1%82-%D0%B0%D1%80%D0%BE%D0%B3%D0%B0%D1%80/encounters?namespace=profile-forever-eu"
+      },
+      "media": {
+        "href": "https://eu.api.blizzard.com/profile/wow/character/%D0%BB%D0%BE%D0%BA%D1%82-%D0%B0%D1%80%D0%BE%D0%B3%D0%B0%D1%80/character-media?namespace=profile-forever-eu"
+      },
+      "last_login_timestamp": 1794664731000,
+      "average_item_level": 25,
+      "equipped_item_level": 24,
+      "specializations": {
+        "href": "https://eu.api.blizzard.com/profile/wow/character/%D0%BB%D0%BE%D0%BA%D1%82-%D0%B0%D1%80%D0%BE%D0%B3%D0%B0%D1%80/specializations?namespace=profile-forever-eu"
+      },
+      "statistics": {
+        "href": "https://eu.api.blizzard.com/profile/wow/character/%D0%BB%D0%BE%D0%BA%D1%82-%D0%B0%D1%80%D0%BE%D0%B3%D0%B0%D1%80/statistics?namespace=profile-forever-eu"
+      },
+      "mythic_keystone_profile": {
+        "href": "https://eu.api.blizzard.com/profile/wow/character/%D0%BB%D0%BE%D0%BA%D1%82-%D0%B0%D1%80%D0%BE%D0%B3%D0%B0%D1%80/mythic-keystone-profile?namespace=profile-forever-eu"
+      },
+      "equipment": {
+        "href": "https://eu.api.blizzard.com/profile/wow/character/%D0%BB%D0%BE%D0%BA%D1%82-%D0%B0%D1%80%D0%BE%D0%B3%D0%B0%D1%80/equipment?namespace=profile-forever-eu"
+      },
+      "appearance": {
+        "href": "https://eu.api.blizzard.com/profile/wow/character/%D0%BB%D0%BE%D0%BA%D1%82-%D0%B0%D1%80%D0%BE%D0%B3%D0%B0%D1%80/appearance?namespace=profile-forever-eu"
+      },
+      "collections": {
+        "href": "https://eu.api.blizzard.com/profile/wow/character/%D0%BB%D0%BE%D0%BA%D1%82-%D0%B0%D1%80%D0%BE%D0%B3%D0%B0%D1%80/collections?namespace=profile-forever-eu"
+      },
+      "reputations": {
+        "href": "https://eu.api.blizzard.com/profile/wow/character/%D0%BB%D0%BE%D0%BA%D1%82-%D0%B0%D1%80%D0%BE%D0%B3%D0%B0%D1%80/reputations?namespace=profile-forever-eu"
+      },
+      "quests": {
+        "href": "https://eu.api.blizzard.com/profile/wow/character/%D0%BB%D0%BE%D0%BA%D1%82-%D0%B0%D1%80%D0%BE%D0%B3%D0%B0%D1%80/quests?namespace=profile-forever-eu"
+      },
+      "achievements_statistics": {
+        "href": "https://eu.api.blizzard.com/profile/wow/character/%D0%BB%D0%BE%D0%BA%D1%82-%D0%B0%D1%80%D0%BE%D0%B3%D0%B0%D1%80/achievements/statistics?namespace=profile-forever-eu"
+      },
+      "professions": {
+        "href": "https://eu.api.blizzard.com/profile/wow/character/%D0%BB%D0%BE%D0%BA%D1%82-%D0%B0%D1%80%D0%BE%D0%B3%D0%B0%D1%80/professions?namespace=profile-forever-eu"
+      },
+      "is_remix": false,
+      "surname": "Арогар",
+      "ruleset": {
+        "key": {
+          "href": "https://eu.api.blizzard.com/data/wow/ruleset/2?namespace=dynamic-forever-eu"
+        },
+        "name": "Обычный",
+        "id": 2
+      },
+      "name_search": "Локт Арогар"
+    },
+    "equipment": {
+      "_links": {
+        "self": {
+          "href": "https://eu.api.blizzard.com/profile/wow/character/%D0%BB%D0%BE%D0%BA%D1%82-%D0%B0%D1%80%D0%BE%D0%B3%D0%B0%D1%80/equipment?namespace=profile-forever-eu"
+        }
+      },
+      "character": {
+        "key": {
+          "href": "https://eu.api.blizzard.com/profile/wow/character/%D0%BB%D0%BE%D0%BA%D1%82-%D0%B0%D1%80%D0%BE%D0%B3%D0%B0%D1%80?namespace=profile-forever-eu"
+        },
+        "name": "Локт",
+        "id": 8865886,
+        "surname": "Арогар",
+        "slug": "локт-арогар"
+      },
+      "equipped_items": [
+        {
+          "item": {
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/253955?namespace=static-1.60.1_70399-forever-eu"
+            },
+            "id": 253955
+          },
+          "slot": {
+            "type": "HEAD",
+            "name": "Голова"
+          },
+          "quantity": 1,
+          "quality": {
+            "type": "RARE",
+            "name": "Редкое"
+          },
+          "name": "Теневой венец",
+          "media": {
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/media/item/253955?namespace=static-1.60.1_70399-forever-eu"
+            },
+            "id": 253955
+          },
+          "item_class": {
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-1.60.1_70399-forever-eu"
+            },
+            "name": "Доспехи",
+            "id": 4
+          },
+          "item_subclass": {
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-1.60.1_70399-forever-eu"
+            },
+            "name": "Ткань",
+            "id": 1
+          },
+          "inventory_type": {
+            "type": "HEAD",
+            "name": "Голова"
+          },
+          "binding": {
+            "type": "ON_ACQUIRE",
+            "name": "Становится персональным при поднятии"
+          },
+          "armor": {
+            "value": 35,
+            "display": {
+              "display_string": "Броня: 35",
+              "color": {
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 1.0
+              }
+            }
+          },
+          "stats": [
+            {
+              "type": {
+                "type": "STAMINA",
+                "name": "к выносливости"
+              },
+              "value": 10,
+              "display": {
+                "display_string": "+10 к выносливости",
+                "color": {
+                  "r": 255,
+                  "g": 255,
+                  "b": 255,
+                  "a": 1.0
+                }
+              }
+            },
+            {
+              "type": {
+                "type": "BONUS_STAT_SHADOW_DAMAGE_DONE",
+                "name": "Урон от темной магии"
+              },
+              "value": 11,
+              "is_equip_bonus": true,
+              "display": {
+                "display_string": "+11 Урон от темной магии",
+                "color": {
+                  "r": 0,
+                  "g": 255,
+                  "b": 0,
+                  "a": 1.0
+                }
+              }
+            }
+          ],
+          "sell_price": {
+            "value": 970,
+            "display_strings": {
+              "header": "Цена продажи:",
+              "gold": "0",
+              "silver": "9",
+              "copper": "70"
+            }
+          },
+          "requirements": {
+            "level": {
+              "value": 20,
+              "display_string": "Требуется 20-й уровень"
+            }
+          },
+          "level": {
+            "value": 25,
+            "display_string": "Уровень предмета: 25"
+          },
+          "durability": {
+            "value": 40,
+            "display_string": "Прочность: 40 / 45"
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/4314?namespace=static-1.60.1_70399-forever-eu"
+            },
+            "id": 4314
+          },
+          "slot": {
+            "type": "SHOULDER",
+            "name": "Плечи"
+          },
+          "quantity": 1,
+          "quality": {
+            "type": "UNCOMMON",
+            "name": "Необычное"
+          },
+          "name": "Дважды прошитые шерстяные наплечники",
+          "media": {
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/media/item/4314?namespace=static-1.60.1_70399-forever-eu"
+            },
+            "id": 4314
+          },
+          "item_class": {
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-1.60.1_70399-forever-eu"
+            },
+            "name": "Доспехи",
+            "id": 4
+          },
+          "item_subclass": {
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-1.60.1_70399-forever-eu"
+            },
+            "name": "Ткань",
+            "id": 1
+          },
+          "inventory_type": {
+            "type": "SHOULDER",
+            "name": "Плечо"
+          },
+          "binding": {
+            "type": "ON_EQUIP",
+            "name": "Становится персональным при надевании"
+          },
+          "armor": {
+            "value": 27,
+            "display": {
+              "display_string": "Броня: 27",
+              "color": {
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 1.0
+              }
+            }
+          },
+          "stats": [
+            {
+              "type": {
+                "type": "STAMINA",
+                "name": "к выносливости"
+              },
+              "value": 4,
+              "display": {
+                "display_string": "+4 к выносливости",
+                "color": {
+                  "r": 255,
+                  "g": 255,
+                  "b": 255,
+                  "a": 1.0
+                }
+              }
+            },
+            {
+              "type": {
+                "type": "SPELL_POWER",
+                "name": "к силе заклинаний"
+              },
+              "value": 4,
+              "is_equip_bonus": true,
+              "display": {
+                "display_string": "+4 к силе заклинаний",
+                "color": {
+                  "r": 0,
+                  "g": 255,
+                  "b": 0,
+                  "a": 1.0
+                }
+              }
+            }
+          ],
+          "sell_price": {
+            "value": 331,
+            "display_strings": {
+              "header": "Цена продажи:",
+              "gold": "0",
+              "silver": "3",
+              "copper": "31"
+            }
+          },
+          "requirements": {
+            "level": {
+              "value": 17,
+              "display_string": "Требуется 17-й уровень"
+            }
+          },
+          "level": {
+            "value": 22,
+            "display_string": "Уровень предмета: 22"
+          },
+          "durability": {
+            "value": 33,
+            "display_string": "Прочность: 33 / 35"
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/4334?namespace=static-1.60.1_70399-forever-eu"
+            },
+            "id": 4334
+          },
+          "slot": {
+            "type": "SHIRT",
+            "name": "Рубашка"
+          },
+          "quantity": 1,
+          "quality": {
+            "type": "COMMON",
+            "name": "Обычное"
+          },
+          "name": "Церемониальная белая рубашка",
+          "media": {
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/media/item/4334?namespace=static-1.60.1_70399-forever-eu"
+            },
+            "id": 4334
+          },
+          "item_class": {
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-1.60.1_70399-forever-eu"
+            },
+            "name": "Доспехи",
+            "id": 4
+          },
+          "item_subclass": {
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-1.60.1_70399-forever-eu"
+            },
+            "name": "Разное",
+            "id": 0
+          },
+          "inventory_type": {
+            "type": "BODY",
+            "name": "Рубашка"
+          },
+          "sell_price": {
+            "value": 550,
+            "display_strings": {
+              "header": "Цена продажи:",
+              "gold": "0",
+              "silver": "5",
+              "copper": "50"
+            }
+          },
+          "level": {
+            "value": 34,
+            "display_string": "Уровень предмета: 34"
+          },
+          "is_subclass_hidden": true
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/253907?namespace=static-1.60.1_70399-forever-eu"
+            },
+            "id": 253907
+          },
+          "slot": {
+            "type": "CHEST",
+            "name": "Грудь"
+          },
+          "quantity": 1,
+          "quality": {
+            "type": "RARE",
+            "name": "Редкое"
+          },
+          "name": "Расшитое теневое одеяние",
+          "media": {
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/media/item/253907?namespace=static-1.60.1_70399-forever-eu"
+            },
+            "id": 253907
+          },
+          "item_class": {
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-1.60.1_70399-forever-eu"
+            },
+            "name": "Доспехи",
+            "id": 4
+          },
+          "item_subclass": {
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-1.60.1_70399-forever-eu"
+            },
+            "name": "Ткань",
+            "id": 1
+          },
+          "inventory_type": {
+            "type": "CHEST",
+            "name": "Грудь"
+          },
+          "binding": {
+            "type": "ON_ACQUIRE",
+            "name": "Становится персональным при поднятии"
+          },
+          "armor": {
+            "value": 37,
+            "display": {
+              "display_string": "Броня: 37",
+              "color": {
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 1.0
+              }
+            }
+          },
+          "stats": [
+            {
+              "type": {
+                "type": "INTELLECT",
+                "name": "к интеллекту"
+              },
+              "value": 5,
+              "display": {
+                "display_string": "+5 к интеллекту",
+                "color": {
+                  "r": 255,
+                  "g": 255,
+                  "b": 255,
+                  "a": 1.0
+                }
+              }
+            },
+            {
+              "type": {
+                "type": "STAMINA",
+                "name": "к выносливости"
+              },
+              "value": 4,
+              "display": {
+                "display_string": "+4 к выносливости",
+                "color": {
+                  "r": 255,
+                  "g": 255,
+                  "b": 255,
+                  "a": 1.0
+                }
+              }
+            },
+            {
+              "type": {
+                "type": "SPIRIT",
+                "name": "к духу"
+              },
+              "value": 3,
+              "is_equip_bonus": true,
+              "display": {
+                "display_string": "+3 к духу",
+                "color": {
+                  "r": 0,
+                  "g": 255,
+                  "b": 0,
+                  "a": 1.0
+                }
+              }
+            },
+            {
+              "type": {
+                "type": "BONUS_STAT_SHADOW_DAMAGE_DONE",
+                "name": "Урон от темной магии"
+              },
+              "value": 9,
+              "is_equip_bonus": true,
+              "display": {
+                "display_string": "+9 Урон от темной магии",
+                "color": {
+                  "r": 0,
+                  "g": 255,
+                  "b": 0,
+                  "a": 1.0
+                }
+              }
+            }
+          ],
+          "sell_price": {
+            "value": 347,
+            "display_strings": {
+              "header": "Цена продажи:",
+              "gold": "0",
+              "silver": "3",
+              "copper": "47"
+            }
+          },
+          "requirements": {
+            "level": {
+              "value": 15,
+              "display_string": "Требуется 15-й уровень"
+            }
+          },
+          "level": {
+            "value": 20,
+            "display_string": "Уровень предмета: 20"
+          },
+          "durability": {
+            "value": 65,
+            "display_string": "Прочность: 65 / 70"
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/14185?namespace=static-1.60.1_70399-forever-eu"
+            },
+            "id": 14185
+          },
+          "slot": {
+            "type": "WAIST",
+            "name": "Пояс"
+          },
+          "quantity": 1,
+          "context": 1,
+          "bonus_list": [
+            12761
+          ],
+          "quality": {
+            "type": "UNCOMMON",
+            "name": "Необычное"
+          },
+          "name": "Кушак стража с аурой тьмы",
+          "media": {
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/media/item/14185?namespace=static-1.60.1_70399-forever-eu"
+            },
+            "id": 14185
+          },
+          "item_class": {
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-1.60.1_70399-forever-eu"
+            },
+            "name": "Доспехи",
+            "id": 4
+          },
+          "item_subclass": {
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-1.60.1_70399-forever-eu"
+            },
+            "name": "Ткань",
+            "id": 1
+          },
+          "inventory_type": {
+            "type": "WAIST",
+            "name": "Пояс"
+          },
+          "binding": {
+            "type": "ON_EQUIP",
+            "name": "Становится персональным при надевании"
+          },
+          "armor": {
+            "value": 23,
+            "display": {
+              "display_string": "Броня: 23",
+              "color": {
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 1.0
+              }
+            }
+          },
+          "stats": [
+            {
+              "type": {
+                "type": "BONUS_STAT_SHADOW_DAMAGE_DONE",
+                "name": "Урон от темной магии"
+              },
+              "value": 10,
+              "is_equip_bonus": true,
+              "display": {
+                "display_string": "+10 Урон от темной магии",
+                "color": {
+                  "r": 0,
+                  "g": 255,
+                  "b": 0,
+                  "a": 1.0
+                }
+              }
+            }
+          ],
+          "sell_price": {
+            "value": 647,
+            "display_strings": {
+              "header": "Цена продажи:",
+              "gold": "0",
+              "silver": "6",
+              "copper": "47"
+            }
+          },
+          "requirements": {
+            "level": {
+              "value": 22,
+              "display_string": "Требуется 22-й уровень"
+            }
+          },
+          "level": {
+            "value": 27,
+            "display_string": "Уровень предмета: 27"
+          },
+          "durability": {
+            "value": 23,
+            "display_string": "Прочность: 23 / 25"
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/253943?namespace=static-1.60.1_70399-forever-eu"
+            },
+            "id": 253943
+          },
+          "slot": {
+            "type": "LEGS",
+            "name": "Ноги"
+          },
+          "quantity": 1,
+          "quality": {
+            "type": "RARE",
+            "name": "Редкое"
+          },
+          "name": "Расшитые теневые поножи",
+          "media": {
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/media/item/253943?namespace=static-1.60.1_70399-forever-eu"
+            },
+            "id": 253943
+          },
+          "item_class": {
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-1.60.1_70399-forever-eu"
+            },
+            "name": "Доспехи",
+            "id": 4
+          },
+          "item_subclass": {
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-1.60.1_70399-forever-eu"
+            },
+            "name": "Ткань",
+            "id": 1
+          },
+          "inventory_type": {
+            "type": "LEGS",
+            "name": "Ноги"
+          },
+          "binding": {
+            "type": "ON_ACQUIRE",
+            "name": "Становится персональным при поднятии"
+          },
+          "armor": {
+            "value": 37,
+            "display": {
+              "display_string": "Броня: 37",
+              "color": {
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 1.0
+              }
+            }
+          },
+          "stats": [
+            {
+              "type": {
+                "type": "INTELLECT",
+                "name": "к интеллекту"
+              },
+              "value": 6,
+              "display": {
+                "display_string": "+6 к интеллекту",
+                "color": {
+                  "r": 255,
+                  "g": 255,
+                  "b": 255,
+                  "a": 1.0
+                }
+              }
+            },
+            {
+              "type": {
+                "type": "STAMINA",
+                "name": "к выносливости"
+              },
+              "value": 5,
+              "display": {
+                "display_string": "+5 к выносливости",
+                "color": {
+                  "r": 255,
+                  "g": 255,
+                  "b": 255,
+                  "a": 1.0
+                }
+              }
+            },
+            {
+              "type": {
+                "type": "SPIRIT",
+                "name": "к духу"
+              },
+              "value": 4,
+              "is_equip_bonus": true,
+              "display": {
+                "display_string": "+4 к духу",
+                "color": {
+                  "r": 0,
+                  "g": 255,
+                  "b": 0,
+                  "a": 1.0
+                }
+              }
+            },
+            {
+              "type": {
+                "type": "BONUS_STAT_SHADOW_DAMAGE_DONE",
+                "name": "Урон от темной магии"
+              },
+              "value": 11,
+              "is_equip_bonus": true,
+              "display": {
+                "display_string": "+11 Урон от темной магии",
+                "color": {
+                  "r": 0,
+                  "g": 255,
+                  "b": 0,
+                  "a": 1.0
+                }
+              }
+            }
+          ],
+          "sell_price": {
+            "value": 659,
+            "display_strings": {
+              "header": "Цена продажи:",
+              "gold": "0",
+              "silver": "6",
+              "copper": "59"
+            }
+          },
+          "requirements": {
+            "level": {
+              "value": 20,
+              "display_string": "Требуется 20-й уровень"
+            }
+          },
+          "level": {
+            "value": 25,
+            "display_string": "Уровень предмета: 25"
+          },
+          "durability": {
+            "value": 56,
+            "display_string": "Прочность: 56 / 60"
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/4320?namespace=static-1.60.1_70399-forever-eu"
+            },
+            "id": 4320
+          },
+          "slot": {
+            "type": "FEET",
+            "name": "Ступни"
+          },
+          "quantity": 1,
+          "quality": {
+            "type": "RARE",
+            "name": "Редкое"
+          },
+          "name": "Сапоги из паучьего шелка",
+          "media": {
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/media/item/4320?namespace=static-1.60.1_70399-forever-eu"
+            },
+            "id": 4320
+          },
+          "item_class": {
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-1.60.1_70399-forever-eu"
+            },
+            "name": "Доспехи",
+            "id": 4
+          },
+          "item_subclass": {
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-1.60.1_70399-forever-eu"
+            },
+            "name": "Ткань",
+            "id": 1
+          },
+          "inventory_type": {
+            "type": "FEET",
+            "name": "Ступни"
+          },
+          "binding": {
+            "type": "ON_EQUIP",
+            "name": "Становится персональным при надевании"
+          },
+          "armor": {
+            "value": 29,
+            "display": {
+              "display_string": "Броня: 29",
+              "color": {
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 1.0
+              }
+            }
+          },
+          "stats": [
+            {
+              "type": {
+                "type": "INTELLECT",
+                "name": "к интеллекту"
+              },
+              "value": 4,
+              "display": {
+                "display_string": "+4 к интеллекту",
+                "color": {
+                  "r": 255,
+                  "g": 255,
+                  "b": 255,
+                  "a": 1.0
+                }
+              }
+            },
+            {
+              "type": {
+                "type": "STAMINA",
+                "name": "к выносливости"
+              },
+              "value": 4,
+              "display": {
+                "display_string": "+4 к выносливости",
+                "color": {
+                  "r": 255,
+                  "g": 255,
+                  "b": 255,
+                  "a": 1.0
+                }
+              }
+            },
+            {
+              "type": {
+                "type": "SPELL_POWER",
+                "name": "к силе заклинаний"
+              },
+              "value": 7,
+              "is_equip_bonus": true,
+              "display": {
+                "display_string": "+7 к силе заклинаний",
+                "color": {
+                  "r": 0,
+                  "g": 255,
+                  "b": 0,
+                  "a": 1.0
+                }
+              }
+            }
+          ],
+          "sell_price": {
+            "value": 979,
+            "display_strings": {
+              "header": "Цена продажи:",
+              "gold": "0",
+              "silver": "9",
+              "copper": "79"
+            }
+          },
+          "requirements": {
+            "level": {
+              "value": 20,
+              "display_string": "Требуется 20-й уровень"
+            }
+          },
+          "level": {
+            "value": 25,
+            "display_string": "Уровень предмета: 25"
+          },
+          "durability": {
+            "value": 36,
+            "display_string": "Прочность: 36 / 40"
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/9846?namespace=static-1.60.1_70399-forever-eu"
+            },
+            "id": 9846
+          },
+          "slot": {
+            "type": "WRIST",
+            "name": "Запястья"
+          },
+          "quantity": 1,
+          "context": 0,
+          "bonus_list": [
+            12761
+          ],
+          "quality": {
+            "type": "UNCOMMON",
+            "name": "Необычное"
+          },
+          "name": "Наручи фокусника с аурой тьмы",
+          "media": {
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/media/item/9846?namespace=static-1.60.1_70399-forever-eu"
+            },
+            "id": 9846
+          },
+          "item_class": {
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-1.60.1_70399-forever-eu"
+            },
+            "name": "Доспехи",
+            "id": 4
+          },
+          "item_subclass": {
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-1.60.1_70399-forever-eu"
+            },
+            "name": "Ткань",
+            "id": 1
+          },
+          "inventory_type": {
+            "type": "WRIST",
+            "name": "Запястья"
+          },
+          "binding": {
+            "type": "ON_EQUIP",
+            "name": "Становится персональным при надевании"
+          },
+          "armor": {
+            "value": 20,
+            "display": {
+              "display_string": "Броня: 20",
+              "color": {
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 1.0
+              }
+            }
+          },
+          "stats": [
+            {
+              "type": {
+                "type": "BONUS_STAT_SHADOW_DAMAGE_DONE",
+                "name": "Урон от темной магии"
+              },
+              "value": 11,
+              "is_equip_bonus": true,
+              "display": {
+                "display_string": "+11 Урон от темной магии",
+                "color": {
+                  "r": 0,
+                  "g": 255,
+                  "b": 0,
+                  "a": 1.0
+                }
+              }
+            }
+          ],
+          "sell_price": {
+            "value": 1429,
+            "display_strings": {
+              "header": "Цена продажи:",
+              "gold": "0",
+              "silver": "14",
+              "copper": "29"
+            }
+          },
+          "requirements": {
+            "level": {
+              "value": 30,
+              "display_string": "Требуется 30-й уровень"
+            }
+          },
+          "level": {
+            "value": 35,
+            "display_string": "Уровень предмета: 35"
+          },
+          "durability": {
+            "value": 23,
+            "display_string": "Прочность: 23 / 25"
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/7047?namespace=static-1.60.1_70399-forever-eu"
+            },
+            "id": 7047
+          },
+          "slot": {
+            "type": "HANDS",
+            "name": "Кисти рук"
+          },
+          "quantity": 1,
+          "quality": {
+            "type": "UNCOMMON",
+            "name": "Необычное"
+          },
+          "name": "Краги Тьмы",
+          "media": {
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/media/item/7047?namespace=static-1.60.1_70399-forever-eu"
+            },
+            "id": 7047
+          },
+          "item_class": {
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-1.60.1_70399-forever-eu"
+            },
+            "name": "Доспехи",
+            "id": 4
+          },
+          "item_subclass": {
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-1.60.1_70399-forever-eu"
+            },
+            "name": "Ткань",
+            "id": 1
+          },
+          "inventory_type": {
+            "type": "HAND",
+            "name": "Кисти рук"
+          },
+          "binding": {
+            "type": "ON_EQUIP",
+            "name": "Становится персональным при надевании"
+          },
+          "armor": {
+            "value": 26,
+            "display": {
+              "display_string": "Броня: 26",
+              "color": {
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 1.0
+              }
+            }
+          },
+          "stats": [
+            {
+              "type": {
+                "type": "SPIRIT",
+                "name": "к духу"
+              },
+              "value": 5,
+              "is_equip_bonus": true,
+              "display": {
+                "display_string": "+5 к духу",
+                "color": {
+                  "r": 0,
+                  "g": 255,
+                  "b": 0,
+                  "a": 1.0
+                }
+              }
+            },
+            {
+              "type": {
+                "type": "BONUS_STAT_SHADOW_DAMAGE_DONE",
+                "name": "Урон от темной магии"
+              },
+              "value": 9,
+              "is_equip_bonus": true,
+              "display": {
+                "display_string": "+9 Урон от темной магии",
+                "color": {
+                  "r": 0,
+                  "g": 255,
+                  "b": 0,
+                  "a": 1.0
+                }
+              }
+            }
+          ],
+          "sell_price": {
+            "value": 824,
+            "display_strings": {
+              "header": "Цена продажи:",
+              "gold": "0",
+              "silver": "8",
+              "copper": "24"
+            }
+          },
+          "requirements": {
+            "level": {
+              "value": 24,
+              "display_string": "Требуется 24-й уровень"
+            }
+          },
+          "level": {
+            "value": 29,
+            "display_string": "Уровень предмета: 29"
+          },
+          "durability": {
+            "value": 22,
+            "display_string": "Прочность: 22 / 25"
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/6414?namespace=static-1.60.1_70399-forever-eu"
+            },
+            "id": 6414
+          },
+          "slot": {
+            "type": "FINGER_1",
+            "name": "Кольцо 1"
+          },
+          "quantity": 1,
+          "context": 11,
+          "quality": {
+            "type": "RARE",
+            "name": "Редкое"
+          },
+          "name": "Печать Сильваны",
+          "media": {
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/media/item/6414?namespace=static-1.60.1_70399-forever-eu"
+            },
+            "id": 6414
+          },
+          "item_class": {
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-1.60.1_70399-forever-eu"
+            },
+            "name": "Доспехи",
+            "id": 4
+          },
+          "item_subclass": {
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-1.60.1_70399-forever-eu"
+            },
+            "name": "Разное",
+            "id": 0
+          },
+          "inventory_type": {
+            "type": "FINGER",
+            "name": "Палец"
+          },
+          "binding": {
+            "type": "ON_ACQUIRE",
+            "name": "Становится персональным при поднятии"
+          },
+          "stats": [
+            {
+              "type": {
+                "type": "STAMINA",
+                "name": "к выносливости"
+              },
+              "value": 8,
+              "display": {
+                "display_string": "+8 к выносливости",
+                "color": {
+                  "r": 255,
+                  "g": 255,
+                  "b": 255,
+                  "a": 1.0
+                }
+              }
+            },
+            {
+              "type": {
+                "type": "ATTACK_POWER",
+                "name": "к силе атаки"
+              },
+              "value": 6,
+              "is_equip_bonus": true,
+              "display": {
+                "display_string": "+6 к силе атаки",
+                "color": {
+                  "r": 0,
+                  "g": 255,
+                  "b": 0,
+                  "a": 1.0
+                }
+              }
+            }
+          ],
+          "sell_price": {
+            "value": 1960,
+            "display_strings": {
+              "header": "Цена продажи:",
+              "gold": "0",
+              "silver": "19",
+              "copper": "60"
+            }
+          },
+          "level": {
+            "value": 29,
+            "display_string": "Уровень предмета: 29"
+          },
+          "is_subclass_hidden": true
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/5313?namespace=static-1.60.1_70399-forever-eu"
+            },
+            "id": 5313
+          },
+          "slot": {
+            "type": "FINGER_2",
+            "name": "Кольцо 2"
+          },
+          "quantity": 1,
+          "context": 11,
+          "quality": {
+            "type": "UNCOMMON",
+            "name": "Необычное"
+          },
+          "name": "Тотемное кольцо",
+          "media": {
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/media/item/5313?namespace=static-1.60.1_70399-forever-eu"
+            },
+            "id": 5313
+          },
+          "item_class": {
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-1.60.1_70399-forever-eu"
+            },
+            "name": "Доспехи",
+            "id": 4
+          },
+          "item_subclass": {
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-1.60.1_70399-forever-eu"
+            },
+            "name": "Разное",
+            "id": 0
+          },
+          "inventory_type": {
+            "type": "FINGER",
+            "name": "Палец"
+          },
+          "binding": {
+            "type": "ON_ACQUIRE",
+            "name": "Становится персональным при поднятии"
+          },
+          "stats": [
+            {
+              "type": {
+                "type": "INTELLECT",
+                "name": "к интеллекту"
+              },
+              "value": 3,
+              "display": {
+                "display_string": "+3 к интеллекту",
+                "color": {
+                  "r": 255,
+                  "g": 255,
+                  "b": 255,
+                  "a": 1.0
+                }
+              }
+            },
+            {
+              "type": {
+                "type": "SPIRIT",
+                "name": "к духу"
+              },
+              "value": 3,
+              "is_equip_bonus": true,
+              "display": {
+                "display_string": "+3 к духу",
+                "color": {
+                  "r": 0,
+                  "g": 255,
+                  "b": 0,
+                  "a": 1.0
+                }
+              }
+            }
+          ],
+          "sell_price": {
+            "value": 650,
+            "display_strings": {
+              "header": "Цена продажи:",
+              "gold": "0",
+              "silver": "6",
+              "copper": "50"
+            }
+          },
+          "level": {
+            "value": 25,
+            "display_string": "Уровень предмета: 25"
+          },
+          "is_subclass_hidden": true
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/280766?namespace=static-1.60.1_70399-forever-eu"
+            },
+            "id": 280766
+          },
+          "slot": {
+            "type": "TRINKET_1",
+            "name": "Аксессуар 1"
+          },
+          "quantity": 1,
+          "context": 11,
+          "quality": {
+            "type": "UNCOMMON",
+            "name": "Необычное"
+          },
+          "name": "Сумка с зельями",
+          "media": {
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/media/item/280766?namespace=static-1.60.1_70399-forever-eu"
+            },
+            "id": 280766
+          },
+          "item_class": {
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-1.60.1_70399-forever-eu"
+            },
+            "name": "Доспехи",
+            "id": 4
+          },
+          "item_subclass": {
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-1.60.1_70399-forever-eu"
+            },
+            "name": "Разное",
+            "id": 0
+          },
+          "inventory_type": {
+            "type": "TRINKET",
+            "name": "Аксессуар"
+          },
+          "binding": {
+            "type": "ON_ACQUIRE",
+            "name": "Становится персональным при поднятии"
+          },
+          "spells": [
+            {
+              "spell": {
+                "key": {
+                  "href": "https://eu.api.blizzard.com/data/wow/spell/1309685?namespace=static-1.60.1_70399-forever-eu"
+                },
+                "name": "Сумка с зельями",
+                "id": 1309685
+              },
+              "description": "Использование: Вытащить из сумки случайное зелье. (Восстановление: 10 мин.)"
+            }
+          ],
+          "sell_price": {
+            "value": 2489,
+            "display_strings": {
+              "header": "Цена продажи:",
+              "gold": "0",
+              "silver": "24",
+              "copper": "89"
+            }
+          },
+          "description": "Некоторые зелья пить не рекомендуется.",
+          "level": {
+            "value": 33,
+            "display_string": "Уровень предмета: 33"
+          },
+          "is_subclass_hidden": true
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/276895?namespace=static-1.60.1_70399-forever-eu"
+            },
+            "id": 276895
+          },
+          "slot": {
+            "type": "TRINKET_2",
+            "name": "Аксессуар 2"
+          },
+          "quantity": 1,
+          "context": 11,
+          "quality": {
+            "type": "UNCOMMON",
+            "name": "Необычное"
+          },
+          "name": "Кокон преображения",
+          "media": {
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/media/item/276895?namespace=static-1.60.1_70399-forever-eu"
+            },
+            "id": 276895
+          },
+          "item_class": {
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-1.60.1_70399-forever-eu"
+            },
+            "name": "Доспехи",
+            "id": 4
+          },
+          "item_subclass": {
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-1.60.1_70399-forever-eu"
+            },
+            "name": "Разное",
+            "id": 0
+          },
+          "inventory_type": {
+            "type": "TRINKET",
+            "name": "Аксессуар"
+          },
+          "binding": {
+            "type": "ON_ACQUIRE",
+            "name": "Становится персональным при поднятии"
+          },
+          "unique_equipped": "Уникальный использующийся",
+          "spells": [
+            {
+              "spell": {
+                "key": {
+                  "href": "https://eu.api.blizzard.com/data/wow/spell/1301167?namespace=static-1.60.1_70399-forever-eu"
+                },
+                "name": "Кокон преображения",
+                "id": 1301167
+              },
+              "description": "Использование: Поглощает до 260 - 300 ед. урона и оглушает вас на 5 сек. По завершении действия оглушения ваша скорость передвижения повышается на 60% на 8 сек. (Восстановление: 5 мин.)"
+            }
+          ],
+          "sell_price": {
+            "value": 1715,
+            "display_strings": {
+              "header": "Цена продажи:",
+              "gold": "0",
+              "silver": "17",
+              "copper": "15"
+            }
+          },
+          "level": {
+            "value": 30,
+            "display_string": "Уровень предмета: 30"
+          },
+          "is_subclass_hidden": true
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/5542?namespace=static-1.60.1_70399-forever-eu"
+            },
+            "id": 5542
+          },
+          "slot": {
+            "type": "BACK",
+            "name": "Спина"
+          },
+          "quantity": 1,
+          "quality": {
+            "type": "UNCOMMON",
+            "name": "Необычное"
+          },
+          "name": "Плащ с перламутровыми застежками",
+          "media": {
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/media/item/5542?namespace=static-1.60.1_70399-forever-eu"
+            },
+            "id": 5542
+          },
+          "item_class": {
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-1.60.1_70399-forever-eu"
+            },
+            "name": "Доспехи",
+            "id": 4
+          },
+          "item_subclass": {
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-1.60.1_70399-forever-eu"
+            },
+            "name": "Ткань",
+            "id": 1
+          },
+          "inventory_type": {
+            "type": "CLOAK",
+            "name": "Спина"
+          },
+          "binding": {
+            "type": "ON_EQUIP",
+            "name": "Становится персональным при надевании"
+          },
+          "armor": {
+            "value": 16,
+            "display": {
+              "display_string": "Броня: 16",
+              "color": {
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 1.0
+              }
+            }
+          },
+          "stats": [
+            {
+              "type": {
+                "type": "INTELLECT",
+                "name": "к интеллекту"
+              },
+              "value": 3,
+              "display": {
+                "display_string": "+3 к интеллекту",
+                "color": {
+                  "r": 255,
+                  "g": 255,
+                  "b": 255,
+                  "a": 1.0
+                }
+              }
+            },
+            {
+              "type": {
+                "type": "SPELL_POWER",
+                "name": "к силе заклинаний"
+              },
+              "value": 2,
+              "is_equip_bonus": true,
+              "display": {
+                "display_string": "+2 к силе заклинаний",
+                "color": {
+                  "r": 0,
+                  "g": 255,
+                  "b": 0,
+                  "a": 1.0
+                }
+              }
+            }
+          ],
+          "sell_price": {
+            "value": 370,
+            "display_strings": {
+              "header": "Цена продажи:",
+              "gold": "0",
+              "silver": "3",
+              "copper": "70"
+            }
+          },
+          "requirements": {
+            "level": {
+              "value": 14,
+              "display_string": "Требуется 14-й уровень"
+            }
+          },
+          "level": {
+            "value": 19,
+            "display_string": "Уровень предмета: 19"
+          },
+          "is_subclass_hidden": true
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/15109?namespace=static-1.60.1_70399-forever-eu"
+            },
+            "id": 15109
+          },
+          "enchantments": [
+            {
+              "display_string": "Камень огня 1",
+              "source_item": {
+                "key": {
+                  "href": "https://eu.api.blizzard.com/data/wow/item/1254?namespace=static-1.60.1_70399-forever-eu"
+                },
+                "name": "Малый камень огня",
+                "id": 1254
+              },
+              "enchantment_id": 1803,
+              "enchantment_slot": {
+                "id": 8
+              }
+            }
+          ],
+          "slot": {
+            "type": "MAIN_HAND",
+            "name": "Правая рука"
+          },
+          "quantity": 1,
+          "context": 11,
+          "quality": {
+            "type": "RARE",
+            "name": "Редкое"
+          },
+          "name": "Посох Соран'рука",
+          "media": {
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/media/item/15109?namespace=static-1.60.1_70399-forever-eu"
+            },
+            "id": 15109
+          },
+          "item_class": {
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-1.60.1_70399-forever-eu"
+            },
+            "name": "Оружие",
+            "id": 2
+          },
+          "item_subclass": {
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/10?namespace=static-1.60.1_70399-forever-eu"
+            },
+            "name": "Посох",
+            "id": 10
+          },
+          "inventory_type": {
+            "type": "TWOHWEAPON",
+            "name": "Двуручное"
+          },
+          "binding": {
+            "type": "ON_ACQUIRE",
+            "name": "Становится персональным при поднятии"
+          },
+          "weapon": {
+            "damage": {
+              "min_value": 36,
+              "max_value": 55,
+              "display_string": "Урон: 36-55",
+              "damage_class": {
+                "type": "PHYSICAL",
+                "name": "физический"
+              }
+            },
+            "attack_speed": {
+              "value": 2900,
+              "display_string": "Скорость 2,90"
+            },
+            "dps": {
+              "value": 15.689654,
+              "display_string": "(15,7 ед. урона в секунду)"
+            }
+          },
+          "stats": [
+            {
+              "type": {
+                "type": "STAMINA",
+                "name": "к выносливости"
+              },
+              "value": 14,
+              "display": {
+                "display_string": "+14 к выносливости",
+                "color": {
+                  "r": 255,
+                  "g": 255,
+                  "b": 255,
+                  "a": 1.0
+                }
+              }
+            },
+            {
+              "type": {
+                "type": "BONUS_STAT_FIRE_DAMAGE_DONE",
+                "name": "Урон от огня"
+              },
+              "value": 34,
+              "is_equip_bonus": true,
+              "display": {
+                "display_string": "+34 Урон от огня",
+                "color": {
+                  "r": 0,
+                  "g": 255,
+                  "b": 0,
+                  "a": 1.0
+                }
+              }
+            },
+            {
+              "type": {
+                "type": "BONUS_STAT_SHADOW_DAMAGE_DONE",
+                "name": "Урон от темной магии"
+              },
+              "value": 34,
+              "is_equip_bonus": true,
+              "display": {
+                "display_string": "+34 Урон от темной магии",
+                "color": {
+                  "r": 0,
+                  "g": 255,
+                  "b": 0,
+                  "a": 1.0
+                }
+              }
+            }
+          ],
+          "sell_price": {
+            "value": 4072,
+            "display_strings": {
+              "header": "Цена продажи:",
+              "gold": "0",
+              "silver": "40",
+              "copper": "72"
+            }
+          },
+          "requirements": {
+            "playable_classes": {
+              "links": [
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/playable-class/9?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Чернокнижник",
+                  "id": 9
+                }
+              ],
+              "display_string": "Классы: Чернокнижник"
+            }
+          },
+          "level": {
+            "value": 25,
+            "display_string": "Уровень предмета: 25"
+          },
+          "durability": {
+            "value": 90,
+            "display_string": "Прочность: 90 / 90"
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/7001?namespace=static-1.60.1_70399-forever-eu"
+            },
+            "id": 7001
+          },
+          "slot": {
+            "type": "RANGED",
+            "name": "Оружие дальнего боя"
+          },
+          "quantity": 1,
+          "context": 11,
+          "quality": {
+            "type": "RARE",
+            "name": "Редкое"
+          },
+          "name": "Надгробный скипетр",
+          "media": {
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/media/item/7001?namespace=static-1.60.1_70399-forever-eu"
+            },
+            "id": 7001
+          },
+          "item_class": {
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item-class/2?namespace=static-1.60.1_70399-forever-eu"
+            },
+            "name": "Оружие",
+            "id": 2
+          },
+          "item_subclass": {
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/19?namespace=static-1.60.1_70399-forever-eu"
+            },
+            "name": "Жезл",
+            "id": 19
+          },
+          "inventory_type": {
+            "type": "RANGEDRIGHT",
+            "name": "Дальний бой"
+          },
+          "binding": {
+            "type": "ON_ACQUIRE",
+            "name": "Становится персональным при поднятии"
+          },
+          "weapon": {
+            "damage": {
+              "min_value": 30,
+              "max_value": 57,
+              "display_string": "30 - 57 ед. |3-6(тьма)",
+              "damage_class": {
+                "type": "SHADOW",
+                "name": "тьма"
+              }
+            },
+            "attack_speed": {
+              "value": 1500,
+              "display_string": "Скорость 1,50"
+            },
+            "dps": {
+              "value": 28.999998,
+              "display_string": "(29,0 ед. урона в секунду)"
+            }
+          },
+          "stats": [
+            {
+              "type": {
+                "type": "SPIRIT",
+                "name": "к духу"
+              },
+              "value": 3,
+              "is_equip_bonus": true,
+              "display": {
+                "display_string": "+3 к духу",
+                "color": {
+                  "r": 0,
+                  "g": 255,
+                  "b": 0,
+                  "a": 1.0
+                }
+              }
+            },
+            {
+              "type": {
+                "type": "BONUS_STAT_SHADOW_DAMAGE_DONE",
+                "name": "Урон от темной магии"
+              },
+              "value": 6,
+              "is_equip_bonus": true,
+              "display": {
+                "display_string": "+6 Урон от темной магии",
+                "color": {
+                  "r": 0,
+                  "g": 255,
+                  "b": 0,
+                  "a": 1.0
+                }
+              }
+            }
+          ],
+          "sell_price": {
+            "value": 3675,
+            "display_strings": {
+              "header": "Цена продажи:",
+              "gold": "0",
+              "silver": "36",
+              "copper": "75"
+            }
+          },
+          "level": {
+            "value": 29,
+            "display_string": "Уровень предмета: 29"
+          },
+          "durability": {
+            "value": 65,
+            "display_string": "Прочность: 65 / 65"
+          }
+        }
+      ]
+    },
+    "specializations": {
+      "_links": {
+        "self": {
+          "href": "https://eu.api.blizzard.com/profile/wow/character/%D0%BB%D0%BE%D0%BA%D1%82-%D0%B0%D1%80%D0%BE%D0%B3%D0%B0%D1%80/specializations?namespace=profile-forever-eu"
+        }
+      },
+      "character": {
+        "key": {
+          "href": "https://eu.api.blizzard.com/profile/wow/character/%D0%BB%D0%BE%D0%BA%D1%82-%D0%B0%D1%80%D0%BE%D0%B3%D0%B0%D1%80?namespace=profile-forever-eu"
+        },
+        "name": "Локт",
+        "id": 8865886,
+        "surname": "Арогар",
+        "slug": "локт-арогар"
+      },
+      "specialization_groups": [
+        {
+          "is_active": true,
+          "specializations": [
+            {
+              "specialization": {
+                "key": {
+                  "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/355?namespace=static-1.60.1_70399-forever-eu"
+                },
+                "name": "Колдовство",
+                "id": 355
+              },
+              "talents": [
+                {
+                  "talent": {
+                    "name": "Улучшенный жизнеотвод",
+                    "id": 135452
+                  },
+                  "spell_tooltip": {
+                    "spell": {
+                      "name": "Улучшенный жизнеотвод",
+                      "id": 18182
+                    },
+                    "description": "Увеличение количества маны, полученной при использовании вами заклинания \"Жизнеотвод\" на 10%.",
+                    "cast_time": "Пассивная"
+                  },
+                  "talent_rank": 1
+                },
+                {
+                  "talent": {
+                    "name": "Улучшенная порча",
+                    "id": 135455
+                  },
+                  "spell_tooltip": {
+                    "spell": {
+                      "name": "Улучшенная порча",
+                      "id": 17810
+                    },
+                    "description": "Сокращает время применения \"Порчи\" на 2 сек. и увеличивает наносимый ею урон на 10%.",
+                    "cast_time": "Пассивная"
+                  },
+                  "talent_rank": 5
+                },
+                {
+                  "talent": {
+                    "name": "Предел мрака",
+                    "id": 135454
+                  },
+                  "spell_tooltip": {
+                    "spell": {
+                      "name": "Предел мрака",
+                      "id": 18218
+                    },
+                    "description": "Увеличивает дальность действия заклинаний специализации \"Колдовство\" на 20%.",
+                    "cast_time": "Пассивная"
+                  },
+                  "talent_rank": 2
+                },
+                {
+                  "talent": {
+                    "name": "Жатва душ",
+                    "id": 135453
+                  },
+                  "spell_tooltip": {
+                    "spell": {
+                      "name": "Жатва душ",
+                      "id": 437032
+                    },
+                    "description": "Когда вы убиваете представляющего угрозу противника, на которого действует ваше \"Похищение души\", скорость восполнения маны повышается на 100% на 10 сек., а во время применения заклинаний восполнение маны продолжается со скоростью 100%.",
+                    "cast_time": "Пассивная"
+                  },
+                  "talent_rank": 2
+                },
+                {
+                  "talent": {
+                    "name": "Улучшенное похищение",
+                    "id": 135451
+                  },
+                  "spell_tooltip": {
+                    "spell": {
+                      "name": "Улучшенное похищение",
+                      "id": 403511
+                    },
+                    "description": "Усиливает \"Похищение жизни\", \"Похищение души\" и \"Похищение маны\", увеличивая урон и количество похищаемого здоровья или маны на 20%.",
+                    "cast_time": "Пассивная"
+                  },
+                  "talent_rank": 3
+                },
+                {
+                  "talent": {
+                    "name": "Сосредоточение Скверны",
+                    "id": 135449
+                  },
+                  "spell_tooltip": {
+                    "spell": {
+                      "name": "Сосредоточение Скверны",
+                      "id": 17783
+                    },
+                    "description": "Gives your Drain Life, Drain Mana, Drain Soul, and Wrack spells a 70% chance to not lose casting time when you take damage.",
+                    "cast_time": "Пассивная"
+                  },
+                  "talent_rank": 3
+                },
+                {
+                  "talent": {
+                    "name": "Усиление проклятия",
+                    "id": 135447
+                  },
+                  "spell_tooltip": {
+                    "spell": {
+                      "name": "Усиление проклятия",
+                      "id": 18288
+                    },
+                    "description": "Усиливает эффект следующего \"Проклятия слабости\" или \"Бича агонии\" на 50% или следующего \"Проклятия изнеможения\" – на 20%. Время действия – 30 сек.",
+                    "cast_time": "Мгновенное действие",
+                    "cooldown": "Восстановление: 3 мин."
+                  },
+                  "talent_rank": 1
+                },
+                {
+                  "talent": {
+                    "name": "Сумерки",
+                    "id": 135445
+                  },
+                  "spell_tooltip": {
+                    "spell": {
+                      "name": "Сумерки",
+                      "id": 18094
+                    },
+                    "description": "Когда \"Порча\", \"Похищение души\", \"Похищение жизни\" и \"Судороги\" наносят урон противнику, вы с вероятностью 4% входите в теневой транс, сокращающий время применения следующей \"Стрелы Тьмы\" на 100%.",
+                    "cast_time": "Пассивная"
+                  },
+                  "talent_rank": 2
+                },
+                {
+                  "talent": {
+                    "name": "Проклятие изнеможения",
+                    "id": 135444
+                  },
+                  "spell_tooltip": {
+                    "spell": {
+                      "name": "Проклятие изнеможения",
+                      "id": 18223
+                    },
+                    "description": "Снижает скорость передвижения цели на 30% на 12 сек. На цель может одновременно действовать только одно проклятие каждого чернокнижника.",
+                    "cast_time": "Мгновенное",
+                    "power_cost": "Мана: 54",
+                    "range": "Радиус действия: 30 м."
+                  },
+                  "talent_rank": 1
+                },
+                {
+                  "talent": {
+                    "name": "Вытягивание жизни",
+                    "id": 135443
+                  },
+                  "spell_tooltip": {
+                    "spell": {
+                      "name": "Вытягивание жизни",
+                      "id": 18265
+                    },
+                    "description": "Вы похищаете у цели 16 ед. здоровья раз в 3 сек. и восполняете себе здоровье в том же объеме. Время действия – 30 сек.",
+                    "cast_time": "Мгновенное",
+                    "power_cost": "Мана: 150",
+                    "range": "Радиус действия: 30 м."
+                  },
+                  "talent_rank": 1
+                },
+                {
+                  "talent": {
+                    "name": "Вытягивание души",
+                    "id": 135442
+                  },
+                  "spell_tooltip": {
+                    "spell": {
+                      "name": "Вытягивание души",
+                      "id": 17804
+                    },
+                    "description": "Усиливает \"Похищение жизни\", \"Похищение души\" и \"Судороги\", увеличивая урон или количество похищаемого здоровья на 4% за каждый ваш эффект \"Порча\", \"Вытягивание жизни\" или \"Бич агонии\", действующий на цель. Максимальный бонус – 12%.",
+                    "cast_time": "Пассивная"
+                  },
+                  "talent_rank": 1
+                }
+              ],
+              "specialization_name": "Колдовство",
+              "spent_points": 22
+            }
+          ]
+        }
+      ]
+    },
+    "professions": {
+      "_links": {
+        "self": {
+          "href": "https://eu.api.blizzard.com/profile/wow/character/%D0%BB%D0%BE%D0%BA%D1%82-%D0%B0%D1%80%D0%BE%D0%B3%D0%B0%D1%80/professions?namespace=profile-forever-eu"
+        }
+      },
+      "character": {
+        "key": {
+          "href": "https://eu.api.blizzard.com/profile/wow/character/%D0%BB%D0%BE%D0%BA%D1%82-%D0%B0%D1%80%D0%BE%D0%B3%D0%B0%D1%80?namespace=profile-forever-eu"
+        },
+        "name": "Локт",
+        "id": 8865886,
+        "surname": "Арогар",
+        "slug": "локт-арогар"
+      },
+      "primaries": [
+        {
+          "profession": {
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/profession/197?namespace=static-1.60.1_70399-forever-eu"
+            },
+            "name": "Tailoring",
+            "id": 197
+          },
+          "tiers": [
+            {
+              "skill_points": 142,
+              "max_skill_points": 225,
+              "tier": {
+                "name": "Tailoring",
+                "id": 2948
+              },
+              "known_recipes": [
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/4408?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Stylish Blue Shirt",
+                  "id": 4408
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/6577?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Simple Linen Boots",
+                  "id": 6577
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/6578?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Simple Kilt",
+                  "id": 6578
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/4867?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Hands of Darkness",
+                  "id": 4867
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/55423?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Novice Arcanist's Sash",
+                  "id": 55423
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/6576?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Simple Linen Pants",
+                  "id": 6576
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/2401?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Stylish Red Shirt",
+                  "id": 2401
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/2405?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Formal White Shirt",
+                  "id": 2405
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/2408?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Brown Linen Pants",
+                  "id": 2408
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/2409?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Brown Linen Shirt",
+                  "id": 2409
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/6579?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Colorful Kilt",
+                  "id": 6579
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/4848?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Linen Belt",
+                  "id": 4848
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/4849?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Azure Silk Pants",
+                  "id": 4849
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/4850?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Azure Silk Hood",
+                  "id": 4850
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/4851?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Silk Headband",
+                  "id": 4851
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/4852?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Earthen Vest",
+                  "id": 4852
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/2359?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Bolt of Linen Cloth",
+                  "id": 2359
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/2360?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Linen Cloak",
+                  "id": 2360
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/2361?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Brown Linen Vest",
+                  "id": 2361
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/2363?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Linen Boots",
+                  "id": 2363
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/2364?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Red Linen Shirt",
+                  "id": 2364
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/2365?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "White Linen Shirt",
+                  "id": 2365
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/2366?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Blue Linen Shirt",
+                  "id": 2366
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/2367?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Reinforced Linen Cape",
+                  "id": 2367
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/2368?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Barbaric Linen Vest",
+                  "id": 2368
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/2369?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Green Linen Shirt",
+                  "id": 2369
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/2370?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Bolt of Woolen Cloth",
+                  "id": 2370
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/2371?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Woolen Cape",
+                  "id": 2371
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/2372?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Green Woolen Vest",
+                  "id": 2372
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/2373?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Woolen Boots",
+                  "id": 2373
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/2375?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Gray Woolen Shirt",
+                  "id": 2375
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/2376?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Bolt of Silk Cloth",
+                  "id": 2376
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/2378?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Heavy Linen Gloves",
+                  "id": 2378
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/2379?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Green Linen Bracers",
+                  "id": 2379
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/2380?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Handstitched Linen Britches",
+                  "id": 2380
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/2381?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Heavy Woolen Gloves",
+                  "id": 2381
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/2383?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Soft-soled Linen Boots",
+                  "id": 2383
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/2385?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Double-stitched Woolen Shoulders",
+                  "id": 2385
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/2387?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Heavy Woolen Pants",
+                  "id": 2387
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/2389?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Gloves of Meditation",
+                  "id": 2389
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/2391?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Spidersilk Boots",
+                  "id": 2391
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/2395?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Azure Silk Vest",
+                  "id": 2395
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/3973?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Pearl-clasped Cloak",
+                  "id": 3973
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/4001?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Linen Bag",
+                  "id": 4001
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/4002?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Woolen Bag",
+                  "id": 4002
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/4003?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Small Silk Pack",
+                  "id": 4003
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/4020?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Red Woolen Bag",
+                  "id": 4020
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/4021?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Lesser Wizard's Robe",
+                  "id": 4021
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/4715?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "White Swashbuckler's Shirt",
+                  "id": 4715
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/4708?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Simple Dress",
+                  "id": 4708
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/4709?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "White Woolen Dress",
+                  "id": 4709
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/4302?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Brown Linen Robe",
+                  "id": 4302
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/4303?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "White Linen Robe",
+                  "id": 4303
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/4311?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Greater Adept's Robe",
+                  "id": 4311
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/52648?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Faction Banner",
+                  "id": 52648
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/55424?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Novice Ardent's Sash",
+                  "id": 55424
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/55434?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Filigreed Shadow Gown",
+                  "id": 55434
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/55452?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Filigreed Shadow Leggings",
+                  "id": 55452
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/55458?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Shadow Circlet",
+                  "id": 55458
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/55366?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Linen Reagent Bag",
+                  "id": 55366
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/55367?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Woolen Reagent Bag",
+                  "id": 55367
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "profession": {
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/profession/186?namespace=static-1.60.1_70399-forever-eu"
+            },
+            "name": "Mining",
+            "id": 186
+          },
+          "tiers": [
+            {
+              "skill_points": 175,
+              "max_skill_points": 225,
+              "tier": {
+                "name": "Mining",
+                "id": 2946
+              },
+              "known_recipes": [
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/1846?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Smelt Gold",
+                  "id": 1846
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/1847?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Smelt Iron",
+                  "id": 1847
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/1848?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Smelt Tin",
+                  "id": 1848
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/1570?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Mining",
+                  "id": 1570
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/1599?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Smelt Silver",
+                  "id": 1599
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/1600?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Smelt Bronze",
+                  "id": 1600
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/2036?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Mining",
+                  "id": 2036
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/2037?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Smelt Steel",
+                  "id": 2037
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/3324?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Smelt Copper",
+                  "id": 3324
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/52643?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Lodestone",
+                  "id": 52643
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "secondaries": [
+        {
+          "profession": {
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/profession/185?namespace=static-1.60.1_70399-forever-eu"
+            },
+            "name": "Cooking",
+            "id": 185
+          },
+          "tiers": [
+            {
+              "skill_points": 140,
+              "max_skill_points": 225,
+              "tier": {
+                "name": "Cooking",
+                "id": 2939
+              },
+              "known_recipes": [
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/13344?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Smoked Sagefish",
+                  "id": 13344
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/1535?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Charred Wolf Meat",
+                  "id": 1535
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/1536?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Spiced Wolf Meat",
+                  "id": 1536
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/1537?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Roasted Boar Meat",
+                  "id": 1537
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/1538?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Coyote Steak",
+                  "id": 1538
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/1543?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Crab Cake",
+                  "id": 1543
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/1545?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Dry Pork Ribs",
+                  "id": 1545
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/3931?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Dig Rat Stew",
+                  "id": 3931
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/4353?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Brilliant Smallfish",
+                  "id": 4353
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/4354?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Slitherskin Mackerel",
+                  "id": 4354
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/4355?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Longjaw Mud Snapper",
+                  "id": 4355
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/3963?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Goblin Deviled Clams",
+                  "id": 3963
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/3964?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Boiled Clams",
+                  "id": 3964
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/4786?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Herb Baked Egg",
+                  "id": 4786
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/52640?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Basic Campfire",
+                  "id": 52640
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/54504?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Tasty Raptor Bites",
+                  "id": 54504
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "profession": {
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/profession/356?namespace=static-1.60.1_70399-forever-eu"
+            },
+            "name": "Fishing",
+            "id": 356
+          },
+          "tiers": [
+            {
+              "skill_points": 150,
+              "max_skill_points": 225,
+              "tier": {
+                "name": "Fishing",
+                "id": 2943
+              },
+              "known_recipes": [
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/4346?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Fishing",
+                  "id": 4346
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/52639?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Fish Bowl",
+                  "id": 52639
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "profession": {
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/profession/129?namespace=static-1.60.1_70399-forever-eu"
+            },
+            "name": "First Aid",
+            "id": 129
+          },
+          "tiers": [
+            {
+              "skill_points": 133,
+              "max_skill_points": 150,
+              "tier": {
+                "name": "First Aid",
+                "id": 2942
+              },
+              "known_recipes": [
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/4417?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Anti-Venom",
+                  "id": 4417
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/1838?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Linen Bandage",
+                  "id": 1838
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/1839?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Heavy Linen Bandage",
+                  "id": 1839
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/1840?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Wool Bandage",
+                  "id": 1840
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/1841?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Heavy Wool Bandage",
+                  "id": 1841
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/52641?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "First Aid Kit",
+                  "id": 52641
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/54191?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Minor Healing Potion",
+                  "id": 54191
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/54192?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Lesser Healing Potion",
+                  "id": 54192
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/54193?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Healing Potion",
+                  "id": 54193
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/55743?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Woolen Tourniquet",
+                  "id": 55743
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/55747?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Simple Poultice",
+                  "id": 55747
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "errors": {}
+}
