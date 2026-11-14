@@ -17,9 +17,9 @@ https://us.forums.blizzard.com/en/blizzard/t/60334
    https://raw.githubusercontent.com/war4uk/wow-forever-armory/main/data/character.json
    Проверьте имя, фамилию, ID, fetched_at, status и errors.
 
-GitHub Actions запрашивает профиль ежедневно в 07:17 и 08:17 Asia/Tbilisi
-(03:17 и 04:17 UTC). Второй запуск уменьшает риск устаревшего снимка к сводке
-09:00. GitHub может задерживать задания; проверяйте fetched_at.
+GitHub Actions запрашивает профиль каждые три часа: в 01:17, 04:17, 07:17,
+10:17, 13:17, 16:17, 19:17 и 22:17 Asia/Tbilisi (cron: 17 */3 * * * UTC).
+GitHub может задерживать задания; проверяйте fetched_at.
 У неактивных публичных репозиториев GitHub может отключать расписание.
 
 OAuth Client Credentials выдаёт токен приложения. Скрипт передаёт его только
