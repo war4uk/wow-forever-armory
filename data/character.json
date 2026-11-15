@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-11-15T16:24:15.363450+00:00",
+  "fetched_at": "2026-11-15T19:18:16.364689+00:00",
   "region": "eu",
   "character_slug": "локт-арогар",
   "namespace": "profile-forever-eu",
@@ -49,8 +49,8 @@
         },
         "slug": "пве-моль"
       },
-      "level": 33,
-      "experience": 46866,
+      "level": 34,
+      "experience": 26452,
       "achievement_points": 0,
       "achievements": {
         "href": "https://eu.api.blizzard.com/profile/wow/character/%D0%BB%D0%BE%D0%BA%D1%82-%D0%B0%D1%80%D0%BE%D0%B3%D0%B0%D1%80/achievements?namespace=profile-forever-eu"
@@ -67,9 +67,9 @@
       "media": {
         "href": "https://eu.api.blizzard.com/profile/wow/character/%D0%BB%D0%BE%D0%BA%D1%82-%D0%B0%D1%80%D0%BE%D0%B3%D0%B0%D1%80/character-media?namespace=profile-forever-eu"
       },
-      "last_login_timestamp": 1794747595000,
-      "average_item_level": 28,
-      "equipped_item_level": 28,
+      "last_login_timestamp": 1794763636000,
+      "average_item_level": 30,
+      "equipped_item_level": 29,
       "specializations": {
         "href": "https://eu.api.blizzard.com/profile/wow/character/%D0%BB%D0%BE%D0%BA%D1%82-%D0%B0%D1%80%D0%BE%D0%B3%D0%B0%D1%80/specializations?namespace=profile-forever-eu"
       },
@@ -429,25 +429,26 @@
         {
           "item": {
             "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/253907?namespace=static-1.60.1_70399-forever-eu"
+              "href": "https://eu.api.blizzard.com/data/wow/item/9623?namespace=static-1.60.1_70399-forever-eu"
             },
-            "id": 253907
+            "id": 9623
           },
           "slot": {
             "type": "CHEST",
             "name": "Грудь"
           },
           "quantity": 1,
+          "context": 11,
           "quality": {
             "type": "RARE",
             "name": "Редкое"
           },
-          "name": "Расшитое теневое одеяние",
+          "name": "Одеяния Сивинада",
           "media": {
             "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/media/item/253907?namespace=static-1.60.1_70399-forever-eu"
+              "href": "https://eu.api.blizzard.com/data/wow/media/item/9623?namespace=static-1.60.1_70399-forever-eu"
             },
-            "id": 253907
+            "id": 9623
           },
           "item_class": {
             "key": {
@@ -464,7 +465,7 @@
             "id": 1
           },
           "inventory_type": {
-            "type": "CHEST",
+            "type": "ROBE",
             "name": "Грудь"
           },
           "binding": {
@@ -472,9 +473,9 @@
             "name": "Становится персональным при поднятии"
           },
           "armor": {
-            "value": 37,
+            "value": 54,
             "display": {
-              "display_string": "Броня: 37",
+              "display_string": "Броня: 54",
               "color": {
                 "r": 255,
                 "g": 255,
@@ -486,28 +487,12 @@
           "stats": [
             {
               "type": {
-                "type": "INTELLECT",
-                "name": "к интеллекту"
-              },
-              "value": 5,
-              "display": {
-                "display_string": "+5 к интеллекту",
-                "color": {
-                  "r": 255,
-                  "g": 255,
-                  "b": 255,
-                  "a": 1.0
-                }
-              }
-            },
-            {
-              "type": {
                 "type": "STAMINA",
                 "name": "к выносливости"
               },
-              "value": 4,
+              "value": 7,
               "display": {
-                "display_string": "+4 к выносливости",
+                "display_string": "+7 к выносливости",
                 "color": {
                   "r": 255,
                   "g": 255,
@@ -518,13 +503,13 @@
             },
             {
               "type": {
-                "type": "SPIRIT",
-                "name": "к духу"
+                "type": "SPELL_DAMAGE_DONE",
+                "name": "Урон от заклинаний"
               },
-              "value": 3,
+              "value": 9,
               "is_equip_bonus": true,
               "display": {
-                "display_string": "+3 к духу",
+                "display_string": "+9 Урон от заклинаний",
                 "color": {
                   "r": 0,
                   "g": 255,
@@ -535,13 +520,30 @@
             },
             {
               "type": {
-                "type": "BONUS_STAT_SHADOW_DAMAGE_DONE",
-                "name": "Урон от темной магии"
+                "type": "SPELL_HEALING_DONE",
+                "name": "Магическое лечение"
               },
-              "value": 9,
+              "value": 26,
               "is_equip_bonus": true,
               "display": {
-                "display_string": "+9 Урон от темной магии",
+                "display_string": "+26 Магическое лечение",
+                "color": {
+                  "r": 0,
+                  "g": 255,
+                  "b": 0,
+                  "a": 1.0
+                }
+              }
+            },
+            {
+              "type": {
+                "type": "SPIRIT",
+                "name": "к духу"
+              },
+              "value": 12,
+              "is_equip_bonus": true,
+              "display": {
+                "display_string": "+12 к духу",
                 "color": {
                   "r": 0,
                   "g": 255,
@@ -552,27 +554,21 @@
             }
           ],
           "sell_price": {
-            "value": 347,
+            "value": 4202,
             "display_strings": {
               "header": "Цена продажи:",
               "gold": "0",
-              "silver": "3",
-              "copper": "47"
-            }
-          },
-          "requirements": {
-            "level": {
-              "value": 15,
-              "display_string": "Требуется 15-й уровень"
+              "silver": "42",
+              "copper": "2"
             }
           },
           "level": {
-            "value": 20,
-            "display_string": "Уровень предмета: 20"
+            "value": 37,
+            "display_string": "Уровень предмета: 37"
           },
           "durability": {
-            "value": 70,
-            "display_string": "Прочность: 70 / 70"
+            "value": 80,
+            "display_string": "Прочность: 80 / 80"
           }
         },
         {
@@ -1679,22 +1675,6 @@
             },
             "id": 6691
           },
-          "enchantments": [
-            {
-              "display_string": "Камень огня 1",
-              "source_item": {
-                "key": {
-                  "href": "https://eu.api.blizzard.com/data/wow/item/1254?namespace=static-1.60.1_70399-forever-eu"
-                },
-                "name": "Малый камень огня",
-                "id": 1254
-              },
-              "enchantment_id": 1803,
-              "enchantment_slot": {
-                "id": 8
-              }
-            }
-          ],
           "slot": {
             "type": "MAIN_HAND",
             "name": "Правая рука"
@@ -2089,10 +2069,10 @@
                       "name": "Улучшенный жизнеотвод",
                       "id": 18182
                     },
-                    "description": "Увеличение количества маны, полученной при использовании вами заклинания \"Жизнеотвод\" на 10%.",
+                    "description": "Увеличение количества маны, полученной при использовании вами заклинания \"Жизнеотвод\" на 20%.",
                     "cast_time": "Пассивная"
                   },
-                  "talent_rank": 1
+                  "talent_rank": 2
                 },
                 {
                   "talent": {
@@ -2212,7 +2192,7 @@
                     },
                     "description": "Снижает скорость передвижения цели на 30% на 12 сек. На цель может одновременно действовать только одно проклятие каждого чернокнижника.",
                     "cast_time": "Мгновенное",
-                    "power_cost": "Мана: 58",
+                    "power_cost": "Мана: 60",
                     "range": "Радиус действия: 30 м."
                   },
                   "talent_rank": 1
@@ -2251,7 +2231,7 @@
                 }
               ],
               "specialization_name": "Колдовство",
-              "spent_points": 24
+              "spent_points": 25
             }
           ]
         }
@@ -2283,7 +2263,7 @@
           },
           "tiers": [
             {
-              "skill_points": 150,
+              "skill_points": 151,
               "max_skill_points": 225,
               "tier": {
                 "name": "Tailoring",
