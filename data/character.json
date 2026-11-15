@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-11-15T06:37:53.280902+00:00",
+  "fetched_at": "2026-11-15T16:24:15.363450+00:00",
   "region": "eu",
   "character_slug": "локт-арогар",
   "namespace": "profile-forever-eu",
@@ -49,8 +49,8 @@
         },
         "slug": "пве-моль"
       },
-      "level": 31,
-      "experience": 31013,
+      "level": 33,
+      "experience": 46866,
       "achievement_points": 0,
       "achievements": {
         "href": "https://eu.api.blizzard.com/profile/wow/character/%D0%BB%D0%BE%D0%BA%D1%82-%D0%B0%D1%80%D0%BE%D0%B3%D0%B0%D1%80/achievements?namespace=profile-forever-eu"
@@ -67,9 +67,9 @@
       "media": {
         "href": "https://eu.api.blizzard.com/profile/wow/character/%D0%BB%D0%BE%D0%BA%D1%82-%D0%B0%D1%80%D0%BE%D0%B3%D0%B0%D1%80/character-media?namespace=profile-forever-eu"
       },
-      "last_login_timestamp": 1794680190000,
-      "average_item_level": 27,
-      "equipped_item_level": 27,
+      "last_login_timestamp": 1794747595000,
+      "average_item_level": 28,
+      "equipped_item_level": 28,
       "specializations": {
         "href": "https://eu.api.blizzard.com/profile/wow/character/%D0%BB%D0%BE%D0%BA%D1%82-%D0%B0%D1%80%D0%BE%D0%B3%D0%B0%D1%80/specializations?namespace=profile-forever-eu"
       },
@@ -239,36 +239,33 @@
             "display_string": "Уровень предмета: 25"
           },
           "durability": {
-            "value": 43,
-            "display_string": "Прочность: 43 / 45"
+            "value": 45,
+            "display_string": "Прочность: 45 / 45"
           }
         },
         {
           "item": {
             "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/9850?namespace=static-1.60.1_70399-forever-eu"
+              "href": "https://eu.api.blizzard.com/data/wow/item/4197?namespace=static-1.60.1_70399-forever-eu"
             },
-            "id": 9850
+            "id": 4197
           },
           "slot": {
             "type": "SHOULDER",
             "name": "Плечи"
           },
           "quantity": 1,
-          "context": 0,
-          "bonus_list": [
-            12747
-          ],
+          "context": 11,
           "quality": {
-            "type": "UNCOMMON",
-            "name": "Необычное"
+            "type": "RARE",
+            "name": "Редкое"
           },
-          "name": "Оплечье фокусника с меткой чаротворца",
+          "name": "Берилловое оплечье",
           "media": {
             "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/media/item/9850?namespace=static-1.60.1_70399-forever-eu"
+              "href": "https://eu.api.blizzard.com/data/wow/media/item/4197?namespace=static-1.60.1_70399-forever-eu"
             },
-            "id": 9850
+            "id": 4197
           },
           "item_class": {
             "key": {
@@ -289,13 +286,13 @@
             "name": "Плечо"
           },
           "binding": {
-            "type": "ON_EQUIP",
-            "name": "Становится персональным при надевании"
+            "type": "ON_ACQUIRE",
+            "name": "Становится персональным при поднятии"
           },
           "armor": {
-            "value": 36,
+            "value": 39,
             "display": {
-              "display_string": "Броня: 36",
+              "display_string": "Броня: 39",
               "color": {
                 "r": 255,
                 "g": 255,
@@ -307,12 +304,28 @@
           "stats": [
             {
               "type": {
+                "type": "INTELLECT",
+                "name": "к интеллекту"
+              },
+              "value": 10,
+              "display": {
+                "display_string": "+10 к интеллекту",
+                "color": {
+                  "r": 255,
+                  "g": 255,
+                  "b": 255,
+                  "a": 1.0
+                }
+              }
+            },
+            {
+              "type": {
                 "type": "STAMINA",
                 "name": "к выносливости"
               },
-              "value": 8,
+              "value": 5,
               "display": {
-                "display_string": "+8 к выносливости",
+                "display_string": "+5 к выносливости",
                 "color": {
                   "r": 255,
                   "g": 255,
@@ -326,27 +339,10 @@
                 "type": "SPELL_POWER",
                 "name": "к силе заклинаний"
               },
-              "value": 4,
+              "value": 7,
               "is_equip_bonus": true,
               "display": {
-                "display_string": "+4 к силе заклинаний",
-                "color": {
-                  "r": 0,
-                  "g": 255,
-                  "b": 0,
-                  "a": 1.0
-                }
-              }
-            },
-            {
-              "type": {
-                "type": "SPIRIT",
-                "name": "к духу"
-              },
-              "value": 5,
-              "is_equip_bonus": true,
-              "display": {
-                "display_string": "+5 к духу",
+                "display_string": "+7 к силе заклинаний",
                 "color": {
                   "r": 0,
                   "g": 255,
@@ -357,18 +353,12 @@
             }
           ],
           "sell_price": {
-            "value": 2394,
+            "value": 2864,
             "display_strings": {
               "header": "Цена продажи:",
               "gold": "0",
-              "silver": "23",
-              "copper": "94"
-            }
-          },
-          "requirements": {
-            "level": {
-              "value": 31,
-              "display_string": "Требуется 31-й уровень"
+              "silver": "28",
+              "copper": "64"
             }
           },
           "level": {
@@ -376,8 +366,8 @@
             "display_string": "Уровень предмета: 36"
           },
           "durability": {
-            "value": 45,
-            "display_string": "Прочность: 45 / 45"
+            "value": 50,
+            "display_string": "Прочность: 50 / 50"
           }
         },
         {
@@ -581,8 +571,8 @@
             "display_string": "Уровень предмета: 20"
           },
           "durability": {
-            "value": 68,
-            "display_string": "Прочность: 68 / 70"
+            "value": 70,
+            "display_string": "Прочность: 70 / 70"
           }
         },
         {
@@ -1087,8 +1077,8 @@
             "display_string": "Уровень предмета: 35"
           },
           "durability": {
-            "value": 24,
-            "display_string": "Прочность: 24 / 25"
+            "value": 25,
+            "display_string": "Прочность: 25 / 25"
           }
         },
         {
@@ -1211,114 +1201,13 @@
         {
           "item": {
             "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/1993?namespace=static-1.60.1_70399-forever-eu"
+              "href": "https://eu.api.blizzard.com/data/wow/item/6750?namespace=static-1.60.1_70399-forever-eu"
             },
-            "id": 1993
+            "id": 6750
           },
           "slot": {
             "type": "FINGER_1",
             "name": "Кольцо 1"
-          },
-          "quantity": 1,
-          "quality": {
-            "type": "UNCOMMON",
-            "name": "Необычное"
-          },
-          "name": "Кольцо Огра",
-          "media": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/media/item/1993?namespace=static-1.60.1_70399-forever-eu"
-            },
-            "id": 1993
-          },
-          "item_class": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-1.60.1_70399-forever-eu"
-            },
-            "name": "Доспехи",
-            "id": 4
-          },
-          "item_subclass": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-1.60.1_70399-forever-eu"
-            },
-            "name": "Разное",
-            "id": 0
-          },
-          "inventory_type": {
-            "type": "FINGER",
-            "name": "Палец"
-          },
-          "binding": {
-            "type": "ON_EQUIP",
-            "name": "Становится персональным при надевании"
-          },
-          "stats": [
-            {
-              "type": {
-                "type": "INTELLECT",
-                "name": "к интеллекту"
-              },
-              "value": 7,
-              "display": {
-                "display_string": "+7 к интеллекту",
-                "color": {
-                  "r": 255,
-                  "g": 255,
-                  "b": 255,
-                  "a": 1.0
-                }
-              }
-            },
-            {
-              "type": {
-                "type": "SPIRIT",
-                "name": "к духу"
-              },
-              "value": 3,
-              "is_equip_bonus": true,
-              "display": {
-                "display_string": "+3 к духу",
-                "color": {
-                  "r": 0,
-                  "g": 255,
-                  "b": 0,
-                  "a": 1.0
-                }
-              }
-            }
-          ],
-          "sell_price": {
-            "value": 2100,
-            "display_strings": {
-              "header": "Цена продажи:",
-              "gold": "0",
-              "silver": "21",
-              "copper": "0"
-            }
-          },
-          "requirements": {
-            "level": {
-              "value": 31,
-              "display_string": "Требуется 31-й уровень"
-            }
-          },
-          "level": {
-            "value": 36,
-            "display_string": "Уровень предмета: 36"
-          },
-          "is_subclass_hidden": true
-        },
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/5313?namespace=static-1.60.1_70399-forever-eu"
-            },
-            "id": 5313
-          },
-          "slot": {
-            "type": "FINGER_2",
-            "name": "Кольцо 2"
           },
           "quantity": 1,
           "context": 11,
@@ -1326,12 +1215,12 @@
             "type": "UNCOMMON",
             "name": "Необычное"
           },
-          "name": "Тотемное кольцо",
+          "name": "Кольцо Змеи",
           "media": {
             "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/media/item/5313?namespace=static-1.60.1_70399-forever-eu"
+              "href": "https://eu.api.blizzard.com/data/wow/media/item/6750?namespace=static-1.60.1_70399-forever-eu"
             },
-            "id": 5313
+            "id": 6750
           },
           "item_class": {
             "key": {
@@ -1361,9 +1250,9 @@
                 "type": "INTELLECT",
                 "name": "к интеллекту"
               },
-              "value": 3,
+              "value": 5,
               "display": {
-                "display_string": "+3 к интеллекту",
+                "display_string": "+5 к интеллекту",
                 "color": {
                   "r": 255,
                   "g": 255,
@@ -1374,13 +1263,13 @@
             },
             {
               "type": {
-                "type": "SPIRIT",
-                "name": "к духу"
+                "type": "SPELL_POWER",
+                "name": "к силе заклинаний"
               },
-              "value": 3,
+              "value": 6,
               "is_equip_bonus": true,
               "display": {
-                "display_string": "+3 к духу",
+                "display_string": "+6 к силе заклинаний",
                 "color": {
                   "r": 0,
                   "g": 255,
@@ -1391,17 +1280,132 @@
             }
           ],
           "sell_price": {
-            "value": 650,
+            "value": 2174,
             "display_strings": {
               "header": "Цена продажи:",
               "gold": "0",
-              "silver": "6",
-              "copper": "50"
+              "silver": "21",
+              "copper": "74"
             }
           },
           "level": {
-            "value": 25,
-            "display_string": "Уровень предмета: 25"
+            "value": 32,
+            "display_string": "Уровень предмета: 32"
+          },
+          "is_subclass_hidden": true
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/279845?namespace=static-1.60.1_70399-forever-eu"
+            },
+            "id": 279845
+          },
+          "slot": {
+            "type": "FINGER_2",
+            "name": "Кольцо 2"
+          },
+          "quantity": 1,
+          "context": 11,
+          "quality": {
+            "type": "UNCOMMON",
+            "name": "Необычное"
+          },
+          "name": "Кольцо из цельного золота",
+          "media": {
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/media/item/279845?namespace=static-1.60.1_70399-forever-eu"
+            },
+            "id": 279845
+          },
+          "item_class": {
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-1.60.1_70399-forever-eu"
+            },
+            "name": "Доспехи",
+            "id": 4
+          },
+          "item_subclass": {
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-1.60.1_70399-forever-eu"
+            },
+            "name": "Разное",
+            "id": 0
+          },
+          "inventory_type": {
+            "type": "FINGER",
+            "name": "Палец"
+          },
+          "binding": {
+            "type": "ON_ACQUIRE",
+            "name": "Становится персональным при поднятии"
+          },
+          "stats": [
+            {
+              "type": {
+                "type": "SPELL_DAMAGE_DONE",
+                "name": "Урон от заклинаний"
+              },
+              "value": 4,
+              "is_equip_bonus": true,
+              "display": {
+                "display_string": "+4 Урон от заклинаний",
+                "color": {
+                  "r": 0,
+                  "g": 255,
+                  "b": 0,
+                  "a": 1.0
+                }
+              }
+            },
+            {
+              "type": {
+                "type": "SPELL_HEALING_DONE",
+                "name": "Магическое лечение"
+              },
+              "value": 11,
+              "is_equip_bonus": true,
+              "display": {
+                "display_string": "+11 Магическое лечение",
+                "color": {
+                  "r": 0,
+                  "g": 255,
+                  "b": 0,
+                  "a": 1.0
+                }
+              }
+            },
+            {
+              "type": {
+                "type": "SPIRIT",
+                "name": "к духу"
+              },
+              "value": 5,
+              "is_equip_bonus": true,
+              "display": {
+                "display_string": "+5 к духу",
+                "color": {
+                  "r": 0,
+                  "g": 255,
+                  "b": 0,
+                  "a": 1.0
+                }
+              }
+            }
+          ],
+          "sell_price": {
+            "value": 10000,
+            "display_strings": {
+              "header": "Цена продажи:",
+              "gold": "1",
+              "silver": "0",
+              "copper": "0"
+            }
+          },
+          "description": "Малая цена в обмен на грандиозные знания.",
+          "level": {
+            "value": 36,
+            "display_string": "Уровень предмета: 36"
           },
           "is_subclass_hidden": true
         },
@@ -1556,25 +1560,26 @@
         {
           "item": {
             "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/5542?namespace=static-1.60.1_70399-forever-eu"
+              "href": "https://eu.api.blizzard.com/data/wow/item/274149?namespace=static-1.60.1_70399-forever-eu"
             },
-            "id": 5542
+            "id": 274149
           },
           "slot": {
             "type": "BACK",
             "name": "Спина"
           },
           "quantity": 1,
+          "context": 1,
           "quality": {
-            "type": "UNCOMMON",
-            "name": "Необычное"
+            "type": "RARE",
+            "name": "Редкое"
           },
-          "name": "Плащ с перламутровыми застежками",
+          "name": "Пелерина терноплета",
           "media": {
             "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/media/item/5542?namespace=static-1.60.1_70399-forever-eu"
+              "href": "https://eu.api.blizzard.com/data/wow/media/item/274149?namespace=static-1.60.1_70399-forever-eu"
             },
-            "id": 5542
+            "id": 274149
           },
           "item_class": {
             "key": {
@@ -1595,13 +1600,13 @@
             "name": "Спина"
           },
           "binding": {
-            "type": "ON_EQUIP",
-            "name": "Становится персональным при надевании"
+            "type": "ON_ACQUIRE",
+            "name": "Становится персональным при поднятии"
           },
           "armor": {
-            "value": 16,
+            "value": 24,
             "display": {
-              "display_string": "Броня: 16",
+              "display_string": "Броня: 24",
               "color": {
                 "r": 255,
                 "g": 255,
@@ -1613,29 +1618,30 @@
           "stats": [
             {
               "type": {
-                "type": "INTELLECT",
-                "name": "к интеллекту"
+                "type": "SPELL_POWER",
+                "name": "к силе заклинаний"
               },
-              "value": 3,
+              "value": 7,
+              "is_equip_bonus": true,
               "display": {
-                "display_string": "+3 к интеллекту",
+                "display_string": "+7 к силе заклинаний",
                 "color": {
-                  "r": 255,
+                  "r": 0,
                   "g": 255,
-                  "b": 255,
+                  "b": 0,
                   "a": 1.0
                 }
               }
             },
             {
               "type": {
-                "type": "SPELL_POWER",
-                "name": "к силе заклинаний"
+                "type": "SPIRIT",
+                "name": "к духу"
               },
-              "value": 2,
+              "value": 6,
               "is_equip_bonus": true,
               "display": {
-                "display_string": "+2 к силе заклинаний",
+                "display_string": "+6 к духу",
                 "color": {
                   "r": 0,
                   "g": 255,
@@ -1646,32 +1652,32 @@
             }
           ],
           "sell_price": {
-            "value": 370,
+            "value": 1537,
             "display_strings": {
               "header": "Цена продажи:",
               "gold": "0",
-              "silver": "3",
-              "copper": "70"
+              "silver": "15",
+              "copper": "37"
             }
           },
           "requirements": {
             "level": {
-              "value": 14,
-              "display_string": "Требуется 14-й уровень"
+              "value": 25,
+              "display_string": "Требуется 25-й уровень"
             }
           },
           "level": {
-            "value": 19,
-            "display_string": "Уровень предмета: 19"
+            "value": 30,
+            "display_string": "Уровень предмета: 30"
           },
           "is_subclass_hidden": true
         },
         {
           "item": {
             "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/15213?namespace=static-1.60.1_70399-forever-eu"
+              "href": "https://eu.api.blizzard.com/data/wow/item/6691?namespace=static-1.60.1_70399-forever-eu"
             },
-            "id": 15213
+            "id": 6691
           },
           "enchantments": [
             {
@@ -1694,20 +1700,17 @@
             "name": "Правая рука"
           },
           "quantity": 1,
-          "context": 0,
-          "bonus_list": [
-            12910
-          ],
+          "context": 1,
           "quality": {
-            "type": "UNCOMMON",
-            "name": "Необычное"
+            "type": "RARE",
+            "name": "Редкое"
           },
-          "name": "Клинок наемника с меткой чаротворца",
+          "name": "Заточка Кабаньего клыка",
           "media": {
             "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/media/item/15213?namespace=static-1.60.1_70399-forever-eu"
+              "href": "https://eu.api.blizzard.com/data/wow/media/item/6691?namespace=static-1.60.1_70399-forever-eu"
             },
-            "id": 15213
+            "id": 6691
           },
           "item_class": {
             "key": {
@@ -1718,36 +1721,36 @@
           },
           "item_subclass": {
             "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/7?namespace=static-1.60.1_70399-forever-eu"
+              "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/15?namespace=static-1.60.1_70399-forever-eu"
             },
-            "name": "Меч",
-            "id": 7
+            "name": "Кинжал",
+            "id": 15
           },
           "inventory_type": {
-            "type": "WEAPON",
-            "name": "Одноручное"
+            "type": "WEAPONMAINHAND",
+            "name": "Правая рука"
           },
           "binding": {
-            "type": "ON_EQUIP",
-            "name": "Становится персональным при надевании"
+            "type": "ON_ACQUIRE",
+            "name": "Становится персональным при поднятии"
           },
           "weapon": {
             "damage": {
-              "min_value": 21,
-              "max_value": 40,
-              "display_string": "Урон: 21-40",
+              "min_value": 16,
+              "max_value": 30,
+              "display_string": "Урон: 16-30",
               "damage_class": {
                 "type": "PHYSICAL",
                 "name": "физический"
               }
             },
             "attack_speed": {
-              "value": 2400,
-              "display_string": "Скорость 2,40"
+              "value": 1500,
+              "display_string": "Скорость 1,50"
             },
             "dps": {
-              "value": 12.708333,
-              "display_string": "(12,7 ед. урона в секунду)"
+              "value": 15.333332,
+              "display_string": "(15,3 ед. урона в секунду)"
             }
           },
           "stats": [
@@ -1756,9 +1759,9 @@
                 "type": "STAMINA",
                 "name": "к выносливости"
               },
-              "value": 5,
+              "value": 6,
               "display": {
-                "display_string": "+5 к выносливости",
+                "display_string": "+6 к выносливости",
                 "color": {
                   "r": 255,
                   "g": 255,
@@ -1769,30 +1772,13 @@
             },
             {
               "type": {
-                "type": "SPELL_POWER",
-                "name": "к силе заклинаний"
-              },
-              "value": 29,
-              "is_equip_bonus": true,
-              "display": {
-                "display_string": "+29 к силе заклинаний",
-                "color": {
-                  "r": 0,
-                  "g": 255,
-                  "b": 0,
-                  "a": 1.0
-                }
-              }
-            },
-            {
-              "type": {
                 "type": "SPIRIT",
                 "name": "к духу"
               },
-              "value": 3,
+              "value": 4,
               "is_equip_bonus": true,
               "display": {
-                "display_string": "+3 к духу",
+                "display_string": "+4 к духу",
                 "color": {
                   "r": 0,
                   "g": 255,
@@ -1803,27 +1789,27 @@
             }
           ],
           "sell_price": {
-            "value": 8165,
+            "value": 8681,
             "display_strings": {
               "header": "Цена продажи:",
               "gold": "0",
-              "silver": "81",
-              "copper": "65"
+              "silver": "86",
+              "copper": "81"
             }
           },
           "requirements": {
             "level": {
-              "value": 31,
-              "display_string": "Требуется 31-й уровень"
+              "value": 30,
+              "display_string": "Требуется 30-й уровень"
             }
           },
           "level": {
-            "value": 36,
-            "display_string": "Уровень предмета: 36"
+            "value": 35,
+            "display_string": "Уровень предмета: 35"
           },
           "durability": {
-            "value": 75,
-            "display_string": "Прочность: 75 / 75"
+            "value": 65,
+            "display_string": "Прочность: 65 / 65"
           }
         },
         {
@@ -2226,7 +2212,7 @@
                     },
                     "description": "Снижает скорость передвижения цели на 30% на 12 сек. На цель может одновременно действовать только одно проклятие каждого чернокнижника.",
                     "cast_time": "Мгновенное",
-                    "power_cost": "Мана: 54",
+                    "power_cost": "Мана: 58",
                     "range": "Радиус действия: 30 м."
                   },
                   "talent_rank": 1
@@ -2241,7 +2227,7 @@
                       "name": "Вытягивание жизни",
                       "id": 18265
                     },
-                    "description": "Вы похищаете у цели 17 ед. здоровья раз в 3 сек. и восполняете себе здоровье в том же объеме. Время действия – 30 сек.",
+                    "description": "Вы похищаете у цели 18 ед. здоровья раз в 3 сек. и восполняете себе здоровье в том же объеме. Время действия – 30 сек.",
                     "cast_time": "Мгновенное",
                     "power_cost": "Мана: 150",
                     "range": "Радиус действия: 30 м."
@@ -2258,14 +2244,14 @@
                       "name": "Вытягивание души",
                       "id": 17804
                     },
-                    "description": "Усиливает \"Похищение жизни\", \"Похищение души\" и \"Судороги\", увеличивая урон или количество похищаемого здоровья на 4% за каждый ваш эффект \"Порча\", \"Вытягивание жизни\" или \"Бич агонии\", действующий на цель. Максимальный бонус – 12%.",
+                    "description": "Усиливает \"Похищение жизни\", \"Похищение души\" и \"Судороги\", увеличивая урон или количество похищаемого здоровья на 12% за каждый ваш эффект \"Порча\", \"Вытягивание жизни\" или \"Бич агонии\", действующий на цель. Максимальный бонус – 36%.",
                     "cast_time": "Пассивная"
                   },
-                  "talent_rank": 1
+                  "talent_rank": 3
                 }
               ],
               "specialization_name": "Колдовство",
-              "spent_points": 22
+              "spent_points": 24
             }
           ]
         }
