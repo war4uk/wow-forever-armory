@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-11-16T06:34:39.453835+00:00",
+  "fetched_at": "2026-11-16T19:37:55.249586+00:00",
   "region": "eu",
   "character_slug": "локт-арогар",
   "namespace": "profile-forever-eu",
@@ -50,7 +50,7 @@
         "slug": "пве-моль"
       },
       "level": 34,
-      "experience": 26452,
+      "experience": 31437,
       "achievement_points": 0,
       "achievements": {
         "href": "https://eu.api.blizzard.com/profile/wow/character/%D0%BB%D0%BE%D0%BA%D1%82-%D0%B0%D1%80%D0%BE%D0%B3%D0%B0%D1%80/achievements?namespace=profile-forever-eu"
@@ -67,7 +67,7 @@
       "media": {
         "href": "https://eu.api.blizzard.com/profile/wow/character/%D0%BB%D0%BE%D0%BA%D1%82-%D0%B0%D1%80%D0%BE%D0%B3%D0%B0%D1%80/character-media?namespace=profile-forever-eu"
       },
-      "last_login_timestamp": 1794808965000,
+      "last_login_timestamp": 1794844279000,
       "average_item_level": 32,
       "equipped_item_level": 32,
       "specializations": {
@@ -239,8 +239,8 @@
             "display_string": "Уровень предмета: 25"
           },
           "durability": {
-            "value": 45,
-            "display_string": "Прочность: 45 / 45"
+            "value": 40,
+            "display_string": "Прочность: 40 / 45"
           }
         },
         {
@@ -470,8 +470,8 @@
             "display_string": "Уровень предмета: 36"
           },
           "durability": {
-            "value": 50,
-            "display_string": "Прочность: 50 / 50"
+            "value": 49,
+            "display_string": "Прочность: 49 / 50"
           }
         },
         {
@@ -671,8 +671,8 @@
             "display_string": "Уровень предмета: 37"
           },
           "durability": {
-            "value": 80,
-            "display_string": "Прочность: 80 / 80"
+            "value": 77,
+            "display_string": "Прочность: 77 / 80"
           }
         },
         {
@@ -924,8 +924,8 @@
             "display_string": "Уровень предмета: 25"
           },
           "durability": {
-            "value": 60,
-            "display_string": "Прочность: 60 / 60"
+            "value": 57,
+            "display_string": "Прочность: 57 / 60"
           }
         },
         {
@@ -1073,8 +1073,8 @@
             "display_string": "Уровень предмета: 35"
           },
           "durability": {
-            "value": 40,
-            "display_string": "Прочность: 40 / 40"
+            "value": 38,
+            "display_string": "Прочность: 38 / 40"
           }
         },
         {
@@ -1177,8 +1177,8 @@
             "display_string": "Уровень предмета: 35"
           },
           "durability": {
-            "value": 25,
-            "display_string": "Прочность: 25 / 25"
+            "value": 23,
+            "display_string": "Прочность: 23 / 25"
           }
         },
         {
@@ -1294,8 +1294,8 @@
             "display_string": "Уровень предмета: 29"
           },
           "durability": {
-            "value": 25,
-            "display_string": "Прочность: 25 / 25"
+            "value": 24,
+            "display_string": "Прочность: 24 / 25"
           }
         },
         {
