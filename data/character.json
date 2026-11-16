@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-11-15T22:50:56.425691+00:00",
+  "fetched_at": "2026-11-16T06:34:39.453835+00:00",
   "region": "eu",
   "character_slug": "локт-арогар",
   "namespace": "profile-forever-eu",
@@ -67,9 +67,9 @@
       "media": {
         "href": "https://eu.api.blizzard.com/profile/wow/character/%D0%BB%D0%BE%D0%BA%D1%82-%D0%B0%D1%80%D0%BE%D0%B3%D0%B0%D1%80/character-media?namespace=profile-forever-eu"
       },
-      "last_login_timestamp": 1794763636000,
-      "average_item_level": 30,
-      "equipped_item_level": 29,
+      "last_login_timestamp": 1794808965000,
+      "average_item_level": 32,
+      "equipped_item_level": 32,
       "specializations": {
         "href": "https://eu.api.blizzard.com/profile/wow/character/%D0%BB%D0%BE%D0%BA%D1%82-%D0%B0%D1%80%D0%BE%D0%B3%D0%B0%D1%80/specializations?namespace=profile-forever-eu"
       },
@@ -242,6 +242,110 @@
             "value": 45,
             "display_string": "Прочность: 45 / 45"
           }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/12020?namespace=static-1.60.1_70399-forever-eu"
+            },
+            "id": 12020
+          },
+          "slot": {
+            "type": "NECK",
+            "name": "Шея"
+          },
+          "quantity": 1,
+          "context": 0,
+          "bonus_list": [
+            12718
+          ],
+          "quality": {
+            "type": "UNCOMMON",
+            "name": "Необычное"
+          },
+          "name": "Таллиевое колье со знаком орла",
+          "media": {
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/media/item/12020?namespace=static-1.60.1_70399-forever-eu"
+            },
+            "id": 12020
+          },
+          "item_class": {
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-1.60.1_70399-forever-eu"
+            },
+            "name": "Доспехи",
+            "id": 4
+          },
+          "item_subclass": {
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-1.60.1_70399-forever-eu"
+            },
+            "name": "Разное",
+            "id": 0
+          },
+          "inventory_type": {
+            "type": "NECK",
+            "name": "Шея"
+          },
+          "binding": {
+            "type": "ON_EQUIP",
+            "name": "Становится персональным при надевании"
+          },
+          "stats": [
+            {
+              "type": {
+                "type": "INTELLECT",
+                "name": "к интеллекту"
+              },
+              "value": 5,
+              "display": {
+                "display_string": "+5 к интеллекту",
+                "color": {
+                  "r": 255,
+                  "g": 255,
+                  "b": 255,
+                  "a": 1.0
+                }
+              }
+            },
+            {
+              "type": {
+                "type": "STAMINA",
+                "name": "к выносливости"
+              },
+              "value": 5,
+              "display": {
+                "display_string": "+5 к выносливости",
+                "color": {
+                  "r": 255,
+                  "g": 255,
+                  "b": 255,
+                  "a": 1.0
+                }
+              }
+            }
+          ],
+          "sell_price": {
+            "value": 3969,
+            "display_strings": {
+              "header": "Цена продажи:",
+              "gold": "0",
+              "silver": "39",
+              "copper": "69"
+            }
+          },
+          "requirements": {
+            "level": {
+              "value": 31,
+              "display_string": "Требуется 31-й уровень"
+            }
+          },
+          "level": {
+            "value": 36,
+            "display_string": "Уровень предмета: 36"
+          },
+          "is_subclass_hidden": true
         },
         {
           "item": {
