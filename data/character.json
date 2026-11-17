@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-11-16T19:37:55.249586+00:00",
+  "fetched_at": "2026-11-17T03:55:37.492008+00:00",
   "region": "eu",
   "character_slug": "локт-арогар",
   "namespace": "profile-forever-eu",
@@ -49,8 +49,8 @@
         },
         "slug": "пве-моль"
       },
-      "level": 34,
-      "experience": 31437,
+      "level": 35,
+      "experience": 21032,
       "achievement_points": 0,
       "achievements": {
         "href": "https://eu.api.blizzard.com/profile/wow/character/%D0%BB%D0%BE%D0%BA%D1%82-%D0%B0%D1%80%D0%BE%D0%B3%D0%B0%D1%80/achievements?namespace=profile-forever-eu"
@@ -67,7 +67,7 @@
       "media": {
         "href": "https://eu.api.blizzard.com/profile/wow/character/%D0%BB%D0%BE%D0%BA%D1%82-%D0%B0%D1%80%D0%BE%D0%B3%D0%B0%D1%80/character-media?namespace=profile-forever-eu"
       },
-      "last_login_timestamp": 1794844279000,
+      "last_login_timestamp": 1794860737000,
       "average_item_level": 32,
       "equipped_item_level": 32,
       "specializations": {
@@ -239,8 +239,8 @@
             "display_string": "Уровень предмета: 25"
           },
           "durability": {
-            "value": 40,
-            "display_string": "Прочность: 40 / 45"
+            "value": 45,
+            "display_string": "Прочность: 45 / 45"
           }
         },
         {
@@ -470,8 +470,8 @@
             "display_string": "Уровень предмета: 36"
           },
           "durability": {
-            "value": 49,
-            "display_string": "Прочность: 49 / 50"
+            "value": 50,
+            "display_string": "Прочность: 50 / 50"
           }
         },
         {
@@ -671,8 +671,8 @@
             "display_string": "Уровень предмета: 37"
           },
           "durability": {
-            "value": 77,
-            "display_string": "Прочность: 77 / 80"
+            "value": 78,
+            "display_string": "Прочность: 78 / 80"
           }
         },
         {
@@ -924,8 +924,8 @@
             "display_string": "Уровень предмета: 25"
           },
           "durability": {
-            "value": 57,
-            "display_string": "Прочность: 57 / 60"
+            "value": 60,
+            "display_string": "Прочность: 60 / 60"
           }
         },
         {
@@ -1073,8 +1073,8 @@
             "display_string": "Уровень предмета: 35"
           },
           "durability": {
-            "value": 38,
-            "display_string": "Прочность: 38 / 40"
+            "value": 39,
+            "display_string": "Прочность: 39 / 40"
           }
         },
         {
@@ -1177,8 +1177,8 @@
             "display_string": "Уровень предмета: 35"
           },
           "durability": {
-            "value": 23,
-            "display_string": "Прочность: 23 / 25"
+            "value": 25,
+            "display_string": "Прочность: 25 / 25"
           }
         },
         {
@@ -1294,8 +1294,8 @@
             "display_string": "Уровень предмета: 29"
           },
           "durability": {
-            "value": 24,
-            "display_string": "Прочность: 24 / 25"
+            "value": 25,
+            "display_string": "Прочность: 25 / 25"
           }
         },
         {
@@ -2132,6 +2132,63 @@
             "value": 65,
             "display_string": "Прочность: 65 / 65"
           }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/5976?namespace=static-1.60.1_70399-forever-eu"
+            },
+            "id": 5976
+          },
+          "slot": {
+            "type": "TABARD",
+            "name": "Гербовая накидка"
+          },
+          "quantity": 1,
+          "context": 14,
+          "quality": {
+            "type": "COMMON",
+            "name": "Обычное"
+          },
+          "name": "Гильдейская гербовая накидка",
+          "media": {
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/media/item/5976?namespace=static-1.60.1_70399-forever-eu"
+            },
+            "id": 5976
+          },
+          "item_class": {
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-1.60.1_70399-forever-eu"
+            },
+            "name": "Доспехи",
+            "id": 4
+          },
+          "item_subclass": {
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-1.60.1_70399-forever-eu"
+            },
+            "name": "Разное",
+            "id": 0
+          },
+          "inventory_type": {
+            "type": "TABARD",
+            "name": "Гербовая накидка"
+          },
+          "sell_price": {
+            "value": 2500,
+            "display_strings": {
+              "header": "Цена продажи:",
+              "gold": "0",
+              "silver": "25",
+              "copper": "0"
+            }
+          },
+          "level": {
+            "value": 1,
+            "display_string": "Уровень предмета: 1"
+          },
+          "is_subclass_hidden": true
         }
       ]
     },
@@ -2296,7 +2353,7 @@
                     },
                     "description": "Снижает скорость передвижения цели на 30% на 12 сек. На цель может одновременно действовать только одно проклятие каждого чернокнижника.",
                     "cast_time": "Мгновенное",
-                    "power_cost": "Мана: 60",
+                    "power_cost": "Мана: 63",
                     "range": "Радиус действия: 30 м."
                   },
                   "talent_rank": 1
@@ -2332,10 +2389,25 @@
                     "cast_time": "Пассивная"
                   },
                   "talent_rank": 3
+                },
+                {
+                  "talent": {
+                    "name": "Власть над Тенями",
+                    "id": 135441
+                  },
+                  "spell_tooltip": {
+                    "spell": {
+                      "name": "Власть над Тенями",
+                      "id": 18271
+                    },
+                    "description": "Увеличение урона, наносимого заклинаниями темной магии на 2%.",
+                    "cast_time": "Пассивная"
+                  },
+                  "talent_rank": 1
                 }
               ],
               "specialization_name": "Колдовство",
-              "spent_points": 25
+              "spent_points": 26
             }
           ]
         }
@@ -2864,7 +2936,7 @@
           },
           "tiers": [
             {
-              "skill_points": 191,
+              "skill_points": 215,
               "max_skill_points": 225,
               "tier": {
                 "name": "Mining",
