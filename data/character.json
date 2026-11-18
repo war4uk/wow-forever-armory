@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-11-17T16:04:12.434272+00:00",
+  "fetched_at": "2026-11-18T00:58:36.429017+00:00",
   "region": "eu",
   "character_slug": "локт-арогар",
   "namespace": "profile-forever-eu",
@@ -49,8 +49,8 @@
         },
         "slug": "пве-моль"
       },
-      "level": 35,
-      "experience": 22864,
+      "level": 36,
+      "experience": 539,
       "achievement_points": 0,
       "achievements": {
         "href": "https://eu.api.blizzard.com/profile/wow/character/%D0%BB%D0%BE%D0%BA%D1%82-%D0%B0%D1%80%D0%BE%D0%B3%D0%B0%D1%80/achievements?namespace=profile-forever-eu"
@@ -67,8 +67,8 @@
       "media": {
         "href": "https://eu.api.blizzard.com/profile/wow/character/%D0%BB%D0%BE%D0%BA%D1%82-%D0%B0%D1%80%D0%BE%D0%B3%D0%B0%D1%80/character-media?namespace=profile-forever-eu"
       },
-      "last_login_timestamp": 1794893268000,
-      "average_item_level": 32,
+      "last_login_timestamp": 1794946609000,
+      "average_item_level": 33,
       "equipped_item_level": 32,
       "specializations": {
         "href": "https://eu.api.blizzard.com/profile/wow/character/%D0%BB%D0%BE%D0%BA%D1%82-%D0%B0%D1%80%D0%BE%D0%B3%D0%B0%D1%80/specializations?namespace=profile-forever-eu"
@@ -350,26 +350,26 @@
         {
           "item": {
             "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/4197?namespace=static-1.60.1_70399-forever-eu"
+              "href": "https://eu.api.blizzard.com/data/wow/item/7684?namespace=static-1.60.1_70399-forever-eu"
             },
-            "id": 4197
+            "id": 7684
           },
           "slot": {
             "type": "SHOULDER",
             "name": "Плечи"
           },
           "quantity": 1,
-          "context": 11,
+          "context": 1,
           "quality": {
             "type": "RARE",
             "name": "Редкое"
           },
-          "name": "Берилловое оплечье",
+          "name": "Оплечье волшебницы крови",
           "media": {
             "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/media/item/4197?namespace=static-1.60.1_70399-forever-eu"
+              "href": "https://eu.api.blizzard.com/data/wow/media/item/7684?namespace=static-1.60.1_70399-forever-eu"
             },
-            "id": 4197
+            "id": 7684
           },
           "item_class": {
             "key": {
@@ -394,9 +394,9 @@
             "name": "Становится персональным при поднятии"
           },
           "armor": {
-            "value": 39,
+            "value": 38,
             "display": {
-              "display_string": "Броня: 39",
+              "display_string": "Броня: 38",
               "color": {
                 "r": 255,
                 "g": 255,
@@ -411,25 +411,9 @@
                 "type": "INTELLECT",
                 "name": "к интеллекту"
               },
-              "value": 10,
+              "value": 9,
               "display": {
-                "display_string": "+10 к интеллекту",
-                "color": {
-                  "r": 255,
-                  "g": 255,
-                  "b": 255,
-                  "a": 1.0
-                }
-              }
-            },
-            {
-              "type": {
-                "type": "STAMINA",
-                "name": "к выносливости"
-              },
-              "value": 5,
-              "display": {
-                "display_string": "+5 к выносливости",
+                "display_string": "+9 к интеллекту",
                 "color": {
                   "r": 255,
                   "g": 255,
@@ -443,10 +427,27 @@
                 "type": "SPELL_POWER",
                 "name": "к силе заклинаний"
               },
-              "value": 7,
+              "value": 9,
               "is_equip_bonus": true,
               "display": {
-                "display_string": "+7 к силе заклинаний",
+                "display_string": "+9 к силе заклинаний",
+                "color": {
+                  "r": 0,
+                  "g": 255,
+                  "b": 0,
+                  "a": 1.0
+                }
+              }
+            },
+            {
+              "type": {
+                "type": "HEALTH_REGEN",
+                "name": "здоровья в 5 сек."
+              },
+              "value": 9,
+              "is_equip_bonus": true,
+              "display": {
+                "display_string": "+9 здоровья в 5 сек.",
                 "color": {
                   "r": 0,
                   "g": 255,
@@ -457,17 +458,23 @@
             }
           ],
           "sell_price": {
-            "value": 2864,
+            "value": 2604,
             "display_strings": {
               "header": "Цена продажи:",
               "gold": "0",
-              "silver": "28",
-              "copper": "64"
+              "silver": "26",
+              "copper": "4"
+            }
+          },
+          "requirements": {
+            "level": {
+              "value": 30,
+              "display_string": "Требуется 30-й уровень"
             }
           },
           "level": {
-            "value": 36,
-            "display_string": "Уровень предмета: 36"
+            "value": 35,
+            "display_string": "Уровень предмета: 35"
           },
           "durability": {
             "value": 50,
@@ -533,26 +540,26 @@
         {
           "item": {
             "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/9623?namespace=static-1.60.1_70399-forever-eu"
+              "href": "https://eu.api.blizzard.com/data/wow/item/9434?namespace=static-1.60.1_70399-forever-eu"
             },
-            "id": 9623
+            "id": 9434
           },
           "slot": {
             "type": "CHEST",
             "name": "Грудь"
           },
           "quantity": 1,
-          "context": 11,
+          "context": 1,
           "quality": {
             "type": "RARE",
             "name": "Редкое"
           },
-          "name": "Одеяния Сивинада",
+          "name": "Облачение Стихий",
           "media": {
             "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/media/item/9623?namespace=static-1.60.1_70399-forever-eu"
+              "href": "https://eu.api.blizzard.com/data/wow/media/item/9434?namespace=static-1.60.1_70399-forever-eu"
             },
-            "id": 9623
+            "id": 9434
           },
           "item_class": {
             "key": {
@@ -569,17 +576,17 @@
             "id": 1
           },
           "inventory_type": {
-            "type": "ROBE",
+            "type": "CHEST",
             "name": "Грудь"
           },
           "binding": {
-            "type": "ON_ACQUIRE",
-            "name": "Становится персональным при поднятии"
+            "type": "ON_EQUIP",
+            "name": "Становится персональным при надевании"
           },
           "armor": {
-            "value": 54,
+            "value": 59,
             "display": {
-              "display_string": "Броня: 54",
+              "display_string": "Броня: 59",
               "color": {
                 "r": 255,
                 "g": 255,
@@ -591,29 +598,24 @@
           "stats": [
             {
               "type": {
-                "type": "STAMINA",
-                "name": "к выносливости"
+                "type": "SPELL_POWER",
+                "name": "к силе заклинаний"
               },
-              "value": 7,
+              "value": 21,
+              "is_equip_bonus": true,
               "display": {
-                "display_string": "+7 к выносливости",
+                "display_string": "+21 к силе заклинаний",
                 "color": {
-                  "r": 255,
+                  "r": 0,
                   "g": 255,
-                  "b": 255,
+                  "b": 0,
                   "a": 1.0
                 }
               }
             },
             {
-              "type": {
-                "type": "SPELL_DAMAGE_DONE",
-                "name": "Урон от заклинаний"
-              },
-              "value": 9,
-              "is_equip_bonus": true,
               "display": {
-                "display_string": "+9 Урон от заклинаний",
+                "display_string": "+5 к полной устойчивости",
                 "color": {
                   "r": 0,
                   "g": 255,
@@ -624,13 +626,13 @@
             },
             {
               "type": {
-                "type": "SPELL_HEALING_DONE",
-                "name": "Магическое лечение"
+                "type": "FIRE_RESISTANCE",
+                "name": "Сопротивление огню"
               },
-              "value": 26,
-              "is_equip_bonus": true,
+              "value": 5,
+              "is_hidden": true,
               "display": {
-                "display_string": "+26 Магическое лечение",
+                "display_string": "Устойчивость: +5 огонь",
                 "color": {
                   "r": 0,
                   "g": 255,
@@ -641,13 +643,64 @@
             },
             {
               "type": {
-                "type": "SPIRIT",
-                "name": "к духу"
+                "type": "FROST_RESISTANCE",
+                "name": "Сопротивление магии льда"
               },
-              "value": 12,
-              "is_equip_bonus": true,
+              "value": 5,
+              "is_hidden": true,
               "display": {
-                "display_string": "+12 к духу",
+                "display_string": "Устойчивость: +5 лед",
+                "color": {
+                  "r": 0,
+                  "g": 255,
+                  "b": 0,
+                  "a": 1.0
+                }
+              }
+            },
+            {
+              "type": {
+                "type": "SHADOW_RESISTANCE",
+                "name": "Сопротивление темной магии"
+              },
+              "value": 5,
+              "is_hidden": true,
+              "display": {
+                "display_string": "Устойчивость: +5 тьма",
+                "color": {
+                  "r": 0,
+                  "g": 255,
+                  "b": 0,
+                  "a": 1.0
+                }
+              }
+            },
+            {
+              "type": {
+                "type": "NATURE_RESISTANCE",
+                "name": "Сопротивление силам природы"
+              },
+              "value": 5,
+              "is_hidden": true,
+              "display": {
+                "display_string": "Устойчивость: +5 природа",
+                "color": {
+                  "r": 0,
+                  "g": 255,
+                  "b": 0,
+                  "a": 1.0
+                }
+              }
+            },
+            {
+              "type": {
+                "type": "ARCANE_RESISTANCE",
+                "name": "Сопротивление тайной магии"
+              },
+              "value": 5,
+              "is_hidden": true,
+              "display": {
+                "display_string": "Устойчивость: +5 Тайная магия",
                 "color": {
                   "r": 0,
                   "g": 255,
@@ -658,21 +711,27 @@
             }
           ],
           "sell_price": {
-            "value": 4202,
+            "value": 5648,
             "display_strings": {
               "header": "Цена продажи:",
               "gold": "0",
-              "silver": "42",
-              "copper": "2"
+              "silver": "56",
+              "copper": "48"
+            }
+          },
+          "requirements": {
+            "level": {
+              "value": 36,
+              "display_string": "Требуется 36-й уровень"
             }
           },
           "level": {
-            "value": 37,
-            "display_string": "Уровень предмета: 37"
+            "value": 41,
+            "display_string": "Уровень предмета: 41"
           },
           "durability": {
-            "value": 80,
-            "display_string": "Прочность: 80 / 80"
+            "value": 79,
+            "display_string": "Прочность: 79 / 80"
           }
         },
         {
@@ -1779,6 +1838,22 @@
             },
             "id": 6691
           },
+          "enchantments": [
+            {
+              "display_string": "Камень чар 1",
+              "source_item": {
+                "key": {
+                  "href": "https://eu.api.blizzard.com/data/wow/item/5522?namespace=static-1.60.1_70399-forever-eu"
+                },
+                "name": "Камень чар",
+                "id": 5522
+              },
+              "enchantment_id": 8059,
+              "enchantment_slot": {
+                "id": 8
+              }
+            }
+          ],
           "slot": {
             "type": "MAIN_HAND",
             "name": "Правая рука"
@@ -1899,26 +1974,26 @@
         {
           "item": {
             "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/273027?namespace=static-1.60.1_70399-forever-eu"
+              "href": "https://eu.api.blizzard.com/data/wow/item/7749?namespace=static-1.60.1_70399-forever-eu"
             },
-            "id": 273027
+            "id": 7749
           },
           "slot": {
             "type": "OFF_HAND",
             "name": "Левая рука"
           },
           "quantity": 1,
-          "context": 1,
+          "context": 11,
           "quality": {
             "type": "RARE",
             "name": "Редкое"
           },
-          "name": "Взор ящера",
+          "name": "Сфера Омеги",
           "media": {
             "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/media/item/273027?namespace=static-1.60.1_70399-forever-eu"
+              "href": "https://eu.api.blizzard.com/data/wow/media/item/7749?namespace=static-1.60.1_70399-forever-eu"
             },
-            "id": 273027
+            "id": 7749
           },
           "item_class": {
             "key": {
@@ -1945,32 +2020,17 @@
           "stats": [
             {
               "type": {
-                "type": "INTELLECT",
-                "name": "к интеллекту"
+                "type": "MANA_REGENERATION",
+                "name": "Восполнение маны раз в 5 сек."
               },
-              "value": 4,
+              "value": 3,
+              "is_equip_bonus": true,
               "display": {
-                "display_string": "+4 к интеллекту",
+                "display_string": "+3 Восполнение маны раз в 5 сек.",
                 "color": {
-                  "r": 255,
+                  "r": 0,
                   "g": 255,
-                  "b": 255,
-                  "a": 1.0
-                }
-              }
-            },
-            {
-              "type": {
-                "type": "STAMINA",
-                "name": "к выносливости"
-              },
-              "value": 4,
-              "display": {
-                "display_string": "+4 к выносливости",
-                "color": {
-                  "r": 255,
-                  "g": 255,
-                  "b": 255,
+                  "b": 0,
                   "a": 1.0
                 }
               }
@@ -1980,10 +2040,10 @@
                 "type": "SPELL_POWER",
                 "name": "к силе заклинаний"
               },
-              "value": 8,
+              "value": 9,
               "is_equip_bonus": true,
               "display": {
-                "display_string": "+8 к силе заклинаний",
+                "display_string": "+9 к силе заклинаний",
                 "color": {
                   "r": 0,
                   "g": 255,
@@ -1994,23 +2054,17 @@
             }
           ],
           "sell_price": {
-            "value": 2324,
+            "value": 5293,
             "display_strings": {
               "header": "Цена продажи:",
               "gold": "0",
-              "silver": "23",
-              "copper": "24"
-            }
-          },
-          "requirements": {
-            "level": {
-              "value": 26,
-              "display_string": "Требуется 26-й уровень"
+              "silver": "52",
+              "copper": "93"
             }
           },
           "level": {
-            "value": 31,
-            "display_string": "Уровень предмета: 31"
+            "value": 40,
+            "display_string": "Уровень предмета: 40"
           },
           "is_subclass_hidden": true
         },
@@ -2353,7 +2407,7 @@
                     },
                     "description": "Снижает скорость передвижения цели на 30% на 12 сек. На цель может одновременно действовать только одно проклятие каждого чернокнижника.",
                     "cast_time": "Мгновенное",
-                    "power_cost": "Мана: 63",
+                    "power_cost": "Мана: 65",
                     "range": "Радиус действия: 30 м."
                   },
                   "talent_rank": 1
@@ -2368,7 +2422,7 @@
                       "name": "Вытягивание жизни",
                       "id": 18265
                     },
-                    "description": "Вы похищаете у цели 18 ед. здоровья раз в 3 сек. и восполняете себе здоровье в том же объеме. Время действия – 30 сек.",
+                    "description": "Вы похищаете у цели 20 ед. здоровья раз в 3 сек. и восполняете себе здоровье в том же объеме. Время действия – 30 сек.",
                     "cast_time": "Мгновенное",
                     "power_cost": "Мана: 150",
                     "range": "Радиус действия: 30 м."
@@ -2400,14 +2454,14 @@
                       "name": "Власть над Тенями",
                       "id": 18271
                     },
-                    "description": "Увеличение урона, наносимого заклинаниями темной магии на 2%.",
+                    "description": "Увеличение урона, наносимого заклинаниями темной магии на 4%.",
                     "cast_time": "Пассивная"
                   },
-                  "talent_rank": 1
+                  "talent_rank": 2
                 }
               ],
               "specialization_name": "Колдовство",
-              "spent_points": 26
+              "spent_points": 27
             }
           ]
         }
@@ -2936,7 +2990,7 @@
           },
           "tiers": [
             {
-              "skill_points": 223,
+              "skill_points": 225,
               "max_skill_points": 300,
               "tier": {
                 "name": "Mining",
