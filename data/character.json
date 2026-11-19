@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-11-19T11:44:10.094413+00:00",
+  "fetched_at": "2026-11-19T20:40:03.114569+00:00",
   "region": "eu",
   "character_slug": "локт-арогар",
   "namespace": "profile-forever-eu",
@@ -50,7 +50,7 @@
         "slug": "пве-моль"
       },
       "level": 36,
-      "experience": 539,
+      "experience": 48279,
       "achievement_points": 0,
       "achievements": {
         "href": "https://eu.api.blizzard.com/profile/wow/character/%D0%BB%D0%BE%D0%BA%D1%82-%D0%B0%D1%80%D0%BE%D0%B3%D0%B0%D1%80/achievements?namespace=profile-forever-eu"
@@ -67,7 +67,7 @@
       "media": {
         "href": "https://eu.api.blizzard.com/profile/wow/character/%D0%BB%D0%BE%D0%BA%D1%82-%D0%B0%D1%80%D0%BE%D0%B3%D0%B0%D1%80/character-media?namespace=profile-forever-eu"
       },
-      "last_login_timestamp": 1794946609000,
+      "last_login_timestamp": 1795116788000,
       "average_item_level": 33,
       "equipped_item_level": 32,
       "specializations": {
@@ -730,8 +730,8 @@
             "display_string": "Уровень предмета: 41"
           },
           "durability": {
-            "value": 79,
-            "display_string": "Прочность: 79 / 80"
+            "value": 80,
+            "display_string": "Прочность: 80 / 80"
           }
         },
         {
@@ -1974,9 +1974,9 @@
         {
           "item": {
             "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/7749?namespace=static-1.60.1_70399-forever-eu"
+              "href": "https://eu.api.blizzard.com/data/wow/item/15108?namespace=static-1.60.1_70399-forever-eu"
             },
-            "id": 7749
+            "id": 15108
           },
           "slot": {
             "type": "OFF_HAND",
@@ -1988,12 +1988,12 @@
             "type": "RARE",
             "name": "Редкое"
           },
-          "name": "Сфера Омеги",
+          "name": "Сфера Дар'орахила",
           "media": {
             "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/media/item/7749?namespace=static-1.60.1_70399-forever-eu"
+              "href": "https://eu.api.blizzard.com/data/wow/media/item/15108?namespace=static-1.60.1_70399-forever-eu"
             },
-            "id": 7749
+            "id": 15108
           },
           "item_class": {
             "key": {
@@ -2020,30 +2020,29 @@
           "stats": [
             {
               "type": {
-                "type": "MANA_REGENERATION",
-                "name": "Восполнение маны раз в 5 сек."
+                "type": "INTELLECT",
+                "name": "к интеллекту"
               },
-              "value": 3,
-              "is_equip_bonus": true,
+              "value": 5,
               "display": {
-                "display_string": "+3 Восполнение маны раз в 5 сек.",
+                "display_string": "+5 к интеллекту",
                 "color": {
-                  "r": 0,
+                  "r": 255,
                   "g": 255,
-                  "b": 0,
+                  "b": 255,
                   "a": 1.0
                 }
               }
             },
             {
               "type": {
-                "type": "SPELL_POWER",
-                "name": "к силе заклинаний"
+                "type": "BONUS_STAT_SHADOW_DAMAGE_DONE",
+                "name": "Урон от темной магии"
               },
-              "value": 9,
+              "value": 14,
               "is_equip_bonus": true,
               "display": {
-                "display_string": "+9 к силе заклинаний",
+                "display_string": "+14 Урон от темной магии",
                 "color": {
                   "r": 0,
                   "g": 255,
@@ -2053,13 +2052,39 @@
               }
             }
           ],
+          "spells": [
+            {
+              "spell": {
+                "key": {
+                  "href": "https://eu.api.blizzard.com/data/wow/spell/18957?namespace=static-1.60.1_70399-forever-eu"
+                },
+                "name": "Восстановление жизни",
+                "id": 18957
+              },
+              "description": "Использование: Восполнение 40 ед. здоровья раз в 3 сек. в течение 30 сек. (Восстановление: 30 мин.)"
+            }
+          ],
           "sell_price": {
-            "value": 5293,
+            "value": 5000,
             "display_strings": {
               "header": "Цена продажи:",
               "gold": "0",
-              "silver": "52",
-              "copper": "93"
+              "silver": "50",
+              "copper": "0"
+            }
+          },
+          "requirements": {
+            "playable_classes": {
+              "links": [
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/playable-class/9?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Чернокнижник",
+                  "id": 9
+                }
+              ],
+              "display_string": "Классы: Чернокнижник"
             }
           },
           "level": {
@@ -2422,7 +2447,7 @@
                       "name": "Вытягивание жизни",
                       "id": 18265
                     },
-                    "description": "Вы похищаете у цели 20 ед. здоровья раз в 3 сек. и восполняете себе здоровье в том же объеме. Время действия – 30 сек.",
+                    "description": "Вы похищаете у цели 21 ед. здоровья раз в 3 сек. и восполняете себе здоровье в том же объеме. Время действия – 30 сек.",
                     "cast_time": "Мгновенное",
                     "power_cost": "Мана: 150",
                     "range": "Радиус действия: 30 м."
@@ -2493,7 +2518,7 @@
           },
           "tiers": [
             {
-              "skill_points": 151,
+              "skill_points": 156,
               "max_skill_points": 225,
               "tier": {
                 "name": "Tailoring",
@@ -2527,6 +2552,13 @@
                   },
                   "name": "Hands of Darkness",
                   "id": 4867
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/4873?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Crimson Silk Shoulders",
+                  "id": 4873
                 },
                 {
                   "key": {
@@ -2990,7 +3022,7 @@
           },
           "tiers": [
             {
-              "skill_points": 225,
+              "skill_points": 229,
               "max_skill_points": 300,
               "tier": {
                 "name": "Mining",
@@ -3230,7 +3262,7 @@
           },
           "tiers": [
             {
-              "skill_points": 150,
+              "skill_points": 162,
               "max_skill_points": 225,
               "tier": {
                 "name": "Fishing",
@@ -3265,13 +3297,20 @@
           },
           "tiers": [
             {
-              "skill_points": 133,
+              "skill_points": 171,
               "max_skill_points": 225,
               "tier": {
                 "name": "First Aid",
                 "id": 2942
               },
               "known_recipes": [
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/4414?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Silk Bandage",
+                  "id": 4414
+                },
                 {
                   "key": {
                     "href": "https://eu.api.blizzard.com/data/wow/recipe/4417?namespace=static-1.60.1_70399-forever-eu"
