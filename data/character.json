@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-11-20T11:44:41.343002+00:00",
+  "fetched_at": "2026-11-20T20:25:00.980160+00:00",
   "region": "eu",
   "character_slug": "локт-арогар",
   "namespace": "profile-forever-eu",
@@ -49,8 +49,8 @@
         },
         "slug": "пве-моль"
       },
-      "level": 36,
-      "experience": 48279,
+      "level": 37,
+      "experience": 43536,
       "achievement_points": 0,
       "achievements": {
         "href": "https://eu.api.blizzard.com/profile/wow/character/%D0%BB%D0%BE%D0%BA%D1%82-%D0%B0%D1%80%D0%BE%D0%B3%D0%B0%D1%80/achievements?namespace=profile-forever-eu"
@@ -67,7 +67,7 @@
       "media": {
         "href": "https://eu.api.blizzard.com/profile/wow/character/%D0%BB%D0%BE%D0%BA%D1%82-%D0%B0%D1%80%D0%BE%D0%B3%D0%B0%D1%80/character-media?namespace=profile-forever-eu"
       },
-      "last_login_timestamp": 1795116788000,
+      "last_login_timestamp": 1795204491000,
       "average_item_level": 33,
       "equipped_item_level": 32,
       "specializations": {
@@ -477,8 +477,8 @@
             "display_string": "Уровень предмета: 35"
           },
           "durability": {
-            "value": 50,
-            "display_string": "Прочность: 50 / 50"
+            "value": 49,
+            "display_string": "Прочность: 49 / 50"
           }
         },
         {
@@ -2432,7 +2432,7 @@
                     },
                     "description": "Снижает скорость передвижения цели на 30% на 12 сек. На цель может одновременно действовать только одно проклятие каждого чернокнижника.",
                     "cast_time": "Мгновенное",
-                    "power_cost": "Мана: 65",
+                    "power_cost": "Мана: 66",
                     "range": "Радиус действия: 30 м."
                   },
                   "talent_rank": 1
@@ -2479,14 +2479,14 @@
                       "name": "Власть над Тенями",
                       "id": 18271
                     },
-                    "description": "Увеличение урона, наносимого заклинаниями темной магии на 4%.",
+                    "description": "Увеличение урона, наносимого заклинаниями темной магии на 6%.",
                     "cast_time": "Пассивная"
                   },
-                  "talent_rank": 2
+                  "talent_rank": 3
                 }
               ],
               "specialization_name": "Колдовство",
-              "spent_points": 27
+              "spent_points": 28
             }
           ]
         }
@@ -3022,7 +3022,7 @@
           },
           "tiers": [
             {
-              "skill_points": 229,
+              "skill_points": 236,
               "max_skill_points": 300,
               "tier": {
                 "name": "Mining",
@@ -3262,7 +3262,7 @@
           },
           "tiers": [
             {
-              "skill_points": 162,
+              "skill_points": 176,
               "max_skill_points": 225,
               "tier": {
                 "name": "Fishing",
