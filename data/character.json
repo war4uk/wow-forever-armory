@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-11-20T20:25:00.980160+00:00",
+  "fetched_at": "2026-11-21T02:19:02.832640+00:00",
   "region": "eu",
   "character_slug": "локт-арогар",
   "namespace": "profile-forever-eu",
@@ -50,7 +50,7 @@
         "slug": "пве-моль"
       },
       "level": 37,
-      "experience": 43536,
+      "experience": 57095,
       "achievement_points": 0,
       "achievements": {
         "href": "https://eu.api.blizzard.com/profile/wow/character/%D0%BB%D0%BE%D0%BA%D1%82-%D0%B0%D1%80%D0%BE%D0%B3%D0%B0%D1%80/achievements?namespace=profile-forever-eu"
@@ -67,8 +67,8 @@
       "media": {
         "href": "https://eu.api.blizzard.com/profile/wow/character/%D0%BB%D0%BE%D0%BA%D1%82-%D0%B0%D1%80%D0%BE%D0%B3%D0%B0%D1%80/character-media?namespace=profile-forever-eu"
       },
-      "last_login_timestamp": 1795204491000,
-      "average_item_level": 33,
+      "last_login_timestamp": 1795210646000,
+      "average_item_level": 34,
       "equipped_item_level": 32,
       "specializations": {
         "href": "https://eu.api.blizzard.com/profile/wow/character/%D0%BB%D0%BE%D0%BA%D1%82-%D0%B0%D1%80%D0%BE%D0%B3%D0%B0%D1%80/specializations?namespace=profile-forever-eu"
@@ -477,8 +477,8 @@
             "display_string": "Уровень предмета: 35"
           },
           "durability": {
-            "value": 49,
-            "display_string": "Прочность: 49 / 50"
+            "value": 50,
+            "display_string": "Прочность: 50 / 50"
           }
         },
         {
@@ -2518,7 +2518,7 @@
           },
           "tiers": [
             {
-              "skill_points": 156,
+              "skill_points": 177,
               "max_skill_points": 225,
               "tier": {
                 "name": "Tailoring",
@@ -2555,10 +2555,24 @@
                 },
                 {
                   "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/4872?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Crimson Silk Vest",
+                  "id": 4872
+                },
+                {
+                  "key": {
                     "href": "https://eu.api.blizzard.com/data/wow/recipe/4873?namespace=static-1.60.1_70399-forever-eu"
                   },
                   "name": "Crimson Silk Shoulders",
                   "id": 4873
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/4876?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Crimson Silk Pantaloons",
+                  "id": 4876
                 },
                 {
                   "key": {
@@ -2573,6 +2587,13 @@
                   },
                   "name": "Simple Linen Pants",
                   "id": 6576
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/2397?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Long Silken Cloak",
+                  "id": 2397
                 },
                 {
                   "key": {
@@ -2618,6 +2639,20 @@
                 },
                 {
                   "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/6580?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Black Mageweave Vest",
+                  "id": 6580
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/6581?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Black Mageweave Leggings",
+                  "id": 6581
+                },
+                {
+                  "key": {
                     "href": "https://eu.api.blizzard.com/data/wow/recipe/4848?namespace=static-1.60.1_70399-forever-eu"
                   },
                   "name": "Linen Belt",
@@ -2657,6 +2692,13 @@
                   },
                   "name": "Azure Silk Belt",
                   "id": 4853
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/4854?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Robe of Power",
+                  "id": 4854
                 },
                 {
                   "key": {
@@ -2989,10 +3031,45 @@
                 },
                 {
                   "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/55481?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Gilded Slippers",
+                  "id": 55481
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/55482?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Frothing Slippers",
+                  "id": 55482
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/55483?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Fiery Slippers",
+                  "id": 55483
+                },
+                {
+                  "key": {
                     "href": "https://eu.api.blizzard.com/data/wow/recipe/55484?namespace=static-1.60.1_70399-forever-eu"
                   },
                   "name": "Black Slippers",
                   "id": 55484
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/55485?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Golden Slippers",
+                  "id": 55485
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/55486?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Radiant Slippers",
+                  "id": 55486
                 },
                 {
                   "key": {
@@ -3022,7 +3099,7 @@
           },
           "tiers": [
             {
-              "skill_points": 236,
+              "skill_points": 239,
               "max_skill_points": 300,
               "tier": {
                 "name": "Mining",
@@ -3262,7 +3339,7 @@
           },
           "tiers": [
             {
-              "skill_points": 176,
+              "skill_points": 178,
               "max_skill_points": 225,
               "tier": {
                 "name": "Fishing",
