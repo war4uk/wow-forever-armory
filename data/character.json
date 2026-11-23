@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-11-23T01:45:53.055108+00:00",
+  "fetched_at": "2026-11-23T12:50:12.227672+00:00",
   "region": "eu",
   "character_slug": "локт-арогар",
   "namespace": "profile-forever-eu",
@@ -50,7 +50,7 @@
         "slug": "пве-моль"
       },
       "level": 40,
-      "experience": 4815,
+      "experience": 63640,
       "achievement_points": 0,
       "achievements": {
         "href": "https://eu.api.blizzard.com/profile/wow/character/%D0%BB%D0%BE%D0%BA%D1%82-%D0%B0%D1%80%D0%BE%D0%B3%D0%B0%D1%80/achievements?namespace=profile-forever-eu"
@@ -67,9 +67,9 @@
       "media": {
         "href": "https://eu.api.blizzard.com/profile/wow/character/%D0%BB%D0%BE%D0%BA%D1%82-%D0%B0%D1%80%D0%BE%D0%B3%D0%B0%D1%80/character-media?namespace=profile-forever-eu"
       },
-      "last_login_timestamp": 1795285993000,
-      "average_item_level": 37,
-      "equipped_item_level": 36,
+      "last_login_timestamp": 1795434264000,
+      "average_item_level": 36,
+      "equipped_item_level": 35,
       "specializations": {
         "href": "https://eu.api.blizzard.com/profile/wow/character/%D0%BB%D0%BE%D0%BA%D1%82-%D0%B0%D1%80%D0%BE%D0%B3%D0%B0%D1%80/specializations?namespace=profile-forever-eu"
       },
@@ -227,8 +227,8 @@
             "display_string": "Уровень предмета: 45"
           },
           "durability": {
-            "value": 28,
-            "display_string": "Прочность: 28 / 45"
+            "value": 45,
+            "display_string": "Прочность: 45 / 45"
           }
         },
         {
@@ -356,9 +356,9 @@
         {
           "item": {
             "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/287008?namespace=static-1.60.1_70399-forever-eu"
+              "href": "https://eu.api.blizzard.com/data/wow/item/7684?namespace=static-1.60.1_70399-forever-eu"
             },
-            "id": 287008
+            "id": 7684
           },
           "slot": {
             "type": "SHOULDER",
@@ -370,12 +370,12 @@
             "type": "RARE",
             "name": "Редкое"
           },
-          "name": "Оплечье огра-мага",
+          "name": "Оплечье волшебницы крови",
           "media": {
             "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/media/item/287008?namespace=static-1.60.1_70399-forever-eu"
+              "href": "https://eu.api.blizzard.com/data/wow/media/item/7684?namespace=static-1.60.1_70399-forever-eu"
             },
-            "id": 287008
+            "id": 7684
           },
           "item_class": {
             "key": {
@@ -396,13 +396,13 @@
             "name": "Плечо"
           },
           "binding": {
-            "type": "ON_EQUIP",
-            "name": "Становится персональным при надевании"
+            "type": "ON_ACQUIRE",
+            "name": "Становится персональным при поднятии"
           },
           "armor": {
-            "value": 49,
+            "value": 38,
             "display": {
-              "display_string": "Броня: 49",
+              "display_string": "Броня: 38",
               "color": {
                 "r": 255,
                 "g": 255,
@@ -417,9 +417,9 @@
                 "type": "INTELLECT",
                 "name": "к интеллекту"
               },
-              "value": 6,
+              "value": 9,
               "display": {
-                "display_string": "+6 к интеллекту",
+                "display_string": "+9 к интеллекту",
                 "color": {
                   "r": 255,
                   "g": 255,
@@ -430,29 +430,30 @@
             },
             {
               "type": {
-                "type": "STAMINA",
-                "name": "к выносливости"
+                "type": "SPELL_POWER",
+                "name": "к силе заклинаний"
               },
-              "value": 13,
-              "display": {
-                "display_string": "+13 к выносливости",
-                "color": {
-                  "r": 255,
-                  "g": 255,
-                  "b": 255,
-                  "a": 1.0
-                }
-              }
-            },
-            {
-              "type": {
-                "type": "HIT_RATING",
-                "name": "к меткости"
-              },
-              "value": 10,
+              "value": 9,
               "is_equip_bonus": true,
               "display": {
-                "display_string": "+10 к меткости",
+                "display_string": "+9 к силе заклинаний",
+                "color": {
+                  "r": 0,
+                  "g": 255,
+                  "b": 0,
+                  "a": 1.0
+                }
+              }
+            },
+            {
+              "type": {
+                "type": "HEALTH_REGEN",
+                "name": "здоровья в 5 сек."
+              },
+              "value": 9,
+              "is_equip_bonus": true,
+              "display": {
+                "display_string": "+9 здоровья в 5 сек.",
                 "color": {
                   "r": 0,
                   "g": 255,
@@ -463,27 +464,27 @@
             }
           ],
           "sell_price": {
-            "value": 5945,
+            "value": 2604,
             "display_strings": {
               "header": "Цена продажи:",
               "gold": "0",
-              "silver": "59",
-              "copper": "45"
+              "silver": "26",
+              "copper": "4"
             }
           },
           "requirements": {
             "level": {
-              "value": 40,
-              "display_string": "Требуется 40-й уровень"
+              "value": 30,
+              "display_string": "Требуется 30-й уровень"
             }
           },
           "level": {
-            "value": 45,
-            "display_string": "Уровень предмета: 45"
+            "value": 35,
+            "display_string": "Уровень предмета: 35"
           },
           "durability": {
-            "value": 29,
-            "display_string": "Прочность: 29 / 50"
+            "value": 50,
+            "display_string": "Прочность: 50 / 50"
           }
         },
         {
@@ -735,8 +736,8 @@
             "display_string": "Уровень предмета: 41"
           },
           "durability": {
-            "value": 42,
-            "display_string": "Прочность: 42 / 80"
+            "value": 80,
+            "display_string": "Прочность: 80 / 80"
           }
         },
         {
@@ -839,8 +840,8 @@
             "display_string": "Уровень предмета: 27"
           },
           "durability": {
-            "value": 14,
-            "display_string": "Прочность: 14 / 25"
+            "value": 25,
+            "display_string": "Прочность: 25 / 25"
           }
         },
         {
@@ -988,8 +989,8 @@
             "display_string": "Уровень предмета: 25"
           },
           "durability": {
-            "value": 31,
-            "display_string": "Прочность: 31 / 60"
+            "value": 60,
+            "display_string": "Прочность: 60 / 60"
           }
         },
         {
@@ -1137,8 +1138,8 @@
             "display_string": "Уровень предмета: 35"
           },
           "durability": {
-            "value": 17,
-            "display_string": "Прочность: 17 / 40"
+            "value": 40,
+            "display_string": "Прочность: 40 / 40"
           }
         },
         {
@@ -1241,8 +1242,8 @@
             "display_string": "Уровень предмета: 35"
           },
           "durability": {
-            "value": 15,
-            "display_string": "Прочность: 15 / 25"
+            "value": 25,
+            "display_string": "Прочность: 25 / 25"
           }
         },
         {
@@ -1374,8 +1375,8 @@
             "display_string": "Уровень предмета: 45"
           },
           "durability": {
-            "value": 18,
-            "display_string": "Прочность: 18 / 30"
+            "value": 30,
+            "display_string": "Прочность: 30 / 30"
           }
         },
         {
@@ -1859,22 +1860,6 @@
             },
             "id": 6691
           },
-          "enchantments": [
-            {
-              "display_string": "Камень чар 1",
-              "source_item": {
-                "key": {
-                  "href": "https://eu.api.blizzard.com/data/wow/item/5522?namespace=static-1.60.1_70399-forever-eu"
-                },
-                "name": "Камень чар",
-                "id": 5522
-              },
-              "enchantment_id": 8059,
-              "enchantment_slot": {
-                "id": 8
-              }
-            }
-          ],
           "slot": {
             "type": "MAIN_HAND",
             "name": "Правая рука"
@@ -1988,8 +1973,8 @@
             "display_string": "Уровень предмета: 35"
           },
           "durability": {
-            "value": 41,
-            "display_string": "Прочность: 41 / 65"
+            "value": 65,
+            "display_string": "Прочность: 65 / 65"
           }
         },
         {
@@ -2229,8 +2214,8 @@
             "display_string": "Уровень предмета: 29"
           },
           "durability": {
-            "value": 41,
-            "display_string": "Прочность: 41 / 65"
+            "value": 65,
+            "display_string": "Прочность: 65 / 65"
           }
         },
         {
@@ -2515,7 +2500,7 @@
                       "name": "Судороги",
                       "id": 1316697
                     },
-                    "description": "Терзает цель изнутри, нанося 72 ед. урона от темной магии раз в 1 сек. в течение 6 сек. Во время поддержания ваши эффекты \"Вытягивание жизни\", \"Порча\" и \"Бич агонии\", действующие на цель, наносят периодический урон на 100% быстрее.",
+                    "description": "Терзает цель изнутри, нанося 71 ед. урона от темной магии раз в 1 сек. в течение 6 сек. Во время поддержания ваши эффекты \"Вытягивание жизни\", \"Порча\" и \"Бич агонии\", действующие на цель, наносят периодический урон на 100% быстрее.",
                     "cast_time": "Потоковое",
                     "power_cost": "Мана: 200",
                     "range": "Радиус действия: 30 м."
@@ -3391,7 +3376,7 @@
           },
           "tiers": [
             {
-              "skill_points": 178,
+              "skill_points": 179,
               "max_skill_points": 225,
               "tier": {
                 "name": "Fishing",
