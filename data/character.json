@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-11-24T13:47:22.259520+00:00",
+  "fetched_at": "2026-11-24T23:54:45.953247+00:00",
   "region": "eu",
   "character_slug": "локт-арогар",
   "namespace": "profile-forever-eu",
@@ -49,8 +49,8 @@
         },
         "slug": "пве-моль"
       },
-      "level": 41,
-      "experience": 29068,
+      "level": 42,
+      "experience": 4996,
       "achievement_points": 0,
       "achievements": {
         "href": "https://eu.api.blizzard.com/profile/wow/character/%D0%BB%D0%BE%D0%BA%D1%82-%D0%B0%D1%80%D0%BE%D0%B3%D0%B0%D1%80/achievements?namespace=profile-forever-eu"
@@ -67,8 +67,8 @@
       "media": {
         "href": "https://eu.api.blizzard.com/profile/wow/character/%D0%BB%D0%BE%D0%BA%D1%82-%D0%B0%D1%80%D0%BE%D0%B3%D0%B0%D1%80/character-media?namespace=profile-forever-eu"
       },
-      "last_login_timestamp": 1795455087000,
-      "average_item_level": 38,
+      "last_login_timestamp": 1795545618000,
+      "average_item_level": 37,
       "equipped_item_level": 36,
       "specializations": {
         "href": "https://eu.api.blizzard.com/profile/wow/character/%D0%BB%D0%BE%D0%BA%D1%82-%D0%B0%D1%80%D0%BE%D0%B3%D0%B0%D1%80/specializations?namespace=profile-forever-eu"
@@ -483,32 +483,33 @@
             "display_string": "Уровень предмета: 35"
           },
           "durability": {
-            "value": 50,
-            "display_string": "Прочность: 50 / 50"
+            "value": 49,
+            "display_string": "Прочность: 49 / 50"
           }
         },
         {
           "item": {
             "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/4334?namespace=static-1.60.1_70399-forever-eu"
+              "href": "https://eu.api.blizzard.com/data/wow/item/270334?namespace=static-1.60.1_70399-forever-eu"
             },
-            "id": 4334
+            "id": 270334
           },
           "slot": {
             "type": "SHIRT",
             "name": "Рубашка"
           },
           "quantity": 1,
+          "context": 11,
           "quality": {
             "type": "COMMON",
             "name": "Обычное"
           },
-          "name": "Церемониальная белая рубашка",
+          "name": "Рубашка с пятнами пота",
           "media": {
             "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/media/item/4334?namespace=static-1.60.1_70399-forever-eu"
+              "href": "https://eu.api.blizzard.com/data/wow/media/item/270334?namespace=static-1.60.1_70399-forever-eu"
             },
-            "id": 4334
+            "id": 270334
           },
           "item_class": {
             "key": {
@@ -528,18 +529,22 @@
             "type": "BODY",
             "name": "Рубашка"
           },
+          "binding": {
+            "type": "ON_ACQUIRE",
+            "name": "Становится персональным при поднятии"
+          },
           "sell_price": {
-            "value": 550,
+            "value": 5500,
             "display_strings": {
               "header": "Цена продажи:",
               "gold": "0",
-              "silver": "5",
-              "copper": "50"
+              "silver": "55",
+              "copper": "0"
             }
           },
           "level": {
-            "value": 34,
-            "display_string": "Уровень предмета: 34"
+            "value": 1,
+            "display_string": "Уровень предмета: 1"
           },
           "is_subclass_hidden": true
         },
@@ -1289,8 +1294,8 @@
             "display_string": "Уровень предмета: 35"
           },
           "durability": {
-            "value": 25,
-            "display_string": "Прочность: 25 / 25"
+            "value": 24,
+            "display_string": "Прочность: 24 / 25"
           }
         },
         {
@@ -2271,8 +2276,8 @@
             "display_string": "Уровень предмета: 29"
           },
           "durability": {
-            "value": 65,
-            "display_string": "Прочность: 65 / 65"
+            "value": 64,
+            "display_string": "Прочность: 64 / 65"
           }
         },
         {
@@ -2495,7 +2500,7 @@
                     },
                     "description": "Снижает скорость передвижения цели на 30% на 12 сек. На цель может одновременно действовать только одно проклятие каждого чернокнижника.",
                     "cast_time": "Мгновенное",
-                    "power_cost": "Мана: 76",
+                    "power_cost": "Мана: 77",
                     "range": "Радиус действия: 30 м."
                   },
                   "talent_rank": 1
@@ -2557,7 +2562,7 @@
                       "name": "Судороги",
                       "id": 1316697
                     },
-                    "description": "Терзает цель изнутри, нанося 78 ед. урона от темной магии раз в 1 сек. в течение 6 сек. Во время поддержания ваши эффекты \"Вытягивание жизни\", \"Порча\" и \"Бич агонии\", действующие на цель, наносят периодический урон на 100% быстрее.",
+                    "description": "Терзает цель изнутри, нанося 80 ед. урона от темной магии раз в 1 сек. в течение 6 сек. Во время поддержания ваши эффекты \"Вытягивание жизни\", \"Порча\" и \"Бич агонии\", действующие на цель, наносят периодический урон на 100% быстрее.",
                     "cast_time": "Потоковое",
                     "power_cost": "Мана: 200",
                     "range": "Радиус действия: 30 м."
@@ -2587,14 +2592,14 @@
                       "name": "Демоническое облачение",
                       "id": 18697
                     },
-                    "description": "Повышает выносливость на 3%.",
+                    "description": "Повышает выносливость на 6%.",
                     "cast_time": "Пассивная"
                   },
-                  "talent_rank": 1
+                  "talent_rank": 2
                 }
               ],
               "specialization_name": "Демонология",
-              "spent_points": 1
+              "spent_points": 2
             }
           ]
         }
