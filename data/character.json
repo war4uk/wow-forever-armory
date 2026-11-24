@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-11-23T12:50:12.227672+00:00",
+  "fetched_at": "2026-11-24T02:14:40.131088+00:00",
   "region": "eu",
   "character_slug": "локт-арогар",
   "namespace": "profile-forever-eu",
@@ -49,8 +49,8 @@
         },
         "slug": "пве-моль"
       },
-      "level": 40,
-      "experience": 63640,
+      "level": 41,
+      "experience": 29068,
       "achievement_points": 0,
       "achievements": {
         "href": "https://eu.api.blizzard.com/profile/wow/character/%D0%BB%D0%BE%D0%BA%D1%82-%D0%B0%D1%80%D0%BE%D0%B3%D0%B0%D1%80/achievements?namespace=profile-forever-eu"
@@ -67,9 +67,9 @@
       "media": {
         "href": "https://eu.api.blizzard.com/profile/wow/character/%D0%BB%D0%BE%D0%BA%D1%82-%D0%B0%D1%80%D0%BE%D0%B3%D0%B0%D1%80/character-media?namespace=profile-forever-eu"
       },
-      "last_login_timestamp": 1795434264000,
-      "average_item_level": 36,
-      "equipped_item_level": 35,
+      "last_login_timestamp": 1795455087000,
+      "average_item_level": 38,
+      "equipped_item_level": 36,
       "specializations": {
         "href": "https://eu.api.blizzard.com/profile/wow/character/%D0%BB%D0%BE%D0%BA%D1%82-%D0%B0%D1%80%D0%BE%D0%B3%D0%B0%D1%80/specializations?namespace=profile-forever-eu"
       },
@@ -743,9 +743,9 @@
         {
           "item": {
             "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/14185?namespace=static-1.60.1_70399-forever-eu"
+              "href": "https://eu.api.blizzard.com/data/wow/item/274605?namespace=static-1.60.1_70399-forever-eu"
             },
-            "id": 14185
+            "id": 274605
           },
           "slot": {
             "type": "WAIST",
@@ -753,19 +753,16 @@
           },
           "quantity": 1,
           "context": 1,
-          "bonus_list": [
-            12761
-          ],
           "quality": {
-            "type": "UNCOMMON",
-            "name": "Необычное"
+            "type": "RARE",
+            "name": "Редкое"
           },
-          "name": "Кушак стража с аурой тьмы",
+          "name": "Пропитанный солью кушак",
           "media": {
             "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/media/item/14185?namespace=static-1.60.1_70399-forever-eu"
+              "href": "https://eu.api.blizzard.com/data/wow/media/item/274605?namespace=static-1.60.1_70399-forever-eu"
             },
-            "id": 14185
+            "id": 274605
           },
           "item_class": {
             "key": {
@@ -786,13 +783,13 @@
             "name": "Пояс"
           },
           "binding": {
-            "type": "ON_EQUIP",
-            "name": "Становится персональным при надевании"
+            "type": "ON_ACQUIRE",
+            "name": "Становится персональным при поднятии"
           },
           "armor": {
-            "value": 23,
+            "value": 33,
             "display": {
-              "display_string": "Броня: 23",
+              "display_string": "Броня: 33",
               "color": {
                 "r": 255,
                 "g": 255,
@@ -804,13 +801,63 @@
           "stats": [
             {
               "type": {
-                "type": "BONUS_STAT_SHADOW_DAMAGE_DONE",
-                "name": "Урон от темной магии"
+                "type": "INTELLECT",
+                "name": "к интеллекту"
               },
-              "value": 10,
+              "value": 9,
+              "display": {
+                "display_string": "+9 к интеллекту",
+                "color": {
+                  "r": 255,
+                  "g": 255,
+                  "b": 255,
+                  "a": 1.0
+                }
+              }
+            },
+            {
+              "type": {
+                "type": "SPELL_DAMAGE_DONE",
+                "name": "Урон от заклинаний"
+              },
+              "value": 9,
               "is_equip_bonus": true,
               "display": {
-                "display_string": "+10 Урон от темной магии",
+                "display_string": "+9 Урон от заклинаний",
+                "color": {
+                  "r": 0,
+                  "g": 255,
+                  "b": 0,
+                  "a": 1.0
+                }
+              }
+            },
+            {
+              "type": {
+                "type": "SPELL_HEALING_DONE",
+                "name": "Магическое лечение"
+              },
+              "value": 26,
+              "is_equip_bonus": true,
+              "display": {
+                "display_string": "+26 Магическое лечение",
+                "color": {
+                  "r": 0,
+                  "g": 255,
+                  "b": 0,
+                  "a": 1.0
+                }
+              }
+            },
+            {
+              "type": {
+                "type": "EXTRA_ARMOR",
+                "name": "к бонусу брони"
+              },
+              "value": 30,
+              "is_equip_bonus": true,
+              "display": {
+                "display_string": "+30 к бонусу брони",
                 "color": {
                   "r": 0,
                   "g": 255,
@@ -821,27 +868,27 @@
             }
           ],
           "sell_price": {
-            "value": 647,
+            "value": 2625,
             "display_strings": {
               "header": "Цена продажи:",
               "gold": "0",
-              "silver": "6",
-              "copper": "47"
+              "silver": "26",
+              "copper": "25"
             }
           },
           "requirements": {
             "level": {
-              "value": 22,
-              "display_string": "Требуется 22-й уровень"
+              "value": 35,
+              "display_string": "Требуется 35-й уровень"
             }
           },
           "level": {
-            "value": 27,
-            "display_string": "Уровень предмета: 27"
+            "value": 40,
+            "display_string": "Уровень предмета: 40"
           },
           "durability": {
-            "value": 25,
-            "display_string": "Прочность: 25 / 25"
+            "value": 30,
+            "display_string": "Прочность: 30 / 30"
           }
         },
         {
@@ -1856,26 +1903,42 @@
         {
           "item": {
             "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/6691?namespace=static-1.60.1_70399-forever-eu"
+              "href": "https://eu.api.blizzard.com/data/wow/item/279886?namespace=static-1.60.1_70399-forever-eu"
             },
-            "id": 6691
+            "id": 279886
           },
+          "enchantments": [
+            {
+              "display_string": "Камень чар 1",
+              "source_item": {
+                "key": {
+                  "href": "https://eu.api.blizzard.com/data/wow/item/5522?namespace=static-1.60.1_70399-forever-eu"
+                },
+                "name": "Камень чар",
+                "id": 5522
+              },
+              "enchantment_id": 8059,
+              "enchantment_slot": {
+                "id": 8
+              }
+            }
+          ],
           "slot": {
             "type": "MAIN_HAND",
             "name": "Правая рука"
           },
           "quantity": 1,
-          "context": 1,
+          "context": 11,
           "quality": {
             "type": "RARE",
             "name": "Редкое"
           },
-          "name": "Заточка Кабаньего клыка",
+          "name": "Жертвенный меч",
           "media": {
             "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/media/item/6691?namespace=static-1.60.1_70399-forever-eu"
+              "href": "https://eu.api.blizzard.com/data/wow/media/item/279886?namespace=static-1.60.1_70399-forever-eu"
             },
-            "id": 6691
+            "id": 279886
           },
           "item_class": {
             "key": {
@@ -1886,10 +1949,10 @@
           },
           "item_subclass": {
             "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/15?namespace=static-1.60.1_70399-forever-eu"
+              "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/7?namespace=static-1.60.1_70399-forever-eu"
             },
-            "name": "Кинжал",
-            "id": 15
+            "name": "Меч",
+            "id": 7
           },
           "inventory_type": {
             "type": "WEAPONMAINHAND",
@@ -1901,21 +1964,21 @@
           },
           "weapon": {
             "damage": {
-              "min_value": 16,
-              "max_value": 30,
-              "display_string": "Урон: 16-30",
+              "min_value": 25,
+              "max_value": 47,
+              "display_string": "Урон: 25-47",
               "damage_class": {
                 "type": "PHYSICAL",
                 "name": "физический"
               }
             },
             "attack_speed": {
-              "value": 1500,
-              "display_string": "Скорость 1,50"
+              "value": 1900,
+              "display_string": "Скорость 1,90"
             },
             "dps": {
-              "value": 15.333332,
-              "display_string": "(15,3 ед. урона в секунду)"
+              "value": 18.947367,
+              "display_string": "(18,9 ед. урона в секунду)"
             }
           },
           "stats": [
@@ -1924,9 +1987,9 @@
                 "type": "STAMINA",
                 "name": "к выносливости"
               },
-              "value": 6,
+              "value": 8,
               "display": {
-                "display_string": "+6 к выносливости",
+                "display_string": "+8 к выносливости",
                 "color": {
                   "r": 255,
                   "g": 255,
@@ -1940,10 +2003,10 @@
                 "type": "SPIRIT",
                 "name": "к духу"
               },
-              "value": 4,
+              "value": 5,
               "is_equip_bonus": true,
               "display": {
-                "display_string": "+4 к духу",
+                "display_string": "+5 к духу",
                 "color": {
                   "r": 0,
                   "g": 255,
@@ -1954,27 +2017,21 @@
             }
           ],
           "sell_price": {
-            "value": 8681,
+            "value": 14743,
             "display_strings": {
               "header": "Цена продажи:",
-              "gold": "0",
-              "silver": "86",
-              "copper": "81"
-            }
-          },
-          "requirements": {
-            "level": {
-              "value": 30,
-              "display_string": "Требуется 30-й уровень"
+              "gold": "1",
+              "silver": "47",
+              "copper": "43"
             }
           },
           "level": {
-            "value": 35,
-            "display_string": "Уровень предмета: 35"
+            "value": 42,
+            "display_string": "Уровень предмета: 42"
           },
           "durability": {
-            "value": 65,
-            "display_string": "Прочность: 65 / 65"
+            "value": 90,
+            "display_string": "Прочность: 90 / 90"
           }
         },
         {
@@ -2438,7 +2495,7 @@
                     },
                     "description": "Снижает скорость передвижения цели на 30% на 12 сек. На цель может одновременно действовать только одно проклятие каждого чернокнижника.",
                     "cast_time": "Мгновенное",
-                    "power_cost": "Мана: 74",
+                    "power_cost": "Мана: 76",
                     "range": "Радиус действия: 30 м."
                   },
                   "talent_rank": 1
@@ -2453,7 +2510,7 @@
                       "name": "Вытягивание жизни",
                       "id": 18265
                     },
-                    "description": "Вы похищаете у цели 23 ед. здоровья раз в 3 сек. и восполняете себе здоровье в том же объеме. Время действия – 30 сек.",
+                    "description": "Вы похищаете у цели 24 ед. здоровья раз в 3 сек. и восполняете себе здоровье в том же объеме. Время действия – 30 сек.",
                     "cast_time": "Мгновенное",
                     "power_cost": "Мана: 150",
                     "range": "Радиус действия: 30 м."
@@ -2500,7 +2557,7 @@
                       "name": "Судороги",
                       "id": 1316697
                     },
-                    "description": "Терзает цель изнутри, нанося 71 ед. урона от темной магии раз в 1 сек. в течение 6 сек. Во время поддержания ваши эффекты \"Вытягивание жизни\", \"Порча\" и \"Бич агонии\", действующие на цель, наносят периодический урон на 100% быстрее.",
+                    "description": "Терзает цель изнутри, нанося 78 ед. урона от темной магии раз в 1 сек. в течение 6 сек. Во время поддержания ваши эффекты \"Вытягивание жизни\", \"Порча\" и \"Бич агонии\", действующие на цель, наносят периодический урон на 100% быстрее.",
                     "cast_time": "Потоковое",
                     "power_cost": "Мана: 200",
                     "range": "Радиус действия: 30 м."
@@ -2510,6 +2567,34 @@
               ],
               "specialization_name": "Колдовство",
               "spent_points": 31
+            },
+            {
+              "specialization": {
+                "key": {
+                  "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/354?namespace=static-1.60.1_70399-forever-eu"
+                },
+                "name": "Демонология",
+                "id": 354
+              },
+              "talents": [
+                {
+                  "talent": {
+                    "name": "Демоническое облачение",
+                    "id": 135438
+                  },
+                  "spell_tooltip": {
+                    "spell": {
+                      "name": "Демоническое облачение",
+                      "id": 18697
+                    },
+                    "description": "Повышает выносливость на 3%.",
+                    "cast_time": "Пассивная"
+                  },
+                  "talent_rank": 1
+                }
+              ],
+              "specialization_name": "Демонология",
+              "spent_points": 1
             }
           ]
         }
@@ -2956,6 +3041,13 @@
                 },
                 {
                   "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/2399?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Spider Belt",
+                  "id": 2399
+                },
+                {
+                  "key": {
                     "href": "https://eu.api.blizzard.com/data/wow/recipe/2405?namespace=static-1.60.1_70399-forever-eu"
                   },
                   "name": "Formal White Shirt",
@@ -3376,7 +3468,7 @@
           },
           "tiers": [
             {
-              "skill_points": 179,
+              "skill_points": 181,
               "max_skill_points": 225,
               "tier": {
                 "name": "Fishing",
