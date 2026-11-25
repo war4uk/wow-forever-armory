@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-11-25T08:39:26.948603+00:00",
+  "fetched_at": "2026-11-25T19:19:07.298985+00:00",
   "region": "eu",
   "character_slug": "локт-арогар",
   "namespace": "profile-forever-eu",
@@ -50,7 +50,7 @@
         "slug": "пве-моль"
       },
       "level": 42,
-      "experience": 4996,
+      "experience": 49618,
       "achievement_points": 0,
       "achievements": {
         "href": "https://eu.api.blizzard.com/profile/wow/character/%D0%BB%D0%BE%D0%BA%D1%82-%D0%B0%D1%80%D0%BE%D0%B3%D0%B0%D1%80/achievements?namespace=profile-forever-eu"
@@ -67,9 +67,7 @@
       "media": {
         "href": "https://eu.api.blizzard.com/profile/wow/character/%D0%BB%D0%BE%D0%BA%D1%82-%D0%B0%D1%80%D0%BE%D0%B3%D0%B0%D1%80/character-media?namespace=profile-forever-eu"
       },
-      "last_login_timestamp": 1795545618000,
-      "average_item_level": 37,
-      "equipped_item_level": 36,
+      "last_login_timestamp": 1795625428000,
       "specializations": {
         "href": "https://eu.api.blizzard.com/profile/wow/character/%D0%BB%D0%BE%D0%BA%D1%82-%D0%B0%D1%80%D0%BE%D0%B3%D0%B0%D1%80/specializations?namespace=profile-forever-eu"
       },
@@ -222,10 +220,6 @@
               "display_string": "Требуется 40-й уровень"
             }
           },
-          "level": {
-            "value": 45,
-            "display_string": "Уровень предмета: 45"
-          },
           "durability": {
             "value": 45,
             "display_string": "Прочность: 45 / 45"
@@ -346,10 +340,6 @@
               "value": 40,
               "display_string": "Требуется 40-й уровень"
             }
-          },
-          "level": {
-            "value": 45,
-            "display_string": "Уровень предмета: 45"
           },
           "is_subclass_hidden": true
         },
@@ -478,13 +468,9 @@
               "display_string": "Требуется 30-й уровень"
             }
           },
-          "level": {
-            "value": 35,
-            "display_string": "Уровень предмета: 35"
-          },
           "durability": {
-            "value": 49,
-            "display_string": "Прочность: 49 / 50"
+            "value": 50,
+            "display_string": "Прочность: 50 / 50"
           }
         },
         {
@@ -541,10 +527,6 @@
               "silver": "55",
               "copper": "0"
             }
-          },
-          "level": {
-            "value": 1,
-            "display_string": "Уровень предмета: 1"
           },
           "is_subclass_hidden": true
         },
@@ -736,10 +718,6 @@
               "display_string": "Требуется 36-й уровень"
             }
           },
-          "level": {
-            "value": 41,
-            "display_string": "Уровень предмета: 41"
-          },
           "durability": {
             "value": 80,
             "display_string": "Прочность: 80 / 80"
@@ -748,9 +726,9 @@
         {
           "item": {
             "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/274605?namespace=static-1.60.1_70399-forever-eu"
+              "href": "https://eu.api.blizzard.com/data/wow/item/10771?namespace=static-1.60.1_70399-forever-eu"
             },
-            "id": 274605
+            "id": 10771
           },
           "slot": {
             "type": "WAIST",
@@ -762,12 +740,12 @@
             "type": "RARE",
             "name": "Редкое"
           },
-          "name": "Пропитанный солью кушак",
+          "name": "Кушак смертемага",
           "media": {
             "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/media/item/274605?namespace=static-1.60.1_70399-forever-eu"
+              "href": "https://eu.api.blizzard.com/data/wow/media/item/10771?namespace=static-1.60.1_70399-forever-eu"
             },
-            "id": 274605
+            "id": 10771
           },
           "item_class": {
             "key": {
@@ -809,9 +787,9 @@
                 "type": "INTELLECT",
                 "name": "к интеллекту"
               },
-              "value": 9,
+              "value": 15,
               "display": {
-                "display_string": "+9 к интеллекту",
+                "display_string": "+15 к интеллекту",
                 "color": {
                   "r": 255,
                   "g": 255,
@@ -822,47 +800,13 @@
             },
             {
               "type": {
-                "type": "SPELL_DAMAGE_DONE",
-                "name": "Урон от заклинаний"
+                "type": "SPELL_POWER",
+                "name": "к силе заклинаний"
               },
-              "value": 9,
+              "value": 7,
               "is_equip_bonus": true,
               "display": {
-                "display_string": "+9 Урон от заклинаний",
-                "color": {
-                  "r": 0,
-                  "g": 255,
-                  "b": 0,
-                  "a": 1.0
-                }
-              }
-            },
-            {
-              "type": {
-                "type": "SPELL_HEALING_DONE",
-                "name": "Магическое лечение"
-              },
-              "value": 26,
-              "is_equip_bonus": true,
-              "display": {
-                "display_string": "+26 Магическое лечение",
-                "color": {
-                  "r": 0,
-                  "g": 255,
-                  "b": 0,
-                  "a": 1.0
-                }
-              }
-            },
-            {
-              "type": {
-                "type": "EXTRA_ARMOR",
-                "name": "к бонусу брони"
-              },
-              "value": 30,
-              "is_equip_bonus": true,
-              "display": {
-                "display_string": "+30 к бонусу брони",
+                "display_string": "+7 к силе заклинаний",
                 "color": {
                   "r": 0,
                   "g": 255,
@@ -873,23 +817,19 @@
             }
           ],
           "sell_price": {
-            "value": 2625,
+            "value": 2858,
             "display_strings": {
               "header": "Цена продажи:",
               "gold": "0",
-              "silver": "26",
-              "copper": "25"
+              "silver": "28",
+              "copper": "58"
             }
           },
           "requirements": {
             "level": {
-              "value": 35,
-              "display_string": "Требуется 35-й уровень"
+              "value": 36,
+              "display_string": "Требуется 36-й уровень"
             }
-          },
-          "level": {
-            "value": 40,
-            "display_string": "Уровень предмета: 40"
           },
           "durability": {
             "value": 30,
@@ -1036,10 +976,6 @@
               "display_string": "Требуется 20-й уровень"
             }
           },
-          "level": {
-            "value": 25,
-            "display_string": "Уровень предмета: 25"
-          },
           "durability": {
             "value": 60,
             "display_string": "Прочность: 60 / 60"
@@ -1185,13 +1121,9 @@
               "display_string": "Требуется 30-й уровень"
             }
           },
-          "level": {
-            "value": 35,
-            "display_string": "Уровень предмета: 35"
-          },
           "durability": {
-            "value": 40,
-            "display_string": "Прочность: 40 / 40"
+            "value": 39,
+            "display_string": "Прочность: 39 / 40"
           }
         },
         {
@@ -1289,13 +1221,9 @@
               "display_string": "Требуется 30-й уровень"
             }
           },
-          "level": {
-            "value": 35,
-            "display_string": "Уровень предмета: 35"
-          },
           "durability": {
-            "value": 24,
-            "display_string": "Прочность: 24 / 25"
+            "value": 25,
+            "display_string": "Прочность: 25 / 25"
           }
         },
         {
@@ -1422,10 +1350,6 @@
               "display_string": "Требуется 40-й уровень"
             }
           },
-          "level": {
-            "value": 45,
-            "display_string": "Уровень предмета: 45"
-          },
           "durability": {
             "value": 30,
             "display_string": "Прочность: 30 / 30"
@@ -1521,18 +1445,14 @@
               "copper": "74"
             }
           },
-          "level": {
-            "value": 32,
-            "display_string": "Уровень предмета: 32"
-          },
           "is_subclass_hidden": true
         },
         {
           "item": {
             "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/279845?namespace=static-1.60.1_70399-forever-eu"
+              "href": "https://eu.api.blizzard.com/data/wow/item/270081?namespace=static-1.60.1_70399-forever-eu"
             },
-            "id": 279845
+            "id": 270081
           },
           "slot": {
             "type": "FINGER_2",
@@ -1541,15 +1461,15 @@
           "quantity": 1,
           "context": 11,
           "quality": {
-            "type": "UNCOMMON",
-            "name": "Необычное"
+            "type": "RARE",
+            "name": "Редкое"
           },
-          "name": "Кольцо из цельного золота",
+          "name": "Очищенное кольцо",
           "media": {
             "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/media/item/279845?namespace=static-1.60.1_70399-forever-eu"
+              "href": "https://eu.api.blizzard.com/data/wow/media/item/270081?namespace=static-1.60.1_70399-forever-eu"
             },
-            "id": 279845
+            "id": 270081
           },
           "item_class": {
             "key": {
@@ -1576,47 +1496,29 @@
           "stats": [
             {
               "type": {
-                "type": "SPELL_DAMAGE_DONE",
-                "name": "Урон от заклинаний"
+                "type": "INTELLECT",
+                "name": "к интеллекту"
               },
-              "value": 4,
-              "is_equip_bonus": true,
+              "value": 12,
               "display": {
-                "display_string": "+4 Урон от заклинаний",
+                "display_string": "+12 к интеллекту",
                 "color": {
-                  "r": 0,
+                  "r": 255,
                   "g": 255,
-                  "b": 0,
+                  "b": 255,
                   "a": 1.0
                 }
               }
             },
             {
               "type": {
-                "type": "SPELL_HEALING_DONE",
-                "name": "Магическое лечение"
-              },
-              "value": 11,
-              "is_equip_bonus": true,
-              "display": {
-                "display_string": "+11 Магическое лечение",
-                "color": {
-                  "r": 0,
-                  "g": 255,
-                  "b": 0,
-                  "a": 1.0
-                }
-              }
-            },
-            {
-              "type": {
-                "type": "SPIRIT",
-                "name": "к духу"
+                "type": "SPELL_POWER",
+                "name": "к силе заклинаний"
               },
               "value": 5,
               "is_equip_bonus": true,
               "display": {
-                "display_string": "+5 к духу",
+                "display_string": "+5 к силе заклинаний",
                 "color": {
                   "r": 0,
                   "g": 255,
@@ -1627,18 +1529,13 @@
             }
           ],
           "sell_price": {
-            "value": 10000,
+            "value": 7376,
             "display_strings": {
               "header": "Цена продажи:",
-              "gold": "1",
-              "silver": "0",
-              "copper": "0"
+              "gold": "0",
+              "silver": "73",
+              "copper": "76"
             }
-          },
-          "description": "Малая цена в обмен на грандиозные знания.",
-          "level": {
-            "value": 36,
-            "display_string": "Уровень предмета: 36"
           },
           "is_subclass_hidden": true
         },
@@ -1710,10 +1607,6 @@
             }
           },
           "description": "Некоторые зелья пить не рекомендуется.",
-          "level": {
-            "value": 33,
-            "display_string": "Уровень предмета: 33"
-          },
           "is_subclass_hidden": true
         },
         {
@@ -1783,10 +1676,6 @@
               "silver": "17",
               "copper": "15"
             }
-          },
-          "level": {
-            "value": 30,
-            "display_string": "Уровень предмета: 30"
           },
           "is_subclass_hidden": true
         },
@@ -1899,51 +1788,31 @@
               "display_string": "Требуется 25-й уровень"
             }
           },
-          "level": {
-            "value": 30,
-            "display_string": "Уровень предмета: 30"
-          },
           "is_subclass_hidden": true
         },
         {
           "item": {
             "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/279886?namespace=static-1.60.1_70399-forever-eu"
+              "href": "https://eu.api.blizzard.com/data/wow/item/6365?namespace=static-1.60.1_70399-forever-eu"
             },
-            "id": 279886
+            "id": 6365
           },
-          "enchantments": [
-            {
-              "display_string": "Камень чар 1",
-              "source_item": {
-                "key": {
-                  "href": "https://eu.api.blizzard.com/data/wow/item/5522?namespace=static-1.60.1_70399-forever-eu"
-                },
-                "name": "Камень чар",
-                "id": 5522
-              },
-              "enchantment_id": 8059,
-              "enchantment_slot": {
-                "id": 8
-              }
-            }
-          ],
           "slot": {
             "type": "MAIN_HAND",
             "name": "Правая рука"
           },
           "quantity": 1,
-          "context": 11,
+          "context": 14,
           "quality": {
-            "type": "RARE",
-            "name": "Редкое"
+            "type": "COMMON",
+            "name": "Обычное"
           },
-          "name": "Жертвенный меч",
+          "name": "Крепкая удочка",
           "media": {
             "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/media/item/279886?namespace=static-1.60.1_70399-forever-eu"
+              "href": "https://eu.api.blizzard.com/data/wow/media/item/6365?namespace=static-1.60.1_70399-forever-eu"
             },
-            "id": 279886
+            "id": 6365
           },
           "item_class": {
             "key": {
@@ -1954,64 +1823,44 @@
           },
           "item_subclass": {
             "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/7?namespace=static-1.60.1_70399-forever-eu"
+              "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/20?namespace=static-1.60.1_70399-forever-eu"
             },
-            "name": "Меч",
-            "id": 7
+            "name": "Удочка",
+            "id": 20
           },
           "inventory_type": {
-            "type": "WEAPONMAINHAND",
-            "name": "Правая рука"
-          },
-          "binding": {
-            "type": "ON_ACQUIRE",
-            "name": "Становится персональным при поднятии"
+            "type": "TWOHWEAPON",
+            "name": "Двуручное"
           },
           "weapon": {
             "damage": {
-              "min_value": 25,
-              "max_value": 47,
-              "display_string": "Урон: 25-47",
+              "min_value": 13,
+              "max_value": 21,
+              "display_string": "Урон: 13-21",
               "damage_class": {
                 "type": "PHYSICAL",
                 "name": "физический"
               }
             },
             "attack_speed": {
-              "value": 1900,
-              "display_string": "Скорость 1,90"
+              "value": 3000,
+              "display_string": "Скорость 3,00"
             },
             "dps": {
-              "value": 18.947367,
-              "display_string": "(18,9 ед. урона в секунду)"
+              "value": 5.666666,
+              "display_string": "(5,7 ед. урона в секунду)"
             }
           },
           "stats": [
             {
               "type": {
-                "type": "STAMINA",
-                "name": "к выносливости"
-              },
-              "value": 8,
-              "display": {
-                "display_string": "+8 к выносливости",
-                "color": {
-                  "r": 255,
-                  "g": 255,
-                  "b": 255,
-                  "a": 1.0
-                }
-              }
-            },
-            {
-              "type": {
-                "type": "SPIRIT",
-                "name": "к духу"
+                "type": "BONUS_STAT_FISHING_SKILL,",
+                "name": "Навык рыбной ловли"
               },
               "value": 5,
               "is_equip_bonus": true,
               "display": {
-                "display_string": "+5 к духу",
+                "display_string": "+5 Навык рыбной ловли",
                 "color": {
                   "r": 0,
                   "g": 255,
@@ -2022,144 +1871,35 @@
             }
           ],
           "sell_price": {
-            "value": 14743,
-            "display_strings": {
-              "header": "Цена продажи:",
-              "gold": "1",
-              "silver": "47",
-              "copper": "43"
-            }
-          },
-          "level": {
-            "value": 42,
-            "display_string": "Уровень предмета: 42"
-          },
-          "durability": {
-            "value": 90,
-            "display_string": "Прочность: 90 / 90"
-          }
-        },
-        {
-          "item": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/15108?namespace=static-1.60.1_70399-forever-eu"
-            },
-            "id": 15108
-          },
-          "slot": {
-            "type": "OFF_HAND",
-            "name": "Левая рука"
-          },
-          "quantity": 1,
-          "context": 11,
-          "quality": {
-            "type": "RARE",
-            "name": "Редкое"
-          },
-          "name": "Сфера Дар'орахила",
-          "media": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/media/item/15108?namespace=static-1.60.1_70399-forever-eu"
-            },
-            "id": 15108
-          },
-          "item_class": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-1.60.1_70399-forever-eu"
-            },
-            "name": "Доспехи",
-            "id": 4
-          },
-          "item_subclass": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-1.60.1_70399-forever-eu"
-            },
-            "name": "Разное",
-            "id": 0
-          },
-          "inventory_type": {
-            "type": "HOLDABLE",
-            "name": "Левая рука"
-          },
-          "binding": {
-            "type": "ON_ACQUIRE",
-            "name": "Становится персональным при поднятии"
-          },
-          "stats": [
-            {
-              "type": {
-                "type": "INTELLECT",
-                "name": "к интеллекту"
-              },
-              "value": 5,
-              "display": {
-                "display_string": "+5 к интеллекту",
-                "color": {
-                  "r": 255,
-                  "g": 255,
-                  "b": 255,
-                  "a": 1.0
-                }
-              }
-            },
-            {
-              "type": {
-                "type": "BONUS_STAT_SHADOW_DAMAGE_DONE",
-                "name": "Урон от темной магии"
-              },
-              "value": 14,
-              "is_equip_bonus": true,
-              "display": {
-                "display_string": "+14 Урон от темной магии",
-                "color": {
-                  "r": 0,
-                  "g": 255,
-                  "b": 0,
-                  "a": 1.0
-                }
-              }
-            }
-          ],
-          "spells": [
-            {
-              "spell": {
-                "key": {
-                  "href": "https://eu.api.blizzard.com/data/wow/spell/18957?namespace=static-1.60.1_70399-forever-eu"
-                },
-                "name": "Восстановление жизни",
-                "id": 18957
-              },
-              "description": "Использование: Восполнение 40 ед. здоровья раз в 3 сек. в течение 30 сек. (Восстановление: 30 мин.)"
-            }
-          ],
-          "sell_price": {
-            "value": 5000,
+            "value": 180,
             "display_strings": {
               "header": "Цена продажи:",
               "gold": "0",
-              "silver": "50",
-              "copper": "0"
+              "silver": "1",
+              "copper": "80"
             }
           },
           "requirements": {
-            "playable_classes": {
-              "links": [
-                {
-                  "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/playable-class/9?namespace=static-1.60.1_70399-forever-eu"
-                  },
-                  "name": "Чернокнижник",
-                  "id": 9
-                }
-              ],
-              "display_string": "Классы: Чернокнижник"
+            "level": {
+              "value": 5,
+              "display_string": "Требуется 5-й уровень"
+            },
+            "skill": {
+              "profession": {
+                "key": {
+                  "href": "https://eu.api.blizzard.com/data/wow/profession/356?namespace=static-1.60.1_70399-forever-eu"
+                },
+                "name": "Рыбная ловля",
+                "id": 356
+              },
+              "level": 10,
+              "display_string": "Требуется: Рыбная ловля (10)"
             }
           },
-          "level": {
-            "value": 40,
-            "display_string": "Уровень предмета: 40"
-          },
-          "is_subclass_hidden": true
+          "durability": {
+            "value": 25,
+            "display_string": "Прочность: 25 / 25"
+          }
         },
         {
           "item": {
@@ -2271,13 +2011,9 @@
               "copper": "75"
             }
           },
-          "level": {
-            "value": 29,
-            "display_string": "Уровень предмета: 29"
-          },
           "durability": {
-            "value": 64,
-            "display_string": "Прочность: 64 / 65"
+            "value": 65,
+            "display_string": "Прочность: 65 / 65"
           }
         },
         {
@@ -2330,10 +2066,6 @@
               "silver": "25",
               "copper": "0"
             }
-          },
-          "level": {
-            "value": 1,
-            "display_string": "Уровень предмета: 1"
           },
           "is_subclass_hidden": true
         }
@@ -2515,7 +2247,7 @@
                       "name": "Вытягивание жизни",
                       "id": 18265
                     },
-                    "description": "Вы похищаете у цели 24 ед. здоровья раз в 3 сек. и восполняете себе здоровье в том же объеме. Время действия – 30 сек.",
+                    "description": "Вы похищаете у цели 20 ед. здоровья раз в 3 сек. и восполняете себе здоровье в том же объеме. Время действия – 30 сек.",
                     "cast_time": "Мгновенное",
                     "power_cost": "Мана: 150",
                     "range": "Радиус действия: 30 м."
@@ -2562,7 +2294,7 @@
                       "name": "Судороги",
                       "id": 1316697
                     },
-                    "description": "Терзает цель изнутри, нанося 80 ед. урона от темной магии раз в 1 сек. в течение 6 сек. Во время поддержания ваши эффекты \"Вытягивание жизни\", \"Порча\" и \"Бич агонии\", действующие на цель, наносят периодический урон на 100% быстрее.",
+                    "description": "Терзает цель изнутри, нанося 63 ед. урона от темной магии раз в 1 сек. в течение 6 сек. Во время поддержания ваши эффекты \"Вытягивание жизни\", \"Порча\" и \"Бич агонии\", действующие на цель, наносят периодический урон на 100% быстрее.",
                     "cast_time": "Потоковое",
                     "power_cost": "Мана: 200",
                     "range": "Радиус действия: 30 м."
@@ -2640,10 +2372,171 @@
               "known_recipes": [
                 {
                   "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/recipe/2387?namespace=static-1.60.1_70399-forever-eu"
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/4408?namespace=static-1.60.1_70399-forever-eu"
                   },
-                  "name": "Heavy Woolen Pants",
-                  "id": 2387
+                  "name": "Stylish Blue Shirt",
+                  "id": 4408
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/6577?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Simple Linen Boots",
+                  "id": 6577
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/6578?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Simple Kilt",
+                  "id": 6578
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/4867?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Hands of Darkness",
+                  "id": 4867
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/4872?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Crimson Silk Vest",
+                  "id": 4872
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/4873?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Crimson Silk Shoulders",
+                  "id": 4873
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/4876?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Crimson Silk Pantaloons",
+                  "id": 4876
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/55423?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Novice Arcanist's Sash",
+                  "id": 55423
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/6576?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Simple Linen Pants",
+                  "id": 6576
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/2397?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Long Silken Cloak",
+                  "id": 2397
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/2399?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Spider Belt",
+                  "id": 2399
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/2401?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Stylish Red Shirt",
+                  "id": 2401
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/2404?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Dark Silk Shirt",
+                  "id": 2404
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/2405?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Formal White Shirt",
+                  "id": 2405
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/2408?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Brown Linen Pants",
+                  "id": 2408
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/2409?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Brown Linen Shirt",
+                  "id": 2409
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/6579?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Colorful Kilt",
+                  "id": 6579
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/6580?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Black Mageweave Vest",
+                  "id": 6580
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/6581?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Black Mageweave Leggings",
+                  "id": 6581
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/6591?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Stormcloth Gloves",
+                  "id": 6591
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/4848?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Linen Belt",
+                  "id": 4848
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/4849?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Azure Silk Pants",
+                  "id": 4849
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/4850?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Azure Silk Hood",
+                  "id": 4850
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/4851?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Silk Headband",
+                  "id": 4851
                 },
                 {
                   "key": {
@@ -2651,13 +2544,6 @@
                   },
                   "name": "Earthen Vest",
                   "id": 4852
-                },
-                {
-                  "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/recipe/2383?namespace=static-1.60.1_70399-forever-eu"
-                  },
-                  "name": "Soft-soled Linen Boots",
-                  "id": 2383
                 },
                 {
                   "key": {
@@ -2675,451 +2561,10 @@
                 },
                 {
                   "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/recipe/3973?namespace=static-1.60.1_70399-forever-eu"
-                  },
-                  "name": "Pearl-clasped Cloak",
-                  "id": 3973
-                },
-                {
-                  "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/recipe/4873?namespace=static-1.60.1_70399-forever-eu"
-                  },
-                  "name": "Crimson Silk Shoulders",
-                  "id": 4873
-                },
-                {
-                  "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/recipe/2359?namespace=static-1.60.1_70399-forever-eu"
-                  },
-                  "name": "Bolt of Linen Cloth",
-                  "id": 2359
-                },
-                {
-                  "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/recipe/2408?namespace=static-1.60.1_70399-forever-eu"
-                  },
-                  "name": "Brown Linen Pants",
-                  "id": 2408
-                },
-                {
-                  "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/recipe/4849?namespace=static-1.60.1_70399-forever-eu"
-                  },
-                  "name": "Azure Silk Pants",
-                  "id": 4849
-                },
-                {
-                  "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/recipe/6578?namespace=static-1.60.1_70399-forever-eu"
-                  },
-                  "name": "Simple Kilt",
-                  "id": 6578
-                },
-                {
-                  "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/recipe/2376?namespace=static-1.60.1_70399-forever-eu"
-                  },
-                  "name": "Bolt of Silk Cloth",
-                  "id": 2376
-                },
-                {
-                  "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/recipe/55434?namespace=static-1.60.1_70399-forever-eu"
-                  },
-                  "name": "Filigreed Shadow Gown",
-                  "id": 55434
-                },
-                {
-                  "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/recipe/4848?namespace=static-1.60.1_70399-forever-eu"
-                  },
-                  "name": "Linen Belt",
-                  "id": 4848
-                },
-                {
-                  "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/recipe/2381?namespace=static-1.60.1_70399-forever-eu"
-                  },
-                  "name": "Heavy Woolen Gloves",
-                  "id": 2381
-                },
-                {
-                  "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/recipe/55423?namespace=static-1.60.1_70399-forever-eu"
-                  },
-                  "name": "Novice Arcanist's Sash",
-                  "id": 55423
-                },
-                {
-                  "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/recipe/2409?namespace=static-1.60.1_70399-forever-eu"
-                  },
-                  "name": "Brown Linen Shirt",
-                  "id": 2409
-                },
-                {
-                  "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/recipe/2367?namespace=static-1.60.1_70399-forever-eu"
-                  },
-                  "name": "Reinforced Linen Cape",
-                  "id": 2367
-                },
-                {
-                  "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/recipe/2363?namespace=static-1.60.1_70399-forever-eu"
-                  },
-                  "name": "Linen Boots",
-                  "id": 2363
-                },
-                {
-                  "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/recipe/2372?namespace=static-1.60.1_70399-forever-eu"
-                  },
-                  "name": "Green Woolen Vest",
-                  "id": 2372
-                },
-                {
-                  "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/recipe/2369?namespace=static-1.60.1_70399-forever-eu"
-                  },
-                  "name": "Green Linen Shirt",
-                  "id": 2369
-                },
-                {
-                  "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/recipe/2391?namespace=static-1.60.1_70399-forever-eu"
-                  },
-                  "name": "Spidersilk Boots",
-                  "id": 2391
-                },
-                {
-                  "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/recipe/2380?namespace=static-1.60.1_70399-forever-eu"
-                  },
-                  "name": "Handstitched Linen Britches",
-                  "id": 2380
-                },
-                {
-                  "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/recipe/6580?namespace=static-1.60.1_70399-forever-eu"
-                  },
-                  "name": "Black Mageweave Vest",
-                  "id": 6580
-                },
-                {
-                  "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/recipe/2360?namespace=static-1.60.1_70399-forever-eu"
-                  },
-                  "name": "Linen Cloak",
-                  "id": 2360
-                },
-                {
-                  "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/recipe/2373?namespace=static-1.60.1_70399-forever-eu"
-                  },
-                  "name": "Woolen Boots",
-                  "id": 2373
-                },
-                {
-                  "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/recipe/2370?namespace=static-1.60.1_70399-forever-eu"
-                  },
-                  "name": "Bolt of Woolen Cloth",
-                  "id": 2370
-                },
-                {
-                  "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/recipe/6577?namespace=static-1.60.1_70399-forever-eu"
-                  },
-                  "name": "Simple Linen Boots",
-                  "id": 6577
-                },
-                {
-                  "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/recipe/4708?namespace=static-1.60.1_70399-forever-eu"
-                  },
-                  "name": "Simple Dress",
-                  "id": 4708
-                },
-                {
-                  "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/recipe/4303?namespace=static-1.60.1_70399-forever-eu"
-                  },
-                  "name": "White Linen Robe",
-                  "id": 4303
-                },
-                {
-                  "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/recipe/4001?namespace=static-1.60.1_70399-forever-eu"
-                  },
-                  "name": "Linen Bag",
-                  "id": 4001
-                },
-                {
-                  "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/recipe/55484?namespace=static-1.60.1_70399-forever-eu"
-                  },
-                  "name": "Black Slippers",
-                  "id": 55484
-                },
-                {
-                  "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/recipe/2365?namespace=static-1.60.1_70399-forever-eu"
-                  },
-                  "name": "White Linen Shirt",
-                  "id": 2365
-                },
-                {
-                  "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/recipe/2375?namespace=static-1.60.1_70399-forever-eu"
-                  },
-                  "name": "Gray Woolen Shirt",
-                  "id": 2375
-                },
-                {
-                  "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/recipe/4850?namespace=static-1.60.1_70399-forever-eu"
-                  },
-                  "name": "Azure Silk Hood",
-                  "id": 4850
-                },
-                {
-                  "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/recipe/4020?namespace=static-1.60.1_70399-forever-eu"
-                  },
-                  "name": "Red Woolen Bag",
-                  "id": 4020
-                },
-                {
-                  "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/recipe/2366?namespace=static-1.60.1_70399-forever-eu"
-                  },
-                  "name": "Blue Linen Shirt",
-                  "id": 2366
-                },
-                {
-                  "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/recipe/4308?namespace=static-1.60.1_70399-forever-eu"
-                  },
-                  "name": "Blue Overalls",
-                  "id": 4308
-                },
-                {
-                  "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/recipe/55367?namespace=static-1.60.1_70399-forever-eu"
-                  },
-                  "name": "Woolen Reagent Bag",
-                  "id": 55367
-                },
-                {
-                  "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/recipe/4867?namespace=static-1.60.1_70399-forever-eu"
-                  },
-                  "name": "Hands of Darkness",
-                  "id": 4867
-                },
-                {
-                  "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/recipe/2364?namespace=static-1.60.1_70399-forever-eu"
-                  },
-                  "name": "Red Linen Shirt",
-                  "id": 2364
-                },
-                {
-                  "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/recipe/4021?namespace=static-1.60.1_70399-forever-eu"
-                  },
-                  "name": "Lesser Wizard's Robe",
-                  "id": 4021
-                },
-                {
-                  "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/recipe/55482?namespace=static-1.60.1_70399-forever-eu"
-                  },
-                  "name": "Frothing Slippers",
-                  "id": 55482
-                },
-                {
-                  "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/recipe/55481?namespace=static-1.60.1_70399-forever-eu"
-                  },
-                  "name": "Gilded Slippers",
-                  "id": 55481
-                },
-                {
-                  "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/recipe/4715?namespace=static-1.60.1_70399-forever-eu"
-                  },
-                  "name": "White Swashbuckler's Shirt",
-                  "id": 4715
-                },
-                {
-                  "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/recipe/4876?namespace=static-1.60.1_70399-forever-eu"
-                  },
-                  "name": "Crimson Silk Pantaloons",
-                  "id": 4876
-                },
-                {
-                  "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/recipe/2379?namespace=static-1.60.1_70399-forever-eu"
-                  },
-                  "name": "Green Linen Bracers",
-                  "id": 2379
-                },
-                {
-                  "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/recipe/4872?namespace=static-1.60.1_70399-forever-eu"
-                  },
-                  "name": "Crimson Silk Vest",
-                  "id": 4872
-                },
-                {
-                  "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/recipe/4003?namespace=static-1.60.1_70399-forever-eu"
-                  },
-                  "name": "Small Silk Pack",
-                  "id": 4003
-                },
-                {
-                  "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/recipe/4311?namespace=static-1.60.1_70399-forever-eu"
-                  },
-                  "name": "Greater Adept's Robe",
-                  "id": 4311
-                },
-                {
-                  "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/recipe/2368?namespace=static-1.60.1_70399-forever-eu"
-                  },
-                  "name": "Barbaric Linen Vest",
-                  "id": 2368
-                },
-                {
-                  "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/recipe/6591?namespace=static-1.60.1_70399-forever-eu"
-                  },
-                  "name": "Stormcloth Gloves",
-                  "id": 6591
-                },
-                {
-                  "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/recipe/4709?namespace=static-1.60.1_70399-forever-eu"
-                  },
-                  "name": "White Woolen Dress",
-                  "id": 4709
-                },
-                {
-                  "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/recipe/55485?namespace=static-1.60.1_70399-forever-eu"
-                  },
-                  "name": "Golden Slippers",
-                  "id": 55485
-                },
-                {
-                  "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/recipe/55483?namespace=static-1.60.1_70399-forever-eu"
-                  },
-                  "name": "Fiery Slippers",
-                  "id": 55483
-                },
-                {
-                  "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/recipe/2397?namespace=static-1.60.1_70399-forever-eu"
-                  },
-                  "name": "Long Silken Cloak",
-                  "id": 2397
-                },
-                {
-                  "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/recipe/2385?namespace=static-1.60.1_70399-forever-eu"
-                  },
-                  "name": "Double-stitched Woolen Shoulders",
-                  "id": 2385
-                },
-                {
-                  "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/recipe/2389?namespace=static-1.60.1_70399-forever-eu"
-                  },
-                  "name": "Gloves of Meditation",
-                  "id": 2389
-                },
-                {
-                  "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/recipe/2399?namespace=static-1.60.1_70399-forever-eu"
-                  },
-                  "name": "Spider Belt",
-                  "id": 2399
-                },
-                {
-                  "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/recipe/2405?namespace=static-1.60.1_70399-forever-eu"
-                  },
-                  "name": "Formal White Shirt",
-                  "id": 2405
-                },
-                {
-                  "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/recipe/6581?namespace=static-1.60.1_70399-forever-eu"
-                  },
-                  "name": "Black Mageweave Leggings",
-                  "id": 6581
-                },
-                {
-                  "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/recipe/4714?namespace=static-1.60.1_70399-forever-eu"
-                  },
-                  "name": "Red Swashbuckler's Shirt",
-                  "id": 4714
-                },
-                {
-                  "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/recipe/55424?namespace=static-1.60.1_70399-forever-eu"
-                  },
-                  "name": "Novice Ardent's Sash",
-                  "id": 55424
-                },
-                {
-                  "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/recipe/55452?namespace=static-1.60.1_70399-forever-eu"
-                  },
-                  "name": "Filigreed Shadow Leggings",
-                  "id": 55452
-                },
-                {
-                  "key": {
                     "href": "https://eu.api.blizzard.com/data/wow/recipe/4855?namespace=static-1.60.1_70399-forever-eu"
                   },
                   "name": "Crimson Silk Belt",
                   "id": 4855
-                },
-                {
-                  "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/recipe/4851?namespace=static-1.60.1_70399-forever-eu"
-                  },
-                  "name": "Silk Headband",
-                  "id": 4851
-                },
-                {
-                  "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/recipe/52648?namespace=static-1.60.1_70399-forever-eu"
-                  },
-                  "name": "Faction Banner",
-                  "id": 52648
-                },
-                {
-                  "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/recipe/2395?namespace=static-1.60.1_70399-forever-eu"
-                  },
-                  "name": "Azure Silk Vest",
-                  "id": 2395
-                },
-                {
-                  "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/recipe/55458?namespace=static-1.60.1_70399-forever-eu"
-                  },
-                  "name": "Shadow Circlet",
-                  "id": 55458
                 },
                 {
                   "key": {
@@ -3130,66 +2575,17 @@
                 },
                 {
                   "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/recipe/4302?namespace=static-1.60.1_70399-forever-eu"
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/2359?namespace=static-1.60.1_70399-forever-eu"
                   },
-                  "name": "Brown Linen Robe",
-                  "id": 4302
+                  "name": "Bolt of Linen Cloth",
+                  "id": 2359
                 },
                 {
                   "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/recipe/2401?namespace=static-1.60.1_70399-forever-eu"
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/2360?namespace=static-1.60.1_70399-forever-eu"
                   },
-                  "name": "Stylish Red Shirt",
-                  "id": 2401
-                },
-                {
-                  "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/recipe/2378?namespace=static-1.60.1_70399-forever-eu"
-                  },
-                  "name": "Heavy Linen Gloves",
-                  "id": 2378
-                },
-                {
-                  "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/recipe/2371?namespace=static-1.60.1_70399-forever-eu"
-                  },
-                  "name": "Woolen Cape",
-                  "id": 2371
-                },
-                {
-                  "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/recipe/55486?namespace=static-1.60.1_70399-forever-eu"
-                  },
-                  "name": "Radiant Slippers",
-                  "id": 55486
-                },
-                {
-                  "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/recipe/6579?namespace=static-1.60.1_70399-forever-eu"
-                  },
-                  "name": "Colorful Kilt",
-                  "id": 6579
-                },
-                {
-                  "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/recipe/4408?namespace=static-1.60.1_70399-forever-eu"
-                  },
-                  "name": "Stylish Blue Shirt",
-                  "id": 4408
-                },
-                {
-                  "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/recipe/4002?namespace=static-1.60.1_70399-forever-eu"
-                  },
-                  "name": "Woolen Bag",
-                  "id": 4002
-                },
-                {
-                  "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/recipe/2404?namespace=static-1.60.1_70399-forever-eu"
-                  },
-                  "name": "Dark Silk Shirt",
-                  "id": 2404
+                  "name": "Linen Cloak",
+                  "id": 2360
                 },
                 {
                   "key": {
@@ -3200,10 +2596,94 @@
                 },
                 {
                   "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/recipe/6576?namespace=static-1.60.1_70399-forever-eu"
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/2363?namespace=static-1.60.1_70399-forever-eu"
                   },
-                  "name": "Simple Linen Pants",
-                  "id": 6576
+                  "name": "Linen Boots",
+                  "id": 2363
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/2364?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Red Linen Shirt",
+                  "id": 2364
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/2365?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "White Linen Shirt",
+                  "id": 2365
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/2366?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Blue Linen Shirt",
+                  "id": 2366
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/2367?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Reinforced Linen Cape",
+                  "id": 2367
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/2368?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Barbaric Linen Vest",
+                  "id": 2368
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/2369?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Green Linen Shirt",
+                  "id": 2369
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/2370?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Bolt of Woolen Cloth",
+                  "id": 2370
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/2371?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Woolen Cape",
+                  "id": 2371
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/2372?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Green Woolen Vest",
+                  "id": 2372
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/2373?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Woolen Boots",
+                  "id": 2373
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/2375?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Gray Woolen Shirt",
+                  "id": 2375
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/2376?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Bolt of Silk Cloth",
+                  "id": 2376
                 },
                 {
                   "key": {
@@ -3214,10 +2694,262 @@
                 },
                 {
                   "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/2378?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Heavy Linen Gloves",
+                  "id": 2378
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/2379?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Green Linen Bracers",
+                  "id": 2379
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/2380?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Handstitched Linen Britches",
+                  "id": 2380
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/2381?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Heavy Woolen Gloves",
+                  "id": 2381
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/2383?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Soft-soled Linen Boots",
+                  "id": 2383
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/2385?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Double-stitched Woolen Shoulders",
+                  "id": 2385
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/2387?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Heavy Woolen Pants",
+                  "id": 2387
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/2389?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Gloves of Meditation",
+                  "id": 2389
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/2391?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Spidersilk Boots",
+                  "id": 2391
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/2395?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Azure Silk Vest",
+                  "id": 2395
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/3973?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Pearl-clasped Cloak",
+                  "id": 3973
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/4001?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Linen Bag",
+                  "id": 4001
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/4002?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Woolen Bag",
+                  "id": 4002
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/4003?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Small Silk Pack",
+                  "id": 4003
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/4020?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Red Woolen Bag",
+                  "id": 4020
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/4021?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Lesser Wizard's Robe",
+                  "id": 4021
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/4714?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Red Swashbuckler's Shirt",
+                  "id": 4714
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/4715?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "White Swashbuckler's Shirt",
+                  "id": 4715
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/4708?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Simple Dress",
+                  "id": 4708
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/4709?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "White Woolen Dress",
+                  "id": 4709
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/4302?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Brown Linen Robe",
+                  "id": 4302
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/4303?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "White Linen Robe",
+                  "id": 4303
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/4308?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Blue Overalls",
+                  "id": 4308
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/4311?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Greater Adept's Robe",
+                  "id": 4311
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/52648?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Faction Banner",
+                  "id": 52648
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/55424?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Novice Ardent's Sash",
+                  "id": 55424
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/55434?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Filigreed Shadow Gown",
+                  "id": 55434
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/55452?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Filigreed Shadow Leggings",
+                  "id": 55452
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/55458?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Shadow Circlet",
+                  "id": 55458
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/55481?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Gilded Slippers",
+                  "id": 55481
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/55482?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Frothing Slippers",
+                  "id": 55482
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/55483?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Fiery Slippers",
+                  "id": 55483
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/55484?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Black Slippers",
+                  "id": 55484
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/55485?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Golden Slippers",
+                  "id": 55485
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/55486?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Radiant Slippers",
+                  "id": 55486
+                },
+                {
+                  "key": {
                     "href": "https://eu.api.blizzard.com/data/wow/recipe/55366?namespace=static-1.60.1_70399-forever-eu"
                   },
                   "name": "Linen Reagent Bag",
                   "id": 55366
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/55367?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Woolen Reagent Bag",
+                  "id": 55367
                 }
               ]
             }
@@ -3242,17 +2974,10 @@
               "known_recipes": [
                 {
                   "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/recipe/3324?namespace=static-1.60.1_70399-forever-eu"
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/1846?namespace=static-1.60.1_70399-forever-eu"
                   },
-                  "name": "Smelt Copper",
-                  "id": 3324
-                },
-                {
-                  "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/recipe/1570?namespace=static-1.60.1_70399-forever-eu"
-                  },
-                  "name": "Mining",
-                  "id": 1570
+                  "name": "Smelt Gold",
+                  "id": 1846
                 },
                 {
                   "key": {
@@ -3263,10 +2988,17 @@
                 },
                 {
                   "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/recipe/1600?namespace=static-1.60.1_70399-forever-eu"
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/1848?namespace=static-1.60.1_70399-forever-eu"
                   },
-                  "name": "Smelt Bronze",
-                  "id": 1600
+                  "name": "Smelt Tin",
+                  "id": 1848
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/1570?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Mining",
+                  "id": 1570
                 },
                 {
                   "key": {
@@ -3277,31 +3009,17 @@
                 },
                 {
                   "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/recipe/5387?namespace=static-1.60.1_70399-forever-eu"
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/1599?namespace=static-1.60.1_70399-forever-eu"
                   },
-                  "name": "Smelt Mithril",
-                  "id": 5387
+                  "name": "Smelt Silver",
+                  "id": 1599
                 },
                 {
                   "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/recipe/1846?namespace=static-1.60.1_70399-forever-eu"
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/1600?namespace=static-1.60.1_70399-forever-eu"
                   },
-                  "name": "Smelt Gold",
-                  "id": 1846
-                },
-                {
-                  "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/recipe/1848?namespace=static-1.60.1_70399-forever-eu"
-                  },
-                  "name": "Smelt Tin",
-                  "id": 1848
-                },
-                {
-                  "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/recipe/52643?namespace=static-1.60.1_70399-forever-eu"
-                  },
-                  "name": "Lodestone",
-                  "id": 52643
+                  "name": "Smelt Bronze",
+                  "id": 1600
                 },
                 {
                   "key": {
@@ -3312,10 +3030,24 @@
                 },
                 {
                   "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/recipe/1599?namespace=static-1.60.1_70399-forever-eu"
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/3324?namespace=static-1.60.1_70399-forever-eu"
                   },
-                  "name": "Smelt Silver",
-                  "id": 1599
+                  "name": "Smelt Copper",
+                  "id": 3324
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/5387?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Smelt Mithril",
+                  "id": 5387
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/52643?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Lodestone",
+                  "id": 52643
                 }
               ]
             }
@@ -3342,94 +3074,10 @@
               "known_recipes": [
                 {
                   "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/recipe/4786?namespace=static-1.60.1_70399-forever-eu"
-                  },
-                  "name": "Herb Baked Egg",
-                  "id": 4786
-                },
-                {
-                  "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/recipe/54502?namespace=static-1.60.1_70399-forever-eu"
-                  },
-                  "name": "Twice-Spiced Raptor Slice",
-                  "id": 54502
-                },
-                {
-                  "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/recipe/3931?namespace=static-1.60.1_70399-forever-eu"
-                  },
-                  "name": "Dig Rat Stew",
-                  "id": 3931
-                },
-                {
-                  "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/recipe/54504?namespace=static-1.60.1_70399-forever-eu"
-                  },
-                  "name": "Tasty Raptor Bites",
-                  "id": 54504
-                },
-                {
-                  "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/recipe/1543?namespace=static-1.60.1_70399-forever-eu"
-                  },
-                  "name": "Crab Cake",
-                  "id": 1543
-                },
-                {
-                  "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/recipe/52640?namespace=static-1.60.1_70399-forever-eu"
-                  },
-                  "name": "Basic Campfire",
-                  "id": 52640
-                },
-                {
-                  "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/recipe/4355?namespace=static-1.60.1_70399-forever-eu"
-                  },
-                  "name": "Longjaw Mud Snapper",
-                  "id": 4355
-                },
-                {
-                  "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/recipe/1538?namespace=static-1.60.1_70399-forever-eu"
-                  },
-                  "name": "Coyote Steak",
-                  "id": 1538
-                },
-                {
-                  "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/recipe/1545?namespace=static-1.60.1_70399-forever-eu"
-                  },
-                  "name": "Dry Pork Ribs",
-                  "id": 1545
-                },
-                {
-                  "key": {
                     "href": "https://eu.api.blizzard.com/data/wow/recipe/13344?namespace=static-1.60.1_70399-forever-eu"
                   },
                   "name": "Smoked Sagefish",
                   "id": 13344
-                },
-                {
-                  "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/recipe/1536?namespace=static-1.60.1_70399-forever-eu"
-                  },
-                  "name": "Spiced Wolf Meat",
-                  "id": 1536
-                },
-                {
-                  "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/recipe/4353?namespace=static-1.60.1_70399-forever-eu"
-                  },
-                  "name": "Brilliant Smallfish",
-                  "id": 4353
-                },
-                {
-                  "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/recipe/1537?namespace=static-1.60.1_70399-forever-eu"
-                  },
-                  "name": "Roasted Boar Meat",
-                  "id": 1537
                 },
                 {
                   "key": {
@@ -3440,10 +3088,66 @@
                 },
                 {
                   "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/1536?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Spiced Wolf Meat",
+                  "id": 1536
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/1537?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Roasted Boar Meat",
+                  "id": 1537
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/1538?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Coyote Steak",
+                  "id": 1538
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/1543?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Crab Cake",
+                  "id": 1543
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/1545?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Dry Pork Ribs",
+                  "id": 1545
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/3931?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Dig Rat Stew",
+                  "id": 3931
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/4353?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Brilliant Smallfish",
+                  "id": 4353
+                },
+                {
+                  "key": {
                     "href": "https://eu.api.blizzard.com/data/wow/recipe/4354?namespace=static-1.60.1_70399-forever-eu"
                   },
                   "name": "Slitherskin Mackerel",
                   "id": 4354
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/4355?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Longjaw Mud Snapper",
+                  "id": 4355
                 },
                 {
                   "key": {
@@ -3458,6 +3162,34 @@
                   },
                   "name": "Boiled Clams",
                   "id": 3964
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/4786?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Herb Baked Egg",
+                  "id": 4786
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/52640?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Basic Campfire",
+                  "id": 52640
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/54502?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Twice-Spiced Raptor Slice",
+                  "id": 54502
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/54504?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Tasty Raptor Bites",
+                  "id": 54504
                 }
               ]
             }
@@ -3473,7 +3205,7 @@
           },
           "tiers": [
             {
-              "skill_points": 181,
+              "skill_points": 188,
               "max_skill_points": 225,
               "tier": {
                 "name": "Fishing",
@@ -3517,55 +3249,6 @@
               "known_recipes": [
                 {
                   "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/recipe/4417?namespace=static-1.60.1_70399-forever-eu"
-                  },
-                  "name": "Anti-Venom",
-                  "id": 4417
-                },
-                {
-                  "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/recipe/1839?namespace=static-1.60.1_70399-forever-eu"
-                  },
-                  "name": "Heavy Linen Bandage",
-                  "id": 1839
-                },
-                {
-                  "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/recipe/54192?namespace=static-1.60.1_70399-forever-eu"
-                  },
-                  "name": "Lesser Healing Potion",
-                  "id": 54192
-                },
-                {
-                  "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/recipe/54191?namespace=static-1.60.1_70399-forever-eu"
-                  },
-                  "name": "Minor Healing Potion",
-                  "id": 54191
-                },
-                {
-                  "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/recipe/52641?namespace=static-1.60.1_70399-forever-eu"
-                  },
-                  "name": "First Aid Kit",
-                  "id": 52641
-                },
-                {
-                  "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/recipe/54193?namespace=static-1.60.1_70399-forever-eu"
-                  },
-                  "name": "Healing Potion",
-                  "id": 54193
-                },
-                {
-                  "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/recipe/1840?namespace=static-1.60.1_70399-forever-eu"
-                  },
-                  "name": "Wool Bandage",
-                  "id": 1840
-                },
-                {
-                  "key": {
                     "href": "https://eu.api.blizzard.com/data/wow/recipe/4414?namespace=static-1.60.1_70399-forever-eu"
                   },
                   "name": "Silk Bandage",
@@ -3573,10 +3256,10 @@
                 },
                 {
                   "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/recipe/55747?namespace=static-1.60.1_70399-forever-eu"
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/4417?namespace=static-1.60.1_70399-forever-eu"
                   },
-                  "name": "Simple Poultice",
-                  "id": 55747
+                  "name": "Anti-Venom",
+                  "id": 4417
                 },
                 {
                   "key": {
@@ -3587,10 +3270,17 @@
                 },
                 {
                   "key": {
-                    "href": "https://eu.api.blizzard.com/data/wow/recipe/55743?namespace=static-1.60.1_70399-forever-eu"
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/1839?namespace=static-1.60.1_70399-forever-eu"
                   },
-                  "name": "Woolen Tourniquet",
-                  "id": 55743
+                  "name": "Heavy Linen Bandage",
+                  "id": 1839
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/1840?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Wool Bandage",
+                  "id": 1840
                 },
                 {
                   "key": {
@@ -3598,6 +3288,48 @@
                   },
                   "name": "Heavy Wool Bandage",
                   "id": 1841
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/52641?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "First Aid Kit",
+                  "id": 52641
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/54191?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Minor Healing Potion",
+                  "id": 54191
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/54192?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Lesser Healing Potion",
+                  "id": 54192
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/54193?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Healing Potion",
+                  "id": 54193
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/55743?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Woolen Tourniquet",
+                  "id": 55743
+                },
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/recipe/55747?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Simple Poultice",
+                  "id": 55747
                 }
               ]
             }
