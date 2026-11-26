@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-11-25T19:19:07.298985+00:00",
+  "fetched_at": "2026-11-26T03:35:56.722401+00:00",
   "region": "eu",
   "character_slug": "локт-арогар",
   "namespace": "profile-forever-eu",
@@ -50,7 +50,7 @@
         "slug": "пве-моль"
       },
       "level": 42,
-      "experience": 49618,
+      "experience": 51243,
       "achievement_points": 0,
       "achievements": {
         "href": "https://eu.api.blizzard.com/profile/wow/character/%D0%BB%D0%BE%D0%BA%D1%82-%D0%B0%D1%80%D0%BE%D0%B3%D0%B0%D1%80/achievements?namespace=profile-forever-eu"
@@ -67,7 +67,7 @@
       "media": {
         "href": "https://eu.api.blizzard.com/profile/wow/character/%D0%BB%D0%BE%D0%BA%D1%82-%D0%B0%D1%80%D0%BE%D0%B3%D0%B0%D1%80/character-media?namespace=profile-forever-eu"
       },
-      "last_login_timestamp": 1795625428000,
+      "last_login_timestamp": 1795635814000,
       "specializations": {
         "href": "https://eu.api.blizzard.com/profile/wow/character/%D0%BB%D0%BE%D0%BA%D1%82-%D0%B0%D1%80%D0%BE%D0%B3%D0%B0%D1%80/specializations?namespace=profile-forever-eu"
       },
@@ -1122,8 +1122,8 @@
             }
           },
           "durability": {
-            "value": 39,
-            "display_string": "Прочность: 39 / 40"
+            "value": 40,
+            "display_string": "Прочность: 40 / 40"
           }
         },
         {
@@ -1793,26 +1793,26 @@
         {
           "item": {
             "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item/6365?namespace=static-1.60.1_70399-forever-eu"
+              "href": "https://eu.api.blizzard.com/data/wow/item/279886?namespace=static-1.60.1_70399-forever-eu"
             },
-            "id": 6365
+            "id": 279886
           },
           "slot": {
             "type": "MAIN_HAND",
             "name": "Правая рука"
           },
           "quantity": 1,
-          "context": 14,
+          "context": 11,
           "quality": {
-            "type": "COMMON",
-            "name": "Обычное"
+            "type": "RARE",
+            "name": "Редкое"
           },
-          "name": "Крепкая удочка",
+          "name": "Жертвенный меч",
           "media": {
             "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/media/item/6365?namespace=static-1.60.1_70399-forever-eu"
+              "href": "https://eu.api.blizzard.com/data/wow/media/item/279886?namespace=static-1.60.1_70399-forever-eu"
             },
-            "id": 6365
+            "id": 279886
           },
           "item_class": {
             "key": {
@@ -1823,44 +1823,64 @@
           },
           "item_subclass": {
             "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/20?namespace=static-1.60.1_70399-forever-eu"
+              "href": "https://eu.api.blizzard.com/data/wow/item-class/2/item-subclass/7?namespace=static-1.60.1_70399-forever-eu"
             },
-            "name": "Удочка",
-            "id": 20
+            "name": "Меч",
+            "id": 7
           },
           "inventory_type": {
-            "type": "TWOHWEAPON",
-            "name": "Двуручное"
+            "type": "WEAPONMAINHAND",
+            "name": "Правая рука"
+          },
+          "binding": {
+            "type": "ON_ACQUIRE",
+            "name": "Становится персональным при поднятии"
           },
           "weapon": {
             "damage": {
-              "min_value": 13,
-              "max_value": 21,
-              "display_string": "Урон: 13-21",
+              "min_value": 25,
+              "max_value": 47,
+              "display_string": "Урон: 25-47",
               "damage_class": {
                 "type": "PHYSICAL",
                 "name": "физический"
               }
             },
             "attack_speed": {
-              "value": 3000,
-              "display_string": "Скорость 3,00"
+              "value": 1900,
+              "display_string": "Скорость 1,90"
             },
             "dps": {
-              "value": 5.666666,
-              "display_string": "(5,7 ед. урона в секунду)"
+              "value": 18.947367,
+              "display_string": "(18,9 ед. урона в секунду)"
             }
           },
           "stats": [
             {
               "type": {
-                "type": "BONUS_STAT_FISHING_SKILL,",
-                "name": "Навык рыбной ловли"
+                "type": "STAMINA",
+                "name": "к выносливости"
+              },
+              "value": 8,
+              "display": {
+                "display_string": "+8 к выносливости",
+                "color": {
+                  "r": 255,
+                  "g": 255,
+                  "b": 255,
+                  "a": 1.0
+                }
+              }
+            },
+            {
+              "type": {
+                "type": "SPIRIT",
+                "name": "к духу"
               },
               "value": 5,
               "is_equip_bonus": true,
               "display": {
-                "display_string": "+5 Навык рыбной ловли",
+                "display_string": "+5 к духу",
                 "color": {
                   "r": 0,
                   "g": 255,
@@ -1871,35 +1891,136 @@
             }
           ],
           "sell_price": {
-            "value": 180,
+            "value": 14743,
             "display_strings": {
               "header": "Цена продажи:",
-              "gold": "0",
-              "silver": "1",
-              "copper": "80"
-            }
-          },
-          "requirements": {
-            "level": {
-              "value": 5,
-              "display_string": "Требуется 5-й уровень"
-            },
-            "skill": {
-              "profession": {
-                "key": {
-                  "href": "https://eu.api.blizzard.com/data/wow/profession/356?namespace=static-1.60.1_70399-forever-eu"
-                },
-                "name": "Рыбная ловля",
-                "id": 356
-              },
-              "level": 10,
-              "display_string": "Требуется: Рыбная ловля (10)"
+              "gold": "1",
+              "silver": "47",
+              "copper": "43"
             }
           },
           "durability": {
-            "value": 25,
-            "display_string": "Прочность: 25 / 25"
+            "value": 90,
+            "display_string": "Прочность: 90 / 90"
           }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item/15108?namespace=static-1.60.1_70399-forever-eu"
+            },
+            "id": 15108
+          },
+          "slot": {
+            "type": "OFF_HAND",
+            "name": "Левая рука"
+          },
+          "quantity": 1,
+          "context": 11,
+          "quality": {
+            "type": "RARE",
+            "name": "Редкое"
+          },
+          "name": "Сфера Дар'орахила",
+          "media": {
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/media/item/15108?namespace=static-1.60.1_70399-forever-eu"
+            },
+            "id": 15108
+          },
+          "item_class": {
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item-class/4?namespace=static-1.60.1_70399-forever-eu"
+            },
+            "name": "Доспехи",
+            "id": 4
+          },
+          "item_subclass": {
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-1.60.1_70399-forever-eu"
+            },
+            "name": "Разное",
+            "id": 0
+          },
+          "inventory_type": {
+            "type": "HOLDABLE",
+            "name": "Левая рука"
+          },
+          "binding": {
+            "type": "ON_ACQUIRE",
+            "name": "Становится персональным при поднятии"
+          },
+          "stats": [
+            {
+              "type": {
+                "type": "INTELLECT",
+                "name": "к интеллекту"
+              },
+              "value": 5,
+              "display": {
+                "display_string": "+5 к интеллекту",
+                "color": {
+                  "r": 255,
+                  "g": 255,
+                  "b": 255,
+                  "a": 1.0
+                }
+              }
+            },
+            {
+              "type": {
+                "type": "BONUS_STAT_SHADOW_DAMAGE_DONE",
+                "name": "Урон от темной магии"
+              },
+              "value": 14,
+              "is_equip_bonus": true,
+              "display": {
+                "display_string": "+14 Урон от темной магии",
+                "color": {
+                  "r": 0,
+                  "g": 255,
+                  "b": 0,
+                  "a": 1.0
+                }
+              }
+            }
+          ],
+          "spells": [
+            {
+              "spell": {
+                "key": {
+                  "href": "https://eu.api.blizzard.com/data/wow/spell/18957?namespace=static-1.60.1_70399-forever-eu"
+                },
+                "name": "Восстановление жизни",
+                "id": 18957
+              },
+              "description": "Использование: Восполнение 40 ед. здоровья раз в 3 сек. в течение 30 сек. (Восстановление: 30 мин.)"
+            }
+          ],
+          "sell_price": {
+            "value": 5000,
+            "display_strings": {
+              "header": "Цена продажи:",
+              "gold": "0",
+              "silver": "50",
+              "copper": "0"
+            }
+          },
+          "requirements": {
+            "playable_classes": {
+              "links": [
+                {
+                  "key": {
+                    "href": "https://eu.api.blizzard.com/data/wow/playable-class/9?namespace=static-1.60.1_70399-forever-eu"
+                  },
+                  "name": "Чернокнижник",
+                  "id": 9
+                }
+              ],
+              "display_string": "Классы: Чернокнижник"
+            }
+          },
+          "is_subclass_hidden": true
         },
         {
           "item": {
@@ -2247,7 +2368,7 @@
                       "name": "Вытягивание жизни",
                       "id": 18265
                     },
-                    "description": "Вы похищаете у цели 20 ед. здоровья раз в 3 сек. и восполняете себе здоровье в том же объеме. Время действия – 30 сек.",
+                    "description": "Вы похищаете у цели 23 ед. здоровья раз в 3 сек. и восполняете себе здоровье в том же объеме. Время действия – 30 сек.",
                     "cast_time": "Мгновенное",
                     "power_cost": "Мана: 150",
                     "range": "Радиус действия: 30 м."
@@ -2294,7 +2415,7 @@
                       "name": "Судороги",
                       "id": 1316697
                     },
-                    "description": "Терзает цель изнутри, нанося 63 ед. урона от темной магии раз в 1 сек. в течение 6 сек. Во время поддержания ваши эффекты \"Вытягивание жизни\", \"Порча\" и \"Бич агонии\", действующие на цель, наносят периодический урон на 100% быстрее.",
+                    "description": "Терзает цель изнутри, нанося 76 ед. урона от темной магии раз в 1 сек. в течение 6 сек. Во время поддержания ваши эффекты \"Вытягивание жизни\", \"Порча\" и \"Бич агонии\", действующие на цель, наносят периодический урон на 100% быстрее.",
                     "cast_time": "Потоковое",
                     "power_cost": "Мана: 200",
                     "range": "Радиус действия: 30 м."
@@ -2363,7 +2484,7 @@
           },
           "tiers": [
             {
-              "skill_points": 189,
+              "skill_points": 192,
               "max_skill_points": 225,
               "tier": {
                 "name": "Tailoring",
@@ -3205,7 +3326,7 @@
           },
           "tiers": [
             {
-              "skill_points": 188,
+              "skill_points": 200,
               "max_skill_points": 225,
               "tier": {
                 "name": "Fishing",
