@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-11-28T09:21:32.712075+00:00",
+  "fetched_at": "2026-11-28T12:25:47.137476+00:00",
   "region": "eu",
   "character_slug": "локт-арогар",
   "namespace": "profile-forever-eu",
@@ -50,7 +50,7 @@
         "slug": "пве-моль"
       },
       "level": 43,
-      "experience": 28275,
+      "experience": 29049,
       "achievement_points": 0,
       "achievements": {
         "href": "https://eu.api.blizzard.com/profile/wow/character/%D0%BB%D0%BE%D0%BA%D1%82-%D0%B0%D1%80%D0%BE%D0%B3%D0%B0%D1%80/achievements?namespace=profile-forever-eu"
@@ -67,7 +67,7 @@
       "media": {
         "href": "https://eu.api.blizzard.com/profile/wow/character/%D0%BB%D0%BE%D0%BA%D1%82-%D0%B0%D1%80%D0%BE%D0%B3%D0%B0%D1%80/character-media?namespace=profile-forever-eu"
       },
-      "last_login_timestamp": 1795802084000,
+      "last_login_timestamp": 1795862188000,
       "specializations": {
         "href": "https://eu.api.blizzard.com/profile/wow/character/%D0%BB%D0%BE%D0%BA%D1%82-%D0%B0%D1%80%D0%BE%D0%B3%D0%B0%D1%80/specializations?namespace=profile-forever-eu"
       },
@@ -469,8 +469,8 @@
             }
           },
           "durability": {
-            "value": 36,
-            "display_string": "Прочность: 36 / 50"
+            "value": 33,
+            "display_string": "Прочность: 33 / 50"
           }
         },
         {
@@ -719,8 +719,8 @@
             }
           },
           "durability": {
-            "value": 58,
-            "display_string": "Прочность: 58 / 80"
+            "value": 57,
+            "display_string": "Прочность: 57 / 80"
           }
         },
         {
